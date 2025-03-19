@@ -13,7 +13,9 @@ namespace DALTW.Repositories
         public async Task<IEnumerable<Document>> GetAllAsync()
         {
             return await _context.Documents
-            .Include(p => p.Category) 
+            .Include(p => p.Category)
+            .Include(d => d.Grade)
+            .Include(d => d.Topic)
             .ToListAsync();
         }
         public async Task<Document> GetByIdAsync(int id)

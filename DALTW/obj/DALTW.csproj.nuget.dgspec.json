@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yenng\\source\\repos\\DALTW\\DALTW\\DALTW.csproj": {}
+    "D:\\DALTW_phuc\\DALTW\\DALTW\\DALTW.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yenng\\source\\repos\\DALTW\\DALTW\\DALTW.csproj": {
+    "D:\\DALTW_phuc\\DALTW\\DALTW\\DALTW.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yenng\\source\\repos\\DALTW\\DALTW\\DALTW.csproj",
+        "projectUniqueName": "D:\\DALTW_phuc\\DALTW\\DALTW\\DALTW.csproj",
         "projectName": "DALTW",
-        "projectPath": "C:\\Users\\yenng\\source\\repos\\DALTW\\DALTW\\DALTW.csproj",
-        "packagesPath": "C:\\Users\\yenng\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yenng\\source\\repos\\DALTW\\DALTW\\obj\\",
+        "projectPath": "D:\\DALTW_phuc\\DALTW\\DALTW\\DALTW.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "D:\\DALTW_phuc\\DALTW\\DALTW\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\VSShared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\yenng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,6 +50,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Aspose.Words": {
+              "target": "Package",
+              "version": "[25.3.0, )"
+            },
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.3, )"

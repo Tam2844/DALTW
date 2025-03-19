@@ -16,6 +16,7 @@ namespace DALTW.Models
 
         public DbSet<DocumentFile> DocumentFiles { get; set; }
 
+        public DbSet<TrafficLog> TrafficLogs { get; set; }
 
     }
 }

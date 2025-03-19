@@ -1,20 +1,24 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using DALTW.Models;
+using DALTW.Repositories;
 
 namespace DALTW.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    private readonly ITrafficLogRepository _trafficLogRepository;
+
+    public HomeController(ITrafficLogRepository trafficLogRepository)
     {
-        _logger = logger;
+        _trafficLogRepository = trafficLogRepository;
     }
 
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
+        int totalVisits = await _trafficLogRepository.GetTotalVisitsAsync();
+        ViewBag.TotalVisits = totalVisits;
         return View();
     }
 
