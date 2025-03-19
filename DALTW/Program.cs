@@ -14,6 +14,8 @@ builder.Services.AddScoped<IDocumentRepository, EFDocumentRepository>();
 builder.Services.AddScoped<ICategoryRepository, EFCategoryRepository>();
 builder.Services.AddScoped<IGradeRepository, EFGradeRepository>();
 builder.Services.AddScoped<ITopicRepository, EFTopicRepository>();
+builder.Services.AddScoped<ITrafficLogRepository, TrafficLogRepository>();
+
 
 builder.Services.Configure<FormOptions>(options =>
 {
@@ -33,6 +35,8 @@ app.UseHttpsRedirection();
 app.UseRouting();
 
 app.UseAuthorization();
+app.UseMiddleware<TrafficLoggerMiddleware>();
+
 
 app.MapStaticAssets();
 

@@ -1,0 +1,34 @@
+﻿@model DALTW.Models.Document
+@{
+    ViewData["Title"] = "Xác nhận xóa tài liệu";
+}
+
+<h2>Xác nhận xóa tài liệu</h2>
+
+<p>Bạn có chắc chắn muốn xóa tài liệu này không?</p>
+
+<table class="table">
+    <tr>
+        <th>Tên</th>
+        <td>@Model.Name</td>
+    </tr>
+    <tr>
+        <th>Giá</th>
+        <td>@Model.Price</td>
+    </tr>
+    <tr>
+        <th>File</th>
+        <td>
+            @if (!string.IsNullOrEmpty(Model.FileURL))
+            {
+                    <a href="@Model.FileURL" target="_blank">Xem file</a>
+            }
+        </td>
+    </tr>
+</table>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="DocumentID" />
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>

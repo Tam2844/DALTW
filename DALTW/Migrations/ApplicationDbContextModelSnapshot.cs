@@ -144,6 +144,30 @@ namespace DALTW.Migrations
                     b.ToTable("Topics");
                 });
 
+            modelBuilder.Entity("DALTW.Models.TrafficLog", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("AccessTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("IpAddress")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Url")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TrafficLogs");
+                });
+
             modelBuilder.Entity("DALTW.Models.Document", b =>
                 {
                     b.HasOne("DALTW.Models.Category", "Category")
