@@ -5264,23 +5264,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ACER\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\yenng\\.nuget\\packages\\": {},
+    "D:\\VSShared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DALTW_phuc\\DALTW\\DALTW\\DALTW.csproj",
+      "projectUniqueName": "C:\\Users\\yenng\\source\\repos\\DALTW\\DALTW\\DALTW.csproj",
       "projectName": "DALTW",
-      "projectPath": "D:\\DALTW_phuc\\DALTW\\DALTW\\DALTW.csproj",
-      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "D:\\DALTW_phuc\\DALTW\\DALTW\\obj\\",
+      "projectPath": "C:\\Users\\yenng\\source\\repos\\DALTW\\DALTW\\DALTW.csproj",
+      "packagesPath": "C:\\Users\\yenng\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yenng\\source\\repos\\DALTW\\DALTW\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\VSShared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yenng\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5289,6 +5289,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
