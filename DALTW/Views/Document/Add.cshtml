@@ -48,7 +48,20 @@
         </select>
         <span asp-validation-for="GradeID" class="text-danger"></span>
     </div>
-
+    <div class="form-group">
+        <label>Chọn học kỳ</label>
+        <select asp-for="SemesterID" asp-items="ViewBag.Semesters" class="form-control">
+            <option value="">-- Chọn học kỳ --</option>
+        </select>
+        <span asp-validation-for="SemesterID" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Tài liệu của cuộc thi nào ? </label>
+        <select asp-for="CompetitionID" asp-items="ViewBag.Competitions" class="form-control">
+            <option value="">-- Chọn học kỳ --</option>
+        </select>
+        <span asp-validation-for="CompetitionID" class="text-danger"></span>
+    </div>
     <div class="form-group">
         <label>Chọn file</label>
         <input type="file" name="file" class="form-control" />
