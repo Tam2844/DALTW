@@ -26,13 +26,22 @@
     </div>
 
     <div class="form-group">
+        <label asp-for="TopicID">Chủ đề</label>
+        <select asp-for="TopicID" asp-items="ViewBag.Topics" class="form-control"></select>
+    </div>
+
+    <div class="form-group">
         <label asp-for="GradeID">Khối lớp</label>
         <select asp-for="GradeID" asp-items="ViewBag.Grades" class="form-control"></select>
     </div>
 
     <div class="form-group">
-        <label asp-for="TopicID">Chủ đề</label>
-        <select asp-for="TopicID" asp-items="ViewBag.Topics" class="form-control"></select>
+        <label asp-for="SemesterID">Học kỳ</label>
+        <select asp-for="SemesterID" asp-items="ViewBag.Semesters" class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="CompetitionID">Cuộc thi</label>
+        <select asp-for="CompetitionID" asp-items="ViewBag.Competitions" class="form-control"></select>
     </div>
 
     <div class="form-group">

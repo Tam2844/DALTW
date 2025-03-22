@@ -26,12 +26,17 @@ namespace DALTW.Models
         public int CategoryID { get; set; }
         public Category? Category { get; set; }
 
-        public int TopicID { get; set; }
+        public int? TopicID { get; set; }
         public Topic? Topic { get; set; }
 
-        public int GradeID { get; set; }
+        public int? GradeID { get; set; }
         public Grade? Grade { get; set; }
 
-       
+        public int? SemesterID { get; set; }
+        public Semester? Semester { get; set; }
+
+        public int? CompetitionID { get; set; }
+        public Competition? Competition { get; set; }
+
     }
 }
