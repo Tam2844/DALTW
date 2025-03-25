@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DALTW_phuc\\DALTW\\DALTW\\DALTW.csproj": {}
+    "D:\\Lập trình Web\\test 1\\DALTW\\DALTW.csproj": {}
   },
   "projects": {
-    "D:\\DALTW_phuc\\DALTW\\DALTW\\DALTW.csproj": {
+    "D:\\Lập trình Web\\test 1\\DALTW\\DALTW.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DALTW_phuc\\DALTW\\DALTW\\DALTW.csproj",
+        "projectUniqueName": "D:\\Lập trình Web\\test 1\\DALTW\\DALTW.csproj",
         "projectName": "DALTW",
-        "projectPath": "D:\\DALTW_phuc\\DALTW\\DALTW\\DALTW.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "D:\\DALTW_phuc\\DALTW\\DALTW\\obj\\",
+        "projectPath": "D:\\Lập trình Web\\test 1\\DALTW\\DALTW.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Lập trình Web\\test 1\\DALTW\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -50,6 +50,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Aspose.PDF": {
+              "target": "Package",
+              "version": "[25.3.0, )"
+            },
             "Aspose.Words": {
               "target": "Package",
               "version": "[25.3.0, )"
@@ -57,6 +61,14 @@
             "Microsoft.AspNet.Mvc": {
               "target": "Package",
               "version": "[5.3.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[9.0.3, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -72,11 +84,27 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Pdfium.Net.SDK": {
+              "target": "Package",
+              "version": "[4.98.2704, )"
+            },
+            "PdfiumViewer": {
+              "target": "Package",
+              "version": "[2.13.0, )"
             }
           },
           "imports": [

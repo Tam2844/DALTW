@@ -1,0 +1,64 @@
+﻿/* Chứa danh sách tài liệu */
+/* Mỗi tài liệu chiếm 48% (tức là 2 tài liệu trên 1 hàng) */
+.document-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 48%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+    .document-card:hover {
+        transform: scale(1.05);
+    }
+
+/* Ảnh nằm bên trái */
+.document-image {
+    width: 30%;
+    max-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+    .document-image img,
+    .document-image canvas {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+/* Nội dung nằm bên phải */
+.document-info {
+    width: 70%;
+    text-align: left;
+    padding-left: 15px;
+}
+
+/* Responsive: Chuyển về 1 cột khi màn hình nhỏ */
+@media screen and (max-width: 768px) {
+    .document-card {
+        width: 100%; /* Mỗi hàng chỉ có 1 tài liệu */
+        flex-direction: column;
+    }
+
+    .document-image {
+        width: 100%;
+        max-width: none;
+    }
+
+    .document-info {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+}

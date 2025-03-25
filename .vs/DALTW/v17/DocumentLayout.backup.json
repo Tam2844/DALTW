@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\L\u1EADp tr\u00ECnh Web\\test 1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0251445-9F19-4CC4-9380-9E28BD3FB410}|DALTW\\DALTW.csproj|d:\\l\u1EADp tr\u00ECnh web\\test 1\\daltw\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0251445-9F19-4CC4-9380-9E28BD3FB410}|DALTW\\DALTW.csproj|solutionrelative:daltw\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0251445-9F19-4CC4-9380-9E28BD3FB410}|DALTW\\DALTW.csproj|d:\\l\u1EADp tr\u00ECnh web\\test 1\\daltw\\areas\\admin\\views\\documentmanager\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0251445-9F19-4CC4-9380-9E28BD3FB410}|DALTW\\DALTW.csproj|solutionrelative:daltw\\areas\\admin\\views\\documentmanager\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh Web\\test 1\\DALTW\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DALTW\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh Web\\test 1\\DALTW\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DALTW\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T04:34:24.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh Web\\test 1\\DALTW\\Areas\\Admin\\Views\\DocumentManager\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DALTW\\Areas\\Admin\\Views\\DocumentManager\\Edit.cshtml",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh Web\\test 1\\DALTW\\Areas\\Admin\\Views\\DocumentManager\\Edit.cshtml",
+              "RelativeToolTip": "DALTW\\Areas\\Admin\\Views\\DocumentManager\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T04:34:31.842Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 45,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

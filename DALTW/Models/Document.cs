@@ -32,6 +32,8 @@ namespace DALTW.Models
         public int GradeID { get; set; }
         public Grade? Grade { get; set; }
 
-       
+        public string? ImageURL { get; set; }
+
+
     }
 }
