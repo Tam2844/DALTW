@@ -1,0 +1,59 @@
+﻿@model DALTW.Models.Document
+@{
+    ViewData["Title"] = "Chỉnh sửa tài liệu";
+}
+
+<h2>Chỉnh sửa tài liệu</h2>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="DocumentID" />
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" type="number" class="form-control" step="0.01" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CategoryID">Danh mục</label>
+        <select asp-for="CategoryID" asp-items="ViewBag.Categories" class="form-control"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TopicID">Chủ đề</label>
+        <select asp-for="TopicID" asp-items="ViewBag.Topics" class="form-control"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="GradeID">Khối lớp</label>
+        <select asp-for="GradeID" asp-items="ViewBag.Grades" class="form-control"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SemesterID">Học kỳ</label>
+        <select asp-for="SemesterID" asp-items="ViewBag.Semesters" class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="CompetitionID">Cuộc thi</label>
+        <select asp-for="CompetitionID" asp-items="ViewBag.Competitions" class="form-control"></select>
+    </div>
+
+    <div class="form-group">
+        <label>File hiện tại</label>
+        @if (!string.IsNullOrEmpty(Model.FileURL))
+        {
+            <p><a href="@Model.FileURL" target="_blank">Xem file</a></p>
+        }
+        <label asp-for="FileURL">Chọn file mới (nếu muốn thay đổi)</label>
+        <input type="file" name="file" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>

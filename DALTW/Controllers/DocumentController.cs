@@ -9,6 +9,7 @@ using System.IO;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 
+
 namespace DALTW.Controllers
 {
     public class DocumentController : Controller
@@ -18,23 +19,29 @@ namespace DALTW.Controllers
         private readonly ICategoryRepository _categoryRepository;
         private readonly IGradeRepository _gradeRepository;
         private readonly ITopicRepository _topicRepository;
+        private readonly ISemesterRepository _semesterRepository;
+        private readonly ICompetitionRepository _competitionRepository;
 
         public DocumentController(
             IWebHostEnvironment webHostEnvironment,
             IDocumentRepository documentRepository,
             ICategoryRepository categoryRepository,
             IGradeRepository gradeRepository,
-            ITopicRepository topicRepository)
+            ITopicRepository topicRepository,
+            ISemesterRepository semesterRepository,
+            ICompetitionRepository competitionRepository)
         {
             _webHostEnvironment = webHostEnvironment;
             _documentRepository = documentRepository;
             _categoryRepository = categoryRepository;
             _gradeRepository = gradeRepository;
             _topicRepository = topicRepository;
+            _semesterRepository = semesterRepository;
+            _competitionRepository = competitionRepository;
         }
 
         //  Hiển thị danh sách tài liệu
-        public async Task<IActionResult> Index(int? topicId, int? gradeId, int? categoryId)
+        public async Task<IActionResult> Index(int? topicId, int? gradeId, int? categoryId, int? semesterID, int? competitionID)
         {
             var documents = await _documentRepository.GetAllAsync();
 
@@ -55,12 +62,21 @@ namespace DALTW.Controllers
             {
                 documents = documents.Where(d => d.CategoryID == categoryId.Value).ToList();
             }
+            if (semesterID.HasValue)
+            {
+                documents = documents.Where(d => d.SemesterID == semesterID.Value).ToList();
+            }
+            if (competitionID.HasValue)
+            {
+                documents = documents.Where(d => d.CompetitionID == competitionID.Value).ToList();
+            }
 
             // ✅ Đổ dữ liệu vào ViewBag để hiển thị danh sách chọn
             ViewBag.Topics = new SelectList(await _topicRepository.GetAllAsync(), "TopicID", "TopicName");
             ViewBag.Grades = new SelectList(await _gradeRepository.GetAllAsync(), "GradeID", "Name");
             ViewBag.Categories = new SelectList(await _categoryRepository.GetAllAsync(), "CategoryID", "Name");
-
+            ViewBag.Semesters = new SelectList(await _semesterRepository.GetAllAsync(), "SemesterID", "Name");
+            ViewBag.Competitions = new SelectList(await _competitionRepository.GetAllAsync(), "CompetitionID", "Name");
             return View(documents);
         }
 
@@ -149,6 +165,8 @@ namespace DALTW.Controllers
             ViewBag.Categories = new SelectList(await _categoryRepository.GetAllAsync(), "CategoryID", "Name");
             ViewBag.Grades = new SelectList(await _gradeRepository.GetAllAsync(), "GradeID", "Name");
             ViewBag.Topics = new SelectList(await _topicRepository.GetAllAsync(), "TopicID", "TopicName");
+            ViewBag.Semesters = new SelectList(await _semesterRepository.GetAllAsync(), "SemesterID", "Name");
+            ViewBag.Competitions = new SelectList(await _competitionRepository.GetAllAsync(), "CompetitionID", "Name");
         }
         //  Hiển thị trang chỉnh sửa tài liệu
         public async Task<IActionResult> Edit(int id)
@@ -162,10 +180,14 @@ namespace DALTW.Controllers
             var categories = await _categoryRepository.GetAllAsync();
             var grades = await _gradeRepository.GetAllAsync();
             var topics = await _topicRepository.GetAllAsync();
+            var semesters = await _semesterRepository.GetAllAsync();
+            var competitions = await _competitionRepository.GetAllAsync();
 
             ViewBag.Categories = new SelectList(categories, "CategoryID", "Name");
             ViewBag.Grades = new SelectList(grades, "GradeID", "Name");
             ViewBag.Topics = new SelectList(topics, "TopicID", "TopicName");
+            ViewBag.Semesters = new SelectList(await _semesterRepository.GetAllAsync(), "SemesterID", "Name");
+            ViewBag.Competitions = new SelectList(await _competitionRepository.GetAllAsync(), "CompetitionID", "Name");
 
             return View(document);
         }
@@ -200,10 +222,14 @@ namespace DALTW.Controllers
             var categories = await _categoryRepository.GetAllAsync();
             var grades = await _gradeRepository.GetAllAsync();
             var topics = await _topicRepository.GetAllAsync();
+            var semesters = await _semesterRepository.GetAllAsync();
+            var competitions = await _competitionRepository.GetAllAsync();
 
             ViewBag.Categories = new SelectList(categories, "CategoryID", "Name");
             ViewBag.Grades = new SelectList(grades, "GradeID", "Name");
             ViewBag.Topics = new SelectList(topics, "TopicID", "TopicName");
+            ViewBag.Semesters = new SelectList(await _semesterRepository.GetAllAsync(), "SemesterID", "Name");
+            ViewBag.Competitions = new SelectList(await _competitionRepository.GetAllAsync(), "CompetitionID", "Name");
 
             return View(document);
         }
@@ -251,5 +277,30 @@ namespace DALTW.Controllers
             }
         }
 
+
+        public IActionResult GetPdfThumbnail(string filePath)
+        {
+            try
+            {
+                string pdfPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", filePath.TrimStart('/'));
+
+                if (!System.IO.File.Exists(pdfPath))
+                    return NotFound(); // ✅ Trả về lỗi nếu file không tồn tại
+
+                using (var document = PdfiumViewer.PdfDocument.Load(pdfPath))
+                using (var image = document.Render(0, 200, 200, true)) // Trang đầu tiên, 200 DPI
+                {
+                    using (var ms = new MemoryStream())
+                    {
+                        image.Save(ms, System.Drawing.Imaging.ImageFormat.Png);
+                        return File(ms.ToArray(), "image/png"); // ✅ Trả về ảnh trực tiếp
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest("Lỗi khi tạo thumbnail: " + ex.Message);
+            }
+        }
     }
 }

@@ -38,5 +38,12 @@ namespace DALTW.Models
         public int? CompetitionID { get; set; }
         public Competition? Competition { get; set; }
 
+        public string FileName
+        {
+            get
+            {
+                return Path.GetFileName(FileURL); // Lấy tên file từ đường dẫn
+            }
+        }
     }
 }
