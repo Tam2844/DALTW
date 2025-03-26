@@ -14,7 +14,7 @@ using System.Linq;
 namespace DALTW.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize(Roles = "Admin, Employee")]
+    
     public class DocumentManagerController : Controller
     {
         private readonly IWebHostEnvironment _webHostEnvironment;
@@ -43,6 +43,7 @@ namespace DALTW.Areas.Admin.Controllers
             _competitionRepository = competitionRepository;
         }
 
+        [Authorize(Roles = "Admin, Employee")]
         //  Hiển thị danh sách tài liệu
         public async Task<IActionResult> Index(int? topicId, int? gradeId, int? categoryId, int? semesterID, int? competitionID, string keyword)
         {
@@ -93,7 +94,7 @@ namespace DALTW.Areas.Admin.Controllers
 
 
 
-
+        [Authorize(Roles = "Admin,Employee")]
         // 📄 Trang thêm tài liệu
         public async Task<IActionResult> Add()
         {
@@ -128,7 +129,7 @@ namespace DALTW.Areas.Admin.Controllers
                 return View(document);
             }
         }
-
+        [Authorize(Roles = "Admin, Employee")]
         // 🔄 Chuyển đổi Word sang PDF
         public async Task<IActionResult> ViewPdf(int id)
         {
@@ -182,6 +183,7 @@ namespace DALTW.Areas.Admin.Controllers
             ViewBag.Semesters = new SelectList(await _semesterRepository.GetAllAsync(), "SemesterID", "Name");
             ViewBag.Competitions = new SelectList(await _competitionRepository.GetAllAsync(), "CompetitionID", "Name");
         }
+        [Authorize(Roles = "Admin, Employee")]
         //  Hiển thị trang chỉnh sửa tài liệu
         public async Task<IActionResult> Edit(int id)
         {
@@ -247,11 +249,9 @@ namespace DALTW.Areas.Admin.Controllers
 
             return View(document);
         }
-
+        [Authorize(Roles = "Admin")]
         //  Xử lý cập nhật tài liệu
-        [HttpPost]
-
-
+        [HttpGet]     
         // ❌ Hiển thị trang xác nhận xóa
         public async Task<IActionResult> Delete(int id)
         {
@@ -261,7 +261,7 @@ namespace DALTW.Areas.Admin.Controllers
 
             return View(document);
         }
-
+        [Authorize(Roles = "Admin")]
         // 🗑 Xử lý xóa tài liệu
         [HttpPost, ActionName("Delete")]
         public async Task<IActionResult> DeleteConfirmed(int id)

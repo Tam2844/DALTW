@@ -24,17 +24,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"667"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 12:02:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/DALTW/DALTW.9l5vypv51f.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DALTW.9l5vypv51f.bundle.scp.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9l5vypv51f"},{"Name":"integrity","Value":"sha256-DcS\u002Bv56u03gxqG\u002BtjzGr3d6QBh2D0BC2Xu\u002BDmoQ8LYc="},{"Name":"label","Value":"_content/DALTW/DALTW.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3392"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022DcS\u002Bv56u03gxqG\u002BtjzGr3d6QBh2D0BC2Xu\u002BDmoQ8LYc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 13:10:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DALTW/DALTW.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DALTW.9l5vypv51f.bundle.scp.css'))</AssetFile>
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DALTW.pgma0dv9h9.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DcS\u002Bv56u03gxqG\u002BtjzGr3d6QBh2D0BC2Xu\u002BDmoQ8LYc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3392"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022DcS\u002Bv56u03gxqG\u002BtjzGr3d6QBh2D0BC2Xu\u002BDmoQ8LYc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 13:10:14 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-x\u002BsVjkEzLsfI0oEpuyaTB6md\u002BcSkWB/cH6//8ZIDm2A="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2278"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022x\u002BsVjkEzLsfI0oEpuyaTB6md\u002BcSkWB/cH6//8ZIDm2A=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Mar 2025 04:31:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DALTW/DALTW.pgma0dv9h9.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DALTW.pgma0dv9h9.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pgma0dv9h9"},{"Name":"integrity","Value":"sha256-x\u002BsVjkEzLsfI0oEpuyaTB6md\u002BcSkWB/cH6//8ZIDm2A="},{"Name":"label","Value":"_content/DALTW/DALTW.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2278"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022x\u002BsVjkEzLsfI0oEpuyaTB6md\u002BcSkWB/cH6//8ZIDm2A=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Mar 2025 04:31:32 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DALTW/DocFile/03. Thuc hanh Bao mat thong tin nang cao (1).764zz58ig3.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DocFile\03. Thuc hanh Bao mat thong tin nang cao (1).pdf'))</AssetFile>
@@ -71,18 +71,6 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yqjq3xnz3q"},{"Name":"integrity","Value":"sha256-huLIwv6iEAPmO4iocPA6/w6JxOHwfKx0H60W8izr5FU="},{"Name":"label","Value":"_content/DALTW/DocFile/3181_TongAnhThu_BT05.pdf"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"57498"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022huLIwv6iEAPmO4iocPA6/w6JxOHwfKx0H60W8izr5FU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 06:37:27 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/DALTW/DocFile/CMP172. Mạng máy tính - TH-2020-Nam(fixed 28-12-2020).ngi955n5i6.pdf">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DocFile\CMP172. Mạng máy tính - TH-2020-Nam(fixed 28-12-2020).pdf'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ngi955n5i6"},{"Name":"integrity","Value":"sha256-STEItCoUn8DgPZuxzOf/ynn1IyGtOsGXkeI2uip/nFg="},{"Name":"label","Value":"_content/DALTW/DocFile/CMP172. M\u1EA1ng m\u00E1y t\u00EDnh - TH-2020-Nam(fixed 28-12-2020).pdf"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8034663"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022STEItCoUn8DgPZuxzOf/ynn1IyGtOsGXkeI2uip/nFg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 07:45:01 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/DALTW/DocFile/CMP172. Mạng máy tính - TH-2020-Nam(fixed 28-12-2020).pdf">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DocFile\CMP172. Mạng máy tính - TH-2020-Nam(fixed 28-12-2020).pdf'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-STEItCoUn8DgPZuxzOf/ynn1IyGtOsGXkeI2uip/nFg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8034663"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022STEItCoUn8DgPZuxzOf/ynn1IyGtOsGXkeI2uip/nFg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 07:45:01 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DALTW/DocFile/[CMP376] Giáo trình HP Thực hành Lập trình web - V5.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DocFile\[CMP376] Giáo trình HP Thực hành Lập trình web - V5.pdf'))</AssetFile>

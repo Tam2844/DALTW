@@ -96,16 +96,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lập trình Web/DALTW/DALTW/Areas/User/Views/Document/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xEb2N1bWVudFxJbmRleC5jc2h0bWw=
+[D:/Lập trình Web/DALTW/DALTW/Areas/User/Views/DocumentUser/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xEb2N1bWVudFVzZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lập trình Web/DALTW/DALTW/Areas/User/Views/Document/Search.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xEb2N1bWVudFxTZWFyY2guY3NodG1s
+[D:/Lập trình Web/DALTW/DALTW/Areas/User/Views/DocumentUser/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xEb2N1bWVudFVzZXJcU2VhcmNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lập trình Web/DALTW/DALTW/Areas/User/Views/Document/ViewPdf.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xEb2N1bWVudFxWaWV3UGRmLmNzaHRtbA==
+[D:/Lập trình Web/DALTW/DALTW/Areas/User/Views/DocumentUser/ViewPdf.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xEb2N1bWVudFVzZXJcVmlld1BkZi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Lập trình Web/DALTW/DALTW/Areas/User/Views/Shared/Error.cshtml]
@@ -122,26 +122,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Lập trình Web/DALTW/DALTW/Areas/User/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Lập trình Web/DALTW/DALTW/Views/Document/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRcQWRkLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Lập trình Web/DALTW/DALTW/Views/Document/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Lập trình Web/DALTW/DALTW/Views/Document/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Lập trình Web/DALTW/DALTW/Views/Document/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Lập trình Web/DALTW/DALTW/Views/Document/ViewPdf.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRcVmlld1BkZi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Lập trình Web/DALTW/DALTW/Views/Home/Index.cshtml]
@@ -172,14 +152,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lập trình Web/DALTW/DALTW/Areas/Admin/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-wu4lrfri0k
+[D:/Lập trình Web/DALTW/DALTW/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-3vaz6fqz7d
 
-[D:/Lập trình Web/DALTW/DALTW/Areas/User/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = b-3ujeuz1qei
-
-[D:/Lập trình Web/DALTW/DALTW/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-21al689me5
+[D:/Lập trình Web/DALTW/DALTW/Areas/User/Views/Shared/_LayoutUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xTaGFyZWRcX0xheW91dFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-32zqd20vxm

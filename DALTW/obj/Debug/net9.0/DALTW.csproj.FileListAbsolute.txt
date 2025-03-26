@@ -659,7 +659,6 @@ D:\Lập trình Web\DALTW\DALTW\obj\Debug\net9.0\DALTW.MvcApplicationPartsAssemb
 D:\Lập trình Web\DALTW\DALTW\obj\Debug\net9.0\DALTW.RazorAssemblyInfo.cache
 D:\Lập trình Web\DALTW\DALTW\obj\Debug\net9.0\DALTW.RazorAssemblyInfo.cs
 D:\Lập trình Web\DALTW\DALTW\obj\Debug\net9.0\DALTW.sourcelink.json
-D:\Lập trình Web\DALTW\DALTW\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\Lập trình Web\DALTW\DALTW\obj\Debug\net9.0\scopedcss\bundle\DALTW.styles.css
 D:\Lập trình Web\DALTW\DALTW\obj\Debug\net9.0\scopedcss\projectbundle\DALTW.bundle.scp.css
 D:\Lập trình Web\DALTW\DALTW\obj\Debug\net9.0\compressed\ofa40bqe71-b9sayid5wm.gz
@@ -943,12 +942,8 @@ D:\Lập trình Web\DALTW\DALTW\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlit
 D:\Lập trình Web\DALTW\DALTW\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
 D:\Lập trình Web\DALTW\DALTW\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
 D:\Lập trình Web\DALTW\DALTW\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
-D:\Lập trình Web\DALTW\DALTW\obj\Debug\net9.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\Lập trình Web\DALTW\DALTW\obj\Debug\net9.0\compressed\kenxxtea5o-903iwaw2pu.gz
 D:\Lập trình Web\DALTW\DALTW\obj\Debug\net9.0\compressed\6prb22z6o7-b9sayid5wm.gz
-D:\Lập trình Web\DALTW\DALTW\obj\Debug\net9.0\scopedcss\Areas\User\Views\Shared\_Layout.cshtml.rz.scp.css
-D:\Lập trình Web\DALTW\DALTW\obj\Debug\net9.0\compressed\5oeww19f2f-9l5vypv51f.gz
-D:\Lập trình Web\DALTW\DALTW\obj\Debug\net9.0\compressed\za137hz6yl-9l5vypv51f.gz
 D:\Lập trình Web\DALTW\DALTW\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
 D:\Lập trình Web\DALTW\DALTW\bin\Debug\net9.0\PDFiumCore.dll
 D:\Lập trình Web\DALTW\DALTW\bin\Debug\net9.0\PdfiumViewer.dll
@@ -968,3 +963,7 @@ D:\Lập trình Web\DALTW\DALTW\bin\Debug\net9.0\runtimes\win-arm64\native\pdfiu
 D:\Lập trình Web\DALTW\DALTW\bin\Debug\net9.0\runtimes\win-x64\native\pdfium.dll
 D:\Lập trình Web\DALTW\DALTW\bin\Debug\net9.0\runtimes\win-x86\native\pdfium.dll
 D:\Lập trình Web\DALTW\DALTW\bin\Debug\net9.0\runtimes\win\lib\net9.0\Microsoft.Win32.SystemEvents.dll
+D:\Lập trình Web\DALTW\DALTW\obj\Debug\net9.0\scopedcss\Areas\Admin\Views\Shared\_LayoutAdmin.cshtml.rz.scp.css
+D:\Lập trình Web\DALTW\DALTW\obj\Debug\net9.0\scopedcss\Areas\User\Views\Shared\_LayoutUser.cshtml.rz.scp.css
+D:\Lập trình Web\DALTW\DALTW\obj\Debug\net9.0\compressed\5oeww19f2f-pgma0dv9h9.gz
+D:\Lập trình Web\DALTW\DALTW\obj\Debug\net9.0\compressed\za137hz6yl-pgma0dv9h9.gz

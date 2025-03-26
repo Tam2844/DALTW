@@ -36,23 +36,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DALTW.9l5vypv51f.bundle.scp.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DALTW.pgma0dv9h9.bundle.scp.css'))">
       <SourceType>Package</SourceType>
       <SourceId>DALTW</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/DALTW</BasePath>
-      <RelativePath>DALTW.9l5vypv51f.bundle.scp.css</RelativePath>
+      <RelativePath>DALTW.pgma0dv9h9.bundle.scp.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>Reference</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ProjectBundle</AssetTraitValue>
-      <Fingerprint>9l5vypv51f</Fingerprint>
-      <Integrity>DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc=</Integrity>
+      <Fingerprint>pgma0dv9h9</Fingerprint>
+      <Integrity>x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DALTW.9l5vypv51f.bundle.scp.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DALTW.pgma0dv9h9.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DocFile\03. Thuc hanh Bao mat thong tin nang cao (1).pdf'))">
       <SourceType>Package</SourceType>
@@ -107,24 +107,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DocFile\3181_TongAnhThu_BT05.pdf'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DocFile\CMP172. Mạng máy tính - TH-2020-Nam(fixed 28-12-2020).pdf'))">
-      <SourceType>Package</SourceType>
-      <SourceId>DALTW</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DALTW</BasePath>
-      <RelativePath>DocFile/CMP172. Mạng máy tính - TH-2020-Nam(fixed 28-12-2020).pdf</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ngi955n5i6</Fingerprint>
-      <Integrity>STEItCoUn8DgPZuxzOf/ynn1IyGtOsGXkeI2uip/nFg=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DocFile\CMP172. Mạng máy tính - TH-2020-Nam(fixed 28-12-2020).pdf'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DocFile\[CMP376] Giáo trình HP Thực hành Lập trình web - V5.pdf'))">
       <SourceType>Package</SourceType>

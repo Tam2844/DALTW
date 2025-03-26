@@ -1,144 +1,95 @@
-/* _content/DALTW/Areas/Admin/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* _content/DALTW/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-a.navbar-brand[b-wu4lrfri0k] {
+a.navbar-brand[b-3vaz6fqz7d] {
   white-space: normal;
   text-align: center;
   word-break: break-all;
 }
 
-a[b-wu4lrfri0k] {
+a[b-3vaz6fqz7d] {
   color: #0077cc;
 }
 
-.btn-primary[b-wu4lrfri0k] {
+.btn-primary[b-3vaz6fqz7d] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
-.nav-pills .nav-link.active[b-wu4lrfri0k], .nav-pills .show > .nav-link[b-wu4lrfri0k] {
+.nav-pills .nav-link.active[b-3vaz6fqz7d], .nav-pills .show > .nav-link[b-3vaz6fqz7d] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
-.border-top[b-wu4lrfri0k] {
+.border-top[b-3vaz6fqz7d] {
   border-top: 1px solid #e5e5e5;
 }
-.border-bottom[b-wu4lrfri0k] {
+.border-bottom[b-3vaz6fqz7d] {
   border-bottom: 1px solid #e5e5e5;
 }
 
-.box-shadow[b-wu4lrfri0k] {
+.box-shadow[b-3vaz6fqz7d] {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
-button.accept-policy[b-wu4lrfri0k] {
+button.accept-policy[b-3vaz6fqz7d] {
   font-size: 1rem;
   line-height: inherit;
 }
 
-.footer[b-wu4lrfri0k] {
+.footer[b-3vaz6fqz7d] {
   position: absolute;
   bottom: 0;
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
 }
-/* _content/DALTW/Areas/User/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* _content/DALTW/Areas/User/Views/Shared/_LayoutUser.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-a.navbar-brand[b-3ujeuz1qei] {
+a.navbar-brand[b-32zqd20vxm] {
   white-space: normal;
   text-align: center;
   word-break: break-all;
 }
 
-a[b-3ujeuz1qei] {
+a[b-32zqd20vxm] {
   color: #0077cc;
 }
 
-.btn-primary[b-3ujeuz1qei] {
+.btn-primary[b-32zqd20vxm] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
-.nav-pills .nav-link.active[b-3ujeuz1qei], .nav-pills .show > .nav-link[b-3ujeuz1qei] {
+.nav-pills .nav-link.active[b-32zqd20vxm], .nav-pills .show > .nav-link[b-32zqd20vxm] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
-.border-top[b-3ujeuz1qei] {
+.border-top[b-32zqd20vxm] {
   border-top: 1px solid #e5e5e5;
 }
-.border-bottom[b-3ujeuz1qei] {
+.border-bottom[b-32zqd20vxm] {
   border-bottom: 1px solid #e5e5e5;
 }
 
-.box-shadow[b-3ujeuz1qei] {
+.box-shadow[b-32zqd20vxm] {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
-button.accept-policy[b-3ujeuz1qei] {
+button.accept-policy[b-32zqd20vxm] {
   font-size: 1rem;
   line-height: inherit;
 }
 
-.footer[b-3ujeuz1qei] {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
-}
-/* _content/DALTW/Views/Shared/_Layout.cshtml.rz.scp.css */
-/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-a.navbar-brand[b-21al689me5] {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
-}
-
-a[b-21al689me5] {
-  color: #0077cc;
-}
-
-.btn-primary[b-21al689me5] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
-.nav-pills .nav-link.active[b-21al689me5], .nav-pills .show > .nav-link[b-21al689me5] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
-.border-top[b-21al689me5] {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom[b-21al689me5] {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow[b-21al689me5] {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
-
-button.accept-policy[b-21al689me5] {
-  font-size: 1rem;
-  line-height: inherit;
-}
-
-.footer[b-21al689me5] {
+.footer[b-32zqd20vxm] {
   position: absolute;
   bottom: 0;
   width: 100%;

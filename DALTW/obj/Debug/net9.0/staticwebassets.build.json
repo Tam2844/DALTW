@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hl+BYCtWg914ZKb2awImAoXCzevRceD33WbOBaYVLJQ=",
+  "Hash": "8PK0+vJarfeX2/6emCSljTtf498fztmwPWLH8qV9b04=",
   "Source": "DALTW",
   "BasePath": "_content/DALTW",
   "Mode": "Default",
@@ -1655,12 +1655,12 @@
       "OriginalItemSpec": "D:\\Lập trình Web\\DALTW\\DALTW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\5oeww19f2f-9l5vypv51f.gz",
+      "Identity": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\5oeww19f2f-pgma0dv9h9.gz",
       "SourceId": "DALTW",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/DALTW",
-      "RelativePath": "DALTW#[.{fingerprint=9l5vypv51f}]?.styles.css.gz",
+      "RelativePath": "DALTW#[.{fingerprint=pgma0dv9h9}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -1669,8 +1669,8 @@
       "RelatedAsset": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\scopedcss\\bundle\\DALTW.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "kb89n12jej",
-      "Integrity": "YI31AG7cisU04G2/P8oe+F/fTIoGlN+rF8VzBUZs268=",
+      "Fingerprint": "bze6k7l7my",
+      "Integrity": "qU4ikQWL6w2W7JXuU80U/XbTIw5ZiFRx1/N1B1gK3HQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\scopedcss\\bundle\\DALTW.styles.css"
@@ -3902,12 +3902,12 @@
       "OriginalItemSpec": "D:\\Lập trình Web\\DALTW\\DALTW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\za137hz6yl-9l5vypv51f.gz",
+      "Identity": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\za137hz6yl-pgma0dv9h9.gz",
       "SourceId": "DALTW",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/DALTW",
-      "RelativePath": "DALTW#[.{fingerprint=9l5vypv51f}]!.bundle.scp.css.gz",
+      "RelativePath": "DALTW#[.{fingerprint=pgma0dv9h9}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -3916,8 +3916,8 @@
       "RelatedAsset": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\DALTW.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "kb89n12jej",
-      "Integrity": "YI31AG7cisU04G2/P8oe+F/fTIoGlN+rF8VzBUZs268=",
+      "Fingerprint": "bze6k7l7my",
+      "Integrity": "qU4ikQWL6w2W7JXuU80U/XbTIw5ZiFRx1/N1B1gK3HQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\DALTW.bundle.scp.css"
@@ -4021,8 +4021,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "9l5vypv51f",
-      "Integrity": "DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc=",
+      "Fingerprint": "pgma0dv9h9",
+      "Integrity": "x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\scopedcss\\bundle\\DALTW.styles.css"
@@ -4042,8 +4042,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "9l5vypv51f",
-      "Integrity": "DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc=",
+      "Fingerprint": "pgma0dv9h9",
+      "Integrity": "x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\DALTW.bundle.scp.css"
@@ -4173,27 +4173,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\DocFile\\3181_TongAnhThu_BT05.pdf"
-    },
-    {
-      "Identity": "D:\\Lập trình Web\\DALTW\\DALTW\\wwwroot\\DocFile\\CMP172. Mạng máy tính - TH-2020-Nam(fixed 28-12-2020).pdf",
-      "SourceId": "DALTW",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Lập trình Web\\DALTW\\DALTW\\wwwroot\\",
-      "BasePath": "_content/DALTW",
-      "RelativePath": "DocFile/CMP172. Mạng máy tính - TH-2020-Nam(fixed 28-12-2020)#[.{fingerprint}]?.pdf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ngi955n5i6",
-      "Integrity": "STEItCoUn8DgPZuxzOf/ynn1IyGtOsGXkeI2uip/nFg=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\DocFile\\CMP172. Mạng máy tính - TH-2020-Nam(fixed 28-12-2020).pdf"
     },
     {
       "Identity": "D:\\Lập trình Web\\DALTW\\DALTW\\wwwroot\\DocFile\\đề số 12.docx",
@@ -6196,13 +6175,13 @@
       ]
     },
     {
-      "Route": "DALTW.9l5vypv51f.bundle.scp.css",
-      "AssetFile": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\za137hz6yl-9l5vypv51f.gz",
+      "Route": "DALTW.bundle.scp.css",
+      "AssetFile": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\za137hz6yl-pgma0dv9h9.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001461988304"
+          "Quality": "0.001584786054"
         }
       ],
       "ResponseHeaders": [
@@ -6212,19 +6191,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "683"
+          "Value": "630"
         },
         {
           "Name": "ETag",
-          "Value": "\"YI31AG7cisU04G2/P8oe+F/fTIoGlN+rF8VzBUZs268=\""
+          "Value": "\"qU4ikQWL6w2W7JXuU80U/XbTIw5ZiFRx1/N1B1gK3HQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 13:10:14 GMT"
+          "Value": "Wed, 26 Mar 2025 04:31:32 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -6240,26 +6219,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc=\""
+          "Value": "W/\"x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "9l5vypv51f"
-        },
-        {
-          "Name": "label",
-          "Value": "DALTW.bundle.scp.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc="
+          "Value": "sha256-x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A="
         }
       ]
     },
     {
-      "Route": "DALTW.9l5vypv51f.bundle.scp.css",
+      "Route": "DALTW.bundle.scp.css",
       "AssetFile": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\DALTW.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6269,7 +6240,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3392"
+          "Value": "2278"
         },
         {
           "Name": "Content-Type",
@@ -6277,11 +6248,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc=\""
+          "Value": "\"x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 13:10:14 GMT"
+          "Value": "Wed, 26 Mar 2025 04:31:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A="
+        }
+      ]
+    },
+    {
+      "Route": "DALTW.bundle.scp.css.gz",
+      "AssetFile": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\za137hz6yl-pgma0dv9h9.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "630"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qU4ikQWL6w2W7JXuU80U/XbTIw5ZiFRx1/N1B1gK3HQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 04:31:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qU4ikQWL6w2W7JXuU80U/XbTIw5ZiFRx1/N1B1gK3HQ="
+        }
+      ]
+    },
+    {
+      "Route": "DALTW.pgma0dv9h9.bundle.scp.css",
+      "AssetFile": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\za137hz6yl-pgma0dv9h9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001584786054"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "630"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qU4ikQWL6w2W7JXuU80U/XbTIw5ZiFRx1/N1B1gK3HQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 04:31:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pgma0dv9h9"
+        },
+        {
+          "Name": "label",
+          "Value": "DALTW.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A="
+        }
+      ]
+    },
+    {
+      "Route": "DALTW.pgma0dv9h9.bundle.scp.css",
+      "AssetFile": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\DALTW.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 04:31:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6291,7 +6407,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9l5vypv51f"
+          "Value": "pgma0dv9h9"
         },
         {
           "Name": "label",
@@ -6299,13 +6415,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc="
+          "Value": "sha256-x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A="
         }
       ]
     },
     {
-      "Route": "DALTW.9l5vypv51f.bundle.scp.css.gz",
-      "AssetFile": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\za137hz6yl-9l5vypv51f.gz",
+      "Route": "DALTW.pgma0dv9h9.bundle.scp.css.gz",
+      "AssetFile": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\za137hz6yl-pgma0dv9h9.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6314,7 +6430,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "683"
+          "Value": "630"
         },
         {
           "Name": "Content-Type",
@@ -6322,11 +6438,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YI31AG7cisU04G2/P8oe+F/fTIoGlN+rF8VzBUZs268=\""
+          "Value": "\"qU4ikQWL6w2W7JXuU80U/XbTIw5ZiFRx1/N1B1gK3HQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 13:10:14 GMT"
+          "Value": "Wed, 26 Mar 2025 04:31:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6344,7 +6460,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9l5vypv51f"
+          "Value": "pgma0dv9h9"
         },
         {
           "Name": "label",
@@ -6352,18 +6468,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YI31AG7cisU04G2/P8oe+F/fTIoGlN+rF8VzBUZs268="
+          "Value": "sha256-qU4ikQWL6w2W7JXuU80U/XbTIw5ZiFRx1/N1B1gK3HQ="
         }
       ]
     },
     {
-      "Route": "DALTW.9l5vypv51f.styles.css",
-      "AssetFile": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\5oeww19f2f-9l5vypv51f.gz",
+      "Route": "DALTW.pgma0dv9h9.styles.css",
+      "AssetFile": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\5oeww19f2f-pgma0dv9h9.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001461988304"
+          "Quality": "0.001584786054"
         }
       ],
       "ResponseHeaders": [
@@ -6373,15 +6489,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "683"
+          "Value": "630"
         },
         {
           "Name": "ETag",
-          "Value": "\"YI31AG7cisU04G2/P8oe+F/fTIoGlN+rF8VzBUZs268=\""
+          "Value": "\"qU4ikQWL6w2W7JXuU80U/XbTIw5ZiFRx1/N1B1gK3HQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 13:10:14 GMT"
+          "Value": "Wed, 26 Mar 2025 04:31:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6401,13 +6517,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc=\""
+          "Value": "W/\"x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9l5vypv51f"
+          "Value": "pgma0dv9h9"
         },
         {
           "Name": "label",
@@ -6415,12 +6531,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc="
+          "Value": "sha256-x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A="
         }
       ]
     },
     {
-      "Route": "DALTW.9l5vypv51f.styles.css",
+      "Route": "DALTW.pgma0dv9h9.styles.css",
       "AssetFile": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\scopedcss\\bundle\\DALTW.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6430,7 +6546,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3392"
+          "Value": "2278"
         },
         {
           "Name": "Content-Type",
@@ -6438,11 +6554,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc=\""
+          "Value": "\"x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 13:10:14 GMT"
+          "Value": "Wed, 26 Mar 2025 04:31:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6452,7 +6568,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9l5vypv51f"
+          "Value": "pgma0dv9h9"
         },
         {
           "Name": "label",
@@ -6460,13 +6576,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc="
+          "Value": "sha256-x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A="
         }
       ]
     },
     {
-      "Route": "DALTW.9l5vypv51f.styles.css.gz",
-      "AssetFile": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\5oeww19f2f-9l5vypv51f.gz",
+      "Route": "DALTW.pgma0dv9h9.styles.css.gz",
+      "AssetFile": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\5oeww19f2f-pgma0dv9h9.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6475,7 +6591,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "683"
+          "Value": "630"
         },
         {
           "Name": "Content-Type",
@@ -6483,11 +6599,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YI31AG7cisU04G2/P8oe+F/fTIoGlN+rF8VzBUZs268=\""
+          "Value": "\"qU4ikQWL6w2W7JXuU80U/XbTIw5ZiFRx1/N1B1gK3HQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 13:10:14 GMT"
+          "Value": "Wed, 26 Mar 2025 04:31:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6505,7 +6621,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9l5vypv51f"
+          "Value": "pgma0dv9h9"
         },
         {
           "Name": "label",
@@ -6513,155 +6629,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YI31AG7cisU04G2/P8oe+F/fTIoGlN+rF8VzBUZs268="
-        }
-      ]
-    },
-    {
-      "Route": "DALTW.bundle.scp.css",
-      "AssetFile": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\za137hz6yl-9l5vypv51f.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001461988304"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "683"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"YI31AG7cisU04G2/P8oe+F/fTIoGlN+rF8VzBUZs268=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 13:10:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc="
-        }
-      ]
-    },
-    {
-      "Route": "DALTW.bundle.scp.css",
-      "AssetFile": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\DALTW.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3392"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 13:10:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc="
-        }
-      ]
-    },
-    {
-      "Route": "DALTW.bundle.scp.css.gz",
-      "AssetFile": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\za137hz6yl-9l5vypv51f.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "683"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"YI31AG7cisU04G2/P8oe+F/fTIoGlN+rF8VzBUZs268=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 13:10:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-YI31AG7cisU04G2/P8oe+F/fTIoGlN+rF8VzBUZs268="
+          "Value": "sha256-qU4ikQWL6w2W7JXuU80U/XbTIw5ZiFRx1/N1B1gK3HQ="
         }
       ]
     },
     {
       "Route": "DALTW.styles.css",
-      "AssetFile": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\5oeww19f2f-9l5vypv51f.gz",
+      "AssetFile": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\5oeww19f2f-pgma0dv9h9.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001461988304"
+          "Quality": "0.001584786054"
         }
       ],
       "ResponseHeaders": [
@@ -6671,15 +6650,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "683"
+          "Value": "630"
         },
         {
           "Name": "ETag",
-          "Value": "\"YI31AG7cisU04G2/P8oe+F/fTIoGlN+rF8VzBUZs268=\""
+          "Value": "\"qU4ikQWL6w2W7JXuU80U/XbTIw5ZiFRx1/N1B1gK3HQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 13:10:14 GMT"
+          "Value": "Wed, 26 Mar 2025 04:31:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6699,13 +6678,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc=\""
+          "Value": "W/\"x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc="
+          "Value": "sha256-x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A="
         }
       ]
     },
@@ -6720,7 +6699,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3392"
+          "Value": "2278"
         },
         {
           "Name": "Content-Type",
@@ -6728,11 +6707,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc=\""
+          "Value": "\"x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 13:10:14 GMT"
+          "Value": "Wed, 26 Mar 2025 04:31:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6742,13 +6721,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc="
+          "Value": "sha256-x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A="
         }
       ]
     },
     {
       "Route": "DALTW.styles.css.gz",
-      "AssetFile": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\5oeww19f2f-9l5vypv51f.gz",
+      "AssetFile": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\5oeww19f2f-pgma0dv9h9.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6757,7 +6736,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "683"
+          "Value": "630"
         },
         {
           "Name": "Content-Type",
@@ -6765,11 +6744,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YI31AG7cisU04G2/P8oe+F/fTIoGlN+rF8VzBUZs268=\""
+          "Value": "\"qU4ikQWL6w2W7JXuU80U/XbTIw5ZiFRx1/N1B1gK3HQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 13:10:14 GMT"
+          "Value": "Wed, 26 Mar 2025 04:31:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6787,7 +6766,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YI31AG7cisU04G2/P8oe+F/fTIoGlN+rF8VzBUZs268="
+          "Value": "sha256-qU4ikQWL6w2W7JXuU80U/XbTIw5ZiFRx1/N1B1gK3HQ="
         }
       ]
     },
@@ -7116,88 +7095,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-huLIwv6iEAPmO4iocPA6/w6JxOHwfKx0H60W8izr5FU="
-        }
-      ]
-    },
-    {
-      "Route": "DocFile/CMP172. Mạng máy tính - TH-2020-Nam(fixed 28-12-2020).ngi955n5i6.pdf",
-      "AssetFile": "D:\\Lập trình Web\\DALTW\\DALTW\\wwwroot\\DocFile\\CMP172. Mạng máy tính - TH-2020-Nam(fixed 28-12-2020).pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8034663"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"STEItCoUn8DgPZuxzOf/ynn1IyGtOsGXkeI2uip/nFg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 07:45:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ngi955n5i6"
-        },
-        {
-          "Name": "label",
-          "Value": "DocFile/CMP172. Mạng máy tính - TH-2020-Nam(fixed 28-12-2020).pdf"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-STEItCoUn8DgPZuxzOf/ynn1IyGtOsGXkeI2uip/nFg="
-        }
-      ]
-    },
-    {
-      "Route": "DocFile/CMP172. Mạng máy tính - TH-2020-Nam(fixed 28-12-2020).pdf",
-      "AssetFile": "D:\\Lập trình Web\\DALTW\\DALTW\\wwwroot\\DocFile\\CMP172. Mạng máy tính - TH-2020-Nam(fixed 28-12-2020).pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8034663"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"STEItCoUn8DgPZuxzOf/ynn1IyGtOsGXkeI2uip/nFg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 07:45:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-STEItCoUn8DgPZuxzOf/ynn1IyGtOsGXkeI2uip/nFg="
         }
       ]
     },

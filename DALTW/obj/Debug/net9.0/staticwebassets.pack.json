@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "D:\\Lập trình Web\\DALTW\\DALTW\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\DALTW.bundle.scp.css",
-      "PackagePath": "staticwebassets\\DALTW.9l5vypv51f.bundle.scp.css"
+      "PackagePath": "staticwebassets\\DALTW.pgma0dv9h9.bundle.scp.css"
     },
     {
       "Id": "D:\\Lập trình Web\\DALTW\\DALTW\\wwwroot\\DocFile\\03. Thuc hanh Bao mat thong tin nang cao (1).pdf",
@@ -15,10 +15,6 @@
     {
       "Id": "D:\\Lập trình Web\\DALTW\\DALTW\\wwwroot\\DocFile\\3181_TongAnhThu_BT05.pdf",
       "PackagePath": "staticwebassets\\DocFile\\3181_TongAnhThu_BT05.pdf"
-    },
-    {
-      "Id": "D:\\Lập trình Web\\DALTW\\DALTW\\wwwroot\\DocFile\\CMP172. Mạng máy tính - TH-2020-Nam(fixed 28-12-2020).pdf",
-      "PackagePath": "staticwebassets\\DocFile\\CMP172. Mạng máy tính - TH-2020-Nam(fixed 28-12-2020).pdf"
     },
     {
       "Id": "D:\\Lập trình Web\\DALTW\\DALTW\\wwwroot\\DocFile\\[CMP376] Giáo trình HP Thực hành Lập trình web - V5.pdf",

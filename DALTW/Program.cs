@@ -53,7 +53,7 @@ app.MapStaticAssets();
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllerRoute(name: "Admin", pattern: "{area:exists}/{controller=DocumentManager}/{action=Index}/{id?}");
-    endpoints.MapControllerRoute( name: "Admin",pattern: "{area:exists}/{controller=DocumentManager}/{action=Edit}/{id?}");
+    endpoints.MapControllerRoute( name: "User",pattern: "{area:exists}/{controller=DocumentUser}/{action=Index}/{id?}");
     endpoints.MapControllerRoute(name: "default", pattern: "{controller=Home}/{action=Index}/{id?}");
 });
 
@@ -62,7 +62,7 @@ app.UseStaticFiles();
 app.MapRazorPages();
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Document}/{action=Add}/{id?}")
+    pattern: "{controller=DocumentUser}/{action=Add}/{id?}")
     .WithStaticAssets();
 
 app.Use(async (context, next) =>

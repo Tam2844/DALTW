@@ -1,0 +1,8 @@
+﻿@model string
+@{
+    ViewData["Title"] = "Xem tài liệu PDF";
+}
+
+<h2>Xem tài liệu PDF</h2>
+<iframe src="@Model" width="100%" height="800px"></iframe>
+<a href="@Url.Action("Index", "DocumentUser")" class="btn btn-secondary mt-3">Quay lại danh sách</a>

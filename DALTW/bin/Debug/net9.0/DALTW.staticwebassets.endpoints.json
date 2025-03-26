@@ -3,13 +3,13 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
-      "Route": "DALTW.9l5vypv51f.styles.css",
+      "Route": "DALTW.pgma0dv9h9.styles.css",
       "AssetFile": "DALTW.styles.css.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001461988304"
+          "Quality": "0.001584786054"
         }
       ],
       "ResponseHeaders": [
@@ -27,7 +27,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "683"
+          "Value": "630"
         },
         {
           "Name": "Content-Type",
@@ -35,15 +35,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YI31AG7cisU04G2/P8oe+F/fTIoGlN+rF8VzBUZs268=\""
+          "Value": "\"qU4ikQWL6w2W7JXuU80U/XbTIw5ZiFRx1/N1B1gK3HQ=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc=\""
+          "Value": "W/\"x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 13:10:14 GMT"
+          "Value": "Wed, 26 Mar 2025 04:31:32 GMT"
         },
         {
           "Name": "Vary",
@@ -53,11 +53,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9l5vypv51f"
+          "Value": "pgma0dv9h9"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc="
+          "Value": "sha256-x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A="
         },
         {
           "Name": "label",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "Route": "DALTW.9l5vypv51f.styles.css",
+      "Route": "DALTW.pgma0dv9h9.styles.css",
       "AssetFile": "DALTW.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -80,7 +80,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3392"
+          "Value": "2278"
         },
         {
           "Name": "Content-Type",
@@ -88,21 +88,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc=\""
+          "Value": "\"x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 13:10:14 GMT"
+          "Value": "Wed, 26 Mar 2025 04:31:32 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9l5vypv51f"
+          "Value": "pgma0dv9h9"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc="
+          "Value": "sha256-x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A="
         },
         {
           "Name": "label",
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "Route": "DALTW.9l5vypv51f.styles.css.gz",
+      "Route": "DALTW.pgma0dv9h9.styles.css.gz",
       "AssetFile": "DALTW.styles.css.gz",
       "Selectors": [],
       "ResponseHeaders": [
@@ -129,7 +129,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "683"
+          "Value": "630"
         },
         {
           "Name": "Content-Type",
@@ -137,11 +137,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YI31AG7cisU04G2/P8oe+F/fTIoGlN+rF8VzBUZs268=\""
+          "Value": "\"qU4ikQWL6w2W7JXuU80U/XbTIw5ZiFRx1/N1B1gK3HQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 13:10:14 GMT"
+          "Value": "Wed, 26 Mar 2025 04:31:32 GMT"
         },
         {
           "Name": "Vary",
@@ -151,11 +151,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9l5vypv51f"
+          "Value": "pgma0dv9h9"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YI31AG7cisU04G2/P8oe+F/fTIoGlN+rF8VzBUZs268="
+          "Value": "sha256-qU4ikQWL6w2W7JXuU80U/XbTIw5ZiFRx1/N1B1gK3HQ="
         },
         {
           "Name": "label",
@@ -170,7 +170,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001461988304"
+          "Quality": "0.001584786054"
         }
       ],
       "ResponseHeaders": [
@@ -188,7 +188,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "683"
+          "Value": "630"
         },
         {
           "Name": "Content-Type",
@@ -196,15 +196,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YI31AG7cisU04G2/P8oe+F/fTIoGlN+rF8VzBUZs268=\""
+          "Value": "\"qU4ikQWL6w2W7JXuU80U/XbTIw5ZiFRx1/N1B1gK3HQ=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc=\""
+          "Value": "W/\"x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 13:10:14 GMT"
+          "Value": "Wed, 26 Mar 2025 04:31:32 GMT"
         },
         {
           "Name": "Vary",
@@ -214,7 +214,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc="
+          "Value": "sha256-x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A="
         }
       ]
     },
@@ -233,7 +233,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3392"
+          "Value": "2278"
         },
         {
           "Name": "Content-Type",
@@ -241,17 +241,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc=\""
+          "Value": "\"x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 13:10:14 GMT"
+          "Value": "Wed, 26 Mar 2025 04:31:32 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DcS+v56u03gxqG+tjzGr3d6QBh2D0BC2Xu+DmoQ8LYc="
+          "Value": "sha256-x+sVjkEzLsfI0oEpuyaTB6md+cSkWB/cH6//8ZIDm2A="
         }
       ]
     },
@@ -274,7 +274,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "683"
+          "Value": "630"
         },
         {
           "Name": "Content-Type",
@@ -282,11 +282,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YI31AG7cisU04G2/P8oe+F/fTIoGlN+rF8VzBUZs268=\""
+          "Value": "\"qU4ikQWL6w2W7JXuU80U/XbTIw5ZiFRx1/N1B1gK3HQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 13:10:14 GMT"
+          "Value": "Wed, 26 Mar 2025 04:31:32 GMT"
         },
         {
           "Name": "Vary",
@@ -296,7 +296,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YI31AG7cisU04G2/P8oe+F/fTIoGlN+rF8VzBUZs268="
+          "Value": "sha256-qU4ikQWL6w2W7JXuU80U/XbTIw5ZiFRx1/N1B1gK3HQ="
         }
       ]
     },
@@ -543,88 +543,6 @@
         {
           "Name": "label",
           "Value": "DocFile/3181_TongAnhThu_BT05.pdf"
-        }
-      ]
-    },
-    {
-      "Route": "DocFile/CMP172. Mạng máy tính - TH-2020-Nam(fixed 28-12-2020).ngi955n5i6.pdf",
-      "AssetFile": "DocFile/CMP172. Mạng máy tính - TH-2020-Nam(fixed 28-12-2020).pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8034663"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"STEItCoUn8DgPZuxzOf/ynn1IyGtOsGXkeI2uip/nFg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 07:45:01 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ngi955n5i6"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-STEItCoUn8DgPZuxzOf/ynn1IyGtOsGXkeI2uip/nFg="
-        },
-        {
-          "Name": "label",
-          "Value": "DocFile/CMP172. Mạng máy tính - TH-2020-Nam(fixed 28-12-2020).pdf"
-        }
-      ]
-    },
-    {
-      "Route": "DocFile/CMP172. Mạng máy tính - TH-2020-Nam(fixed 28-12-2020).pdf",
-      "AssetFile": "DocFile/CMP172. Mạng máy tính - TH-2020-Nam(fixed 28-12-2020).pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8034663"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"STEItCoUn8DgPZuxzOf/ynn1IyGtOsGXkeI2uip/nFg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 07:45:01 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-STEItCoUn8DgPZuxzOf/ynn1IyGtOsGXkeI2uip/nFg="
         }
       ]
     },

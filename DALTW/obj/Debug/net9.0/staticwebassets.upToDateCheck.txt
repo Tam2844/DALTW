@@ -67,7 +67,6 @@ wwwroot\DocFile\[CMP376] Giáo trình HP Thực hành Lập trình web - V5.pdf
 wwwroot\DocFile\03. Thuc hanh Bao mat thong tin nang cao (1).pdf
 wwwroot\DocFile\3181_TongAnhThu_BT05.docx
 wwwroot\DocFile\3181_TongAnhThu_BT05.pdf
-wwwroot\DocFile\CMP172. Mạng máy tính - TH-2020-Nam(fixed 28-12-2020).pdf
 wwwroot\DocFile\đề số 12.docx
 wwwroot\DocFile\đề số 12.pdf
 wwwroot\favicon.ico
