@@ -1,94 +1,65 @@
-﻿@{
-    ViewBag.Title = "Quản lý tài liệu";
-}
-<!-- Gọi file CSS -->
-<link rel="stylesheet" href="@Url.Content("~/css/IndexManager.css")" />
-<script src="https://cdn.jsdelivr.net/npm/docx-preview@1.9.0/dist/docx-preview.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+﻿@model IEnumerable<Document>
 
-@using (Html.BeginForm("Index", "DocumentManager", FormMethod.Get))
-{
-    <div class="row mb-3">
-        <div class="col-md-4">
-            <label><b>Topic:</b></label>
-            @Html.DropDownList("topicId", ViewBag.Topics as SelectList, "Tất cả", new { @class = "form-control" })
-        </div>
+<h2>Tài liệu</h2>
 
-        <div class="col-md-4">
-            <label><b>Grade:</b></label>
-            @Html.DropDownList("gradeId", ViewBag.Grades as SelectList, "Tất cả", new { @class = "form-control" })
-        </div>
-
-        <div class="col-md-4">
-            <label><b>Category:</b></label>
-            @Html.DropDownList("categoryId", ViewBag.Categories as SelectList, "Tất cả", new { @class = "form-control" })
-        </div>
-    </div>
-
-    <div class="text-center">
-        <button type="submit" class="btn btn-primary"><i class="fas fa-filter"></i> Lọc</button>
-    </div>
-
-    <form asp-action="Index" method="get" class="mb-3 d-flex align-items-center gap-2">
-        <!-- Ô tìm kiếm -->
-        <input type="text" name="keyword" value="@ViewBag.Keyword" class="form-control w-25" placeholder="Tìm kiếm tài liệu..." />
-        <!-- Nút tìm kiếm -->
-        <button type="submit" class="btn btn-primary"> Tìm kiếm</button>
-    </form>
-}
-
-
-
-
-<!-- 🔹 KHU VỰC HIỂN THỊ TÀI LIỆU -->
-<div id="document-list">
-    @await Html.PartialAsync("Search", (IEnumerable<DALTW.Models.Document>)Model)
-
-</div>
-
-<!-- ✅ SCRIPTS AJAX -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-    $(document).ready(function () {
-        $("#search-form").submit(function (event) {
-            event.preventDefault(); // Ngăn tải lại trang
-
-            $.ajax({
-                url: '@Url.Action("Index")',
-                type: 'GET',
-                data: $(this).serialize(),
-                success: function (data) {
-                    $("#document-list").html(data); // Cập nhật danh sách tài liệu
-                },
-                error: function () {
-                    alert("Lỗi khi tìm kiếm, vui lòng thử lại!");
-                }
-            });
-        });
-    });
-</script>
-
-
-<div class="document-container">
+<div class="row mt-4">
     @foreach (var document in Model)
     {
-        <a href="@Url.Action("ViewPDF", "DocumentManager", new { id = document.DocumentID })" class="document-card-link">
-            <div class="document-card d-flex align-items-center">
-                <!-- 🔹 Ảnh tài liệu -->
-                <div class="document-image">
-                    @{
-                        string fileExtension = System.IO.Path.GetExtension(document.FileURL)?.ToLower();
-                        string imageUrl = !string.IsNullOrEmpty(document.FileURL) ? Url.Content(document.FileURL) : Url.Content("~/images/default.png");
-                    }
-                    <img src="@imageUrl" alt="Document Thumbnail" class="img-thumbnail" style="width: 100px; height: auto;">
-                </div>
+        <div class="col-md-12 mb-4">
+            <div class="card" style="display: flex; flex-direction: row; padding: 10px;">
 
-                <!-- 🔹 Thông tin tài liệu -->
-                <div class="document-info ms-3">
-                    <h6 class="fw-bold">@document.Name</h6>
-                    <p class="text-muted mb-1"><i class="fas fa-calendar-alt"></i> @document.CreatedDate.ToString("dd/MM/yyyy")</p>
+                <!-- Hiển thị trang đầu tiên của Word -->
+                @if (!string.IsNullOrEmpty(document.ImageFilePath) && (document.FileURL == null || !document.FileURL.EndsWith(".pdf")))
+
+                {
+                    <div class="word-preview" style="flex: 1; margin-right: 20px;">
+                        <img src="@Url.Content(document.ImageFilePath)" alt="Word Document Preview" style="width: 400px; height: 500px;" />
+                    </div>
+                }
+
+                <!-- Hiển thị trang đầu tiên của PDF -->
+                @if (document.FileURL != null && document.FileURL.EndsWith(".pdf"))
+
+                {
+                    <div class="pdf-preview" style="flex: 1; margin-right: 20px;">
+                        <canvas id="canvas-@document.DocumentID" width="400" height="500"></canvas>
+                    </div>
+
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+                    <script>
+                        var url = '@Url.Content("~/" + document.FileURL.TrimStart('/'))';
+
+                        pdfjsLib.getDocument(url).promise.then(function(pdf) {
+                            pdf.getPage(1).then(function(page) {
+                                var scale = 0.5;  // Tỷ lệ thu nhỏ trang PDF
+                                var viewport = page.getViewport({ scale: scale });
+
+                                var canvas = document.getElementById("canvas-@document.DocumentID");
+                                var context = canvas.getContext('2d');
+                                canvas.height = viewport.height;
+                                canvas.width = viewport.width;
+
+                                page.render({
+                                    canvasContext: context,
+                                    viewport: viewport
+                                });
+                            });
+                        });
+                    </script>
+                }
+
+                <!-- Thông tin tài liệu (Tên, Mô tả, Ngày tạo) -->
+                <div class="card-body" style="flex: 1;">
+                    <h5 class="card-title">
+                        <a href="@Url.Action("ViewPdf", "DocumentManager", new { id = document.DocumentID })" class="document-title">
+                            @document.Name
+                        </a>
+                    </h5>
+
+                    <p class="card-text">@document.Content</p>
+                    <p class="card-text"><small class="text-muted">@document.CreatedDate.ToString("dd/MM/yyyy")</small></p>
                 </div>
             </div>
-        </a>
+        </div>
     }
 </div>

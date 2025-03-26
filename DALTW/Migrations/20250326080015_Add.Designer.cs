@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DALTW.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250325055825_Thu1")]
-    partial class Thu1
+    [Migration("20250326080015_Add")]
+    partial class Add
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -88,7 +88,8 @@ namespace DALTW.Migrations
                     b.Property<int?>("GradeID")
                         .HasColumnType("int");
 
-                    b.Property<string>("ImageURL")
+                    b.Property<string>("ImageFilePath")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")

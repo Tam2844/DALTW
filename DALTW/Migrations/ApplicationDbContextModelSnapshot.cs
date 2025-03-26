@@ -85,6 +85,10 @@ namespace DALTW.Migrations
                     b.Property<int?>("GradeID")
                         .HasColumnType("int");
 
+                    b.Property<string>("ImageFilePath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(255)

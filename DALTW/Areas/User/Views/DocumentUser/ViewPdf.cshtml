@@ -1,8 +1,24 @@
-﻿@model string
+﻿@model DALTW.Models.Document
+
 @{
     ViewData["Title"] = "Xem tài liệu PDF";
 }
 
-<h2>Xem tài liệu PDF</h2>
-<iframe src="@Model" width="100%" height="800px"></iframe>
-<a href="@Url.Action("Index", "DocumentUser")" class="btn btn-secondary mt-3">Quay lại danh sách</a>
+<h2>@Model.Name</h2> <!-- Hiển thị tên tài liệu -->
+
+<p><strong>Description:</strong> @Model.Content</p>
+<p><strong>Upload Date:</strong> @Model.CreatedDate.ToString("dd/MM/yyyy")</p>
+
+@if (!string.IsNullOrEmpty(Model.FileURL))
+{
+    <div class="pdf-preview">
+        <!-- Nhúng tài liệu PDF vào iframe -->
+        <iframe src="@Url.Content(Model.FileURL)" width="100%" height="800px"></iframe>
+    </div>
+}
+
+<!-- Nút tải tài liệu -->
+<a href="@Url.Content(Model.FileURL)" class="btn btn-success mt-3" download>Tải tài liệu</a>
+
+<!-- Nút quay lại danh sách -->
+<a href="@Url.Action("Index", "DocumentManager")" class="btn btn-secondary mt-3">Quay lại danh sách</a>
