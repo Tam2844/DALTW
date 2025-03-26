@@ -66,11 +66,20 @@ wwwroot\css\site.css
 wwwroot\DocFile\[CMP376] Giáo trình HP Thực hành Lập trình web - V5.pdf
 wwwroot\DocFile\01.pdf
 wwwroot\DocFile\03. Thuc hanh Bao mat thong tin nang cao (1).pdf
+wwwroot\DocFile\2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.docx
+wwwroot\DocFile\2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.pdf
 wwwroot\DocFile\3181_TongAnhThu_BT05.docx
 wwwroot\DocFile\3181_TongAnhThu_BT05.pdf
+wwwroot\DocFile\8. [8N-5] Hệ Sinh thái KD và tính cạnh tranh của dự án sáng tạo nhóm.pdf
 wwwroot\DocFile\đề số 12.docx
 wwwroot\DocFile\đề số 12.pdf
 wwwroot\favicon.ico
+wwwroot\images\08d04ec9-0e09-4179-82e5-29f9bdf4474b.png
+wwwroot\images\6b15ccff-7fd3-49c3-b900-7eb0f11148fb.png
+wwwroot\images\6d0f34d0-4f32-4e74-b736-92aaa20fca12.png
+wwwroot\images\958bacc2-b8cf-4d1c-af1d-d43e1fed1d56.png
+wwwroot\images\a4644056-c055-4d19-bfe1-cd26b6e24b19.png
+wwwroot\images\b1062f7f-f455-40f5-b18e-faf0dff942de.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

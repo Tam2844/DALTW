@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>903iwaw2pu</Fingerprint>
-      <Integrity>ueeqmBC2xJFkyDUgBzRfDx9zYP0hHYKMMGy1Eqs243o=</Integrity>
+      <Fingerprint>608loxkxkr</Fingerprint>
+      <Integrity>OigH+mScvc+P5NlEhuShPL0bSGL4I2S3fvnm+4Sauw4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\IndexManager.css'))</OriginalItemSpec>
@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>b9sayid5wm</Fingerprint>
-      <Integrity>j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=</Integrity>
+      <Fingerprint>biz3nacw37</Fingerprint>
+      <Integrity>g3UWvmo4/Z82LujS7wSb6b8rdEF+DyXpp7bMzmDIhoU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -90,6 +90,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DocFile\03. Thuc hanh Bao mat thong tin nang cao (1).pdf'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DocFile\2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.docx'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>DocFile/2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.docx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pgkv6j43wc</Fingerprint>
+      <Integrity>WWtBjENY72NPrTRjahVSXzCyK6P67GfNAzCzARr4Zd8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DocFile\2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.docx'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DocFile\2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>DocFile/2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ec8jhq44c3</Fingerprint>
+      <Integrity>ArY8ZTZleJaQmvEArjAJ6oUYSq9VEuGNDZfi0FCINQM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DocFile\2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DocFile\3181_TongAnhThu_BT05.docx'))">
       <SourceType>Package</SourceType>
       <SourceId>DALTW</SourceId>
@@ -125,6 +161,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DocFile\3181_TongAnhThu_BT05.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DocFile\8. [8N-5] Hệ Sinh thái KD và tính cạnh tranh của dự án sáng tạo nhóm.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>DocFile/8. [8N-5] Hệ Sinh thái KD và tính cạnh tranh của dự án sáng tạo nhóm.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1ujjz1s8iy</Fingerprint>
+      <Integrity>KVLrH4zo8yAJClBPLFGFvHUVPrppwC5krJ6dmOdiTI4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DocFile\8. [8N-5] Hệ Sinh thái KD và tính cạnh tranh của dự án sáng tạo nhóm.pdf'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DocFile\[CMP376] Giáo trình HP Thực hành Lập trình web - V5.pdf'))">
       <SourceType>Package</SourceType>
@@ -197,6 +251,114 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\08d04ec9-0e09-4179-82e5-29f9bdf4474b.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/08d04ec9-0e09-4179-82e5-29f9bdf4474b.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6ks0i63cr8</Fingerprint>
+      <Integrity>lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\08d04ec9-0e09-4179-82e5-29f9bdf4474b.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\6b15ccff-7fd3-49c3-b900-7eb0f11148fb.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/6b15ccff-7fd3-49c3-b900-7eb0f11148fb.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6ks0i63cr8</Fingerprint>
+      <Integrity>lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\6b15ccff-7fd3-49c3-b900-7eb0f11148fb.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\6d0f34d0-4f32-4e74-b736-92aaa20fca12.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/6d0f34d0-4f32-4e74-b736-92aaa20fca12.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6ks0i63cr8</Fingerprint>
+      <Integrity>lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\6d0f34d0-4f32-4e74-b736-92aaa20fca12.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\958bacc2-b8cf-4d1c-af1d-d43e1fed1d56.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/958bacc2-b8cf-4d1c-af1d-d43e1fed1d56.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6ks0i63cr8</Fingerprint>
+      <Integrity>lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\958bacc2-b8cf-4d1c-af1d-d43e1fed1d56.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a4644056-c055-4d19-bfe1-cd26b6e24b19.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/a4644056-c055-4d19-bfe1-cd26b6e24b19.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6ks0i63cr8</Fingerprint>
+      <Integrity>lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a4644056-c055-4d19-bfe1-cd26b6e24b19.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b1062f7f-f455-40f5-b18e-faf0dff942de.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/b1062f7f-f455-40f5-b18e-faf0dff942de.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>emftuqb6mi</Fingerprint>
+      <Integrity>VqpTYa21VuMA/1tr4KV8qUuIcVw9vVDeBfPEVnON2d0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b1062f7f-f455-40f5-b18e-faf0dff942de.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))">
       <SourceType>Package</SourceType>

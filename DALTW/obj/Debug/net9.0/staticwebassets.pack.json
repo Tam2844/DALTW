@@ -13,12 +13,24 @@
       "PackagePath": "staticwebassets\\DocFile\\03. Thuc hanh Bao mat thong tin nang cao (1).pdf"
     },
     {
+      "Id": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\DocFile\\2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.docx",
+      "PackagePath": "staticwebassets\\DocFile\\2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.docx"
+    },
+    {
+      "Id": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\DocFile\\2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.pdf",
+      "PackagePath": "staticwebassets\\DocFile\\2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.pdf"
+    },
+    {
       "Id": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\DocFile\\3181_TongAnhThu_BT05.docx",
       "PackagePath": "staticwebassets\\DocFile\\3181_TongAnhThu_BT05.docx"
     },
     {
       "Id": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\DocFile\\3181_TongAnhThu_BT05.pdf",
       "PackagePath": "staticwebassets\\DocFile\\3181_TongAnhThu_BT05.pdf"
+    },
+    {
+      "Id": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\DocFile\\8. [8N-5] Hệ Sinh thái KD và tính cạnh tranh của dự án sáng tạo nhóm.pdf",
+      "PackagePath": "staticwebassets\\DocFile\\8. [8N-5] Hệ Sinh thái KD và tính cạnh tranh của dự án sáng tạo nhóm.pdf"
     },
     {
       "Id": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\DocFile\\[CMP376] Giáo trình HP Thực hành Lập trình web - V5.pdf",
@@ -43,6 +55,30 @@
     {
       "Id": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\images\\08d04ec9-0e09-4179-82e5-29f9bdf4474b.png",
+      "PackagePath": "staticwebassets\\images\\08d04ec9-0e09-4179-82e5-29f9bdf4474b.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\images\\6b15ccff-7fd3-49c3-b900-7eb0f11148fb.png",
+      "PackagePath": "staticwebassets\\images\\6b15ccff-7fd3-49c3-b900-7eb0f11148fb.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\images\\6d0f34d0-4f32-4e74-b736-92aaa20fca12.png",
+      "PackagePath": "staticwebassets\\images\\6d0f34d0-4f32-4e74-b736-92aaa20fca12.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\images\\958bacc2-b8cf-4d1c-af1d-d43e1fed1d56.png",
+      "PackagePath": "staticwebassets\\images\\958bacc2-b8cf-4d1c-af1d-d43e1fed1d56.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\images\\a4644056-c055-4d19-bfe1-cd26b6e24b19.png",
+      "PackagePath": "staticwebassets\\images\\a4644056-c055-4d19-bfe1-cd26b6e24b19.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\images\\b1062f7f-f455-40f5-b18e-faf0dff942de.png",
+      "PackagePath": "staticwebassets\\images\\b1062f7f-f455-40f5-b18e-faf0dff942de.png"
     },
     {
       "Id": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\js\\site.js",

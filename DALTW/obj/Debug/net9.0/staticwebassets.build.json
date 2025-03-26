@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Y9IW6Z3J3cVxXzN5Xm5UiqOxJFoAupN/lI1UvDbq190=",
+  "Hash": "i2dNlfVJtYestSE9qVPWSp6lcGdw4ayMVZHQNk6uQkc=",
   "Source": "DALTW",
   "BasePath": "_content/DALTW",
   "Mode": "Default",
@@ -1676,12 +1676,12 @@
       "OriginalItemSpec": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\obj\\Debug\\net9.0\\scopedcss\\bundle\\DALTW.styles.css"
     },
     {
-      "Identity": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\6prb22z6o7-b9sayid5wm.gz",
+      "Identity": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\6prb22z6o7-biz3nacw37.gz",
       "SourceId": "DALTW",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/DALTW",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=biz3nacw37}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1690,8 +1690,8 @@
       "RelatedAsset": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "wf4wcyqcqt",
-      "Integrity": "fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=",
+      "Fingerprint": "h1gqxhtzs9",
+      "Integrity": "S/fSEDdKnG+uW/UKoVi3kTgnrHVYqp3hyAma3hcSMkE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\css\\site.css"
@@ -2621,12 +2621,12 @@
       "OriginalItemSpec": "C:\\Users\\MSI MODERN\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\kenxxtea5o-903iwaw2pu.gz",
+      "Identity": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\kenxxtea5o-608loxkxkr.gz",
       "SourceId": "DALTW",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/DALTW",
-      "RelativePath": "css/IndexManager#[.{fingerprint=903iwaw2pu}]?.css.gz",
+      "RelativePath": "css/IndexManager#[.{fingerprint=608loxkxkr}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -2635,8 +2635,8 @@
       "RelatedAsset": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\css\\IndexManager.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "fity54niq5",
-      "Integrity": "GZGD/83aJQjnl1YxFWd67XzPfvT5pfH3Jo8FU95wrc4=",
+      "Fingerprint": "ht4wuceelu",
+      "Integrity": "mzER/PC1mdT23iVmYYr7is2cvFValoroZpSg96FEO7k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\css\\IndexManager.css"
@@ -4063,8 +4063,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "903iwaw2pu",
-      "Integrity": "ueeqmBC2xJFkyDUgBzRfDx9zYP0hHYKMMGy1Eqs243o=",
+      "Fingerprint": "608loxkxkr",
+      "Integrity": "OigH+mScvc+P5NlEhuShPL0bSGL4I2S3fvnm+4Sauw4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\IndexManager.css"
@@ -4084,8 +4084,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "biz3nacw37",
+      "Integrity": "g3UWvmo4/Z82LujS7wSb6b8rdEF+DyXpp7bMzmDIhoU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -4154,6 +4154,48 @@
       "OriginalItemSpec": "wwwroot\\DocFile\\03. Thuc hanh Bao mat thong tin nang cao (1).pdf"
     },
     {
+      "Identity": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\DocFile\\2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.docx",
+      "SourceId": "DALTW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\",
+      "BasePath": "_content/DALTW",
+      "RelativePath": "DocFile/2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng#[.{fingerprint}]?.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pgkv6j43wc",
+      "Integrity": "WWtBjENY72NPrTRjahVSXzCyK6P67GfNAzCzARr4Zd8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\DocFile\\2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.docx"
+    },
+    {
+      "Identity": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\DocFile\\2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.pdf",
+      "SourceId": "DALTW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\",
+      "BasePath": "_content/DALTW",
+      "RelativePath": "DocFile/2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ec8jhq44c3",
+      "Integrity": "ArY8ZTZleJaQmvEArjAJ6oUYSq9VEuGNDZfi0FCINQM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\DocFile\\2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.pdf"
+    },
+    {
       "Identity": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\DocFile\\3181_TongAnhThu_BT05.docx",
       "SourceId": "DALTW",
       "SourceType": "Discovered",
@@ -4194,6 +4236,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\DocFile\\3181_TongAnhThu_BT05.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\DocFile\\8. [8N-5] Hệ Sinh thái KD và tính cạnh tranh của dự án sáng tạo nhóm.pdf",
+      "SourceId": "DALTW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\",
+      "BasePath": "_content/DALTW",
+      "RelativePath": "DocFile/8. [8N-5] Hệ Sinh thái KD và tính cạnh tranh của dự án sáng tạo nhóm#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1ujjz1s8iy",
+      "Integrity": "KVLrH4zo8yAJClBPLFGFvHUVPrppwC5krJ6dmOdiTI4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\DocFile\\8. [8N-5] Hệ Sinh thái KD và tính cạnh tranh của dự án sáng tạo nhóm.pdf"
     },
     {
       "Identity": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\DocFile\\đề số 12.docx",
@@ -4257,6 +4320,132 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\images\\08d04ec9-0e09-4179-82e5-29f9bdf4474b.png",
+      "SourceId": "DALTW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\",
+      "BasePath": "_content/DALTW",
+      "RelativePath": "images/08d04ec9-0e09-4179-82e5-29f9bdf4474b#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6ks0i63cr8",
+      "Integrity": "lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\08d04ec9-0e09-4179-82e5-29f9bdf4474b.png"
+    },
+    {
+      "Identity": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\images\\6b15ccff-7fd3-49c3-b900-7eb0f11148fb.png",
+      "SourceId": "DALTW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\",
+      "BasePath": "_content/DALTW",
+      "RelativePath": "images/6b15ccff-7fd3-49c3-b900-7eb0f11148fb#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6ks0i63cr8",
+      "Integrity": "lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\6b15ccff-7fd3-49c3-b900-7eb0f11148fb.png"
+    },
+    {
+      "Identity": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\images\\6d0f34d0-4f32-4e74-b736-92aaa20fca12.png",
+      "SourceId": "DALTW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\",
+      "BasePath": "_content/DALTW",
+      "RelativePath": "images/6d0f34d0-4f32-4e74-b736-92aaa20fca12#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6ks0i63cr8",
+      "Integrity": "lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\6d0f34d0-4f32-4e74-b736-92aaa20fca12.png"
+    },
+    {
+      "Identity": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\images\\958bacc2-b8cf-4d1c-af1d-d43e1fed1d56.png",
+      "SourceId": "DALTW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\",
+      "BasePath": "_content/DALTW",
+      "RelativePath": "images/958bacc2-b8cf-4d1c-af1d-d43e1fed1d56#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6ks0i63cr8",
+      "Integrity": "lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\958bacc2-b8cf-4d1c-af1d-d43e1fed1d56.png"
+    },
+    {
+      "Identity": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\images\\a4644056-c055-4d19-bfe1-cd26b6e24b19.png",
+      "SourceId": "DALTW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\",
+      "BasePath": "_content/DALTW",
+      "RelativePath": "images/a4644056-c055-4d19-bfe1-cd26b6e24b19#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6ks0i63cr8",
+      "Integrity": "lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\a4644056-c055-4d19-bfe1-cd26b6e24b19.png"
+    },
+    {
+      "Identity": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\images\\b1062f7f-f455-40f5-b18e-faf0dff942de.png",
+      "SourceId": "DALTW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\",
+      "BasePath": "_content/DALTW",
+      "RelativePath": "images/b1062f7f-f455-40f5-b18e-faf0dff942de#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "emftuqb6mi",
+      "Integrity": "VqpTYa21VuMA/1tr4KV8qUuIcVw9vVDeBfPEVnON2d0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\b1062f7f-f455-40f5-b18e-faf0dff942de.png"
     },
     {
       "Identity": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\js\\site.js",
@@ -5563,13 +5752,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/IndexManager.903iwaw2pu.css",
-      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\kenxxtea5o-903iwaw2pu.gz",
+      "Route": "css/IndexManager.608loxkxkr.css",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\kenxxtea5o-608loxkxkr.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001540832049"
+          "Quality": "0.001416430595"
         }
       ],
       "ResponseHeaders": [
@@ -5579,15 +5768,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "648"
+          "Value": "705"
         },
         {
           "Name": "ETag",
-          "Value": "\"GZGD/83aJQjnl1YxFWd67XzPfvT5pfH3Jo8FU95wrc4=\""
+          "Value": "\"mzER/PC1mdT23iVmYYr7is2cvFValoroZpSg96FEO7k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 07:21:35 GMT"
+          "Value": "Wed, 26 Mar 2025 08:44:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5607,13 +5796,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ueeqmBC2xJFkyDUgBzRfDx9zYP0hHYKMMGy1Eqs243o=\""
+          "Value": "W/\"OigH+mScvc+P5NlEhuShPL0bSGL4I2S3fvnm+4Sauw4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "903iwaw2pu"
+          "Value": "608loxkxkr"
         },
         {
           "Name": "label",
@@ -5621,12 +5810,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ueeqmBC2xJFkyDUgBzRfDx9zYP0hHYKMMGy1Eqs243o="
+          "Value": "sha256-OigH+mScvc+P5NlEhuShPL0bSGL4I2S3fvnm+4Sauw4="
         }
       ]
     },
     {
-      "Route": "css/IndexManager.903iwaw2pu.css",
+      "Route": "css/IndexManager.608loxkxkr.css",
       "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\css\\IndexManager.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5636,7 +5825,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1428"
+          "Value": "1628"
         },
         {
           "Name": "Content-Type",
@@ -5644,11 +5833,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ueeqmBC2xJFkyDUgBzRfDx9zYP0hHYKMMGy1Eqs243o=\""
+          "Value": "\"OigH+mScvc+P5NlEhuShPL0bSGL4I2S3fvnm+4Sauw4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 07:21:35 GMT"
+          "Value": "Wed, 26 Mar 2025 08:44:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5658,7 +5847,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "903iwaw2pu"
+          "Value": "608loxkxkr"
         },
         {
           "Name": "label",
@@ -5666,13 +5855,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ueeqmBC2xJFkyDUgBzRfDx9zYP0hHYKMMGy1Eqs243o="
+          "Value": "sha256-OigH+mScvc+P5NlEhuShPL0bSGL4I2S3fvnm+4Sauw4="
         }
       ]
     },
     {
-      "Route": "css/IndexManager.903iwaw2pu.css.gz",
-      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\kenxxtea5o-903iwaw2pu.gz",
+      "Route": "css/IndexManager.608loxkxkr.css.gz",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\kenxxtea5o-608loxkxkr.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5681,7 +5870,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "648"
+          "Value": "705"
         },
         {
           "Name": "Content-Type",
@@ -5689,11 +5878,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GZGD/83aJQjnl1YxFWd67XzPfvT5pfH3Jo8FU95wrc4=\""
+          "Value": "\"mzER/PC1mdT23iVmYYr7is2cvFValoroZpSg96FEO7k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 07:21:35 GMT"
+          "Value": "Wed, 26 Mar 2025 08:44:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5711,7 +5900,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "903iwaw2pu"
+          "Value": "608loxkxkr"
         },
         {
           "Name": "label",
@@ -5719,18 +5908,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GZGD/83aJQjnl1YxFWd67XzPfvT5pfH3Jo8FU95wrc4="
+          "Value": "sha256-mzER/PC1mdT23iVmYYr7is2cvFValoroZpSg96FEO7k="
         }
       ]
     },
     {
       "Route": "css/IndexManager.css",
-      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\kenxxtea5o-903iwaw2pu.gz",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\kenxxtea5o-608loxkxkr.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001540832049"
+          "Quality": "0.001416430595"
         }
       ],
       "ResponseHeaders": [
@@ -5740,15 +5929,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "648"
+          "Value": "705"
         },
         {
           "Name": "ETag",
-          "Value": "\"GZGD/83aJQjnl1YxFWd67XzPfvT5pfH3Jo8FU95wrc4=\""
+          "Value": "\"mzER/PC1mdT23iVmYYr7is2cvFValoroZpSg96FEO7k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 07:21:35 GMT"
+          "Value": "Wed, 26 Mar 2025 08:44:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5768,13 +5957,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ueeqmBC2xJFkyDUgBzRfDx9zYP0hHYKMMGy1Eqs243o=\""
+          "Value": "W/\"OigH+mScvc+P5NlEhuShPL0bSGL4I2S3fvnm+4Sauw4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ueeqmBC2xJFkyDUgBzRfDx9zYP0hHYKMMGy1Eqs243o="
+          "Value": "sha256-OigH+mScvc+P5NlEhuShPL0bSGL4I2S3fvnm+4Sauw4="
         }
       ]
     },
@@ -5789,7 +5978,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1428"
+          "Value": "1628"
         },
         {
           "Name": "Content-Type",
@@ -5797,11 +5986,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ueeqmBC2xJFkyDUgBzRfDx9zYP0hHYKMMGy1Eqs243o=\""
+          "Value": "\"OigH+mScvc+P5NlEhuShPL0bSGL4I2S3fvnm+4Sauw4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 07:21:35 GMT"
+          "Value": "Wed, 26 Mar 2025 08:44:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5811,13 +6000,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ueeqmBC2xJFkyDUgBzRfDx9zYP0hHYKMMGy1Eqs243o="
+          "Value": "sha256-OigH+mScvc+P5NlEhuShPL0bSGL4I2S3fvnm+4Sauw4="
         }
       ]
     },
     {
       "Route": "css/IndexManager.css.gz",
-      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\kenxxtea5o-903iwaw2pu.gz",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\kenxxtea5o-608loxkxkr.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5826,7 +6015,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "648"
+          "Value": "705"
         },
         {
           "Name": "Content-Type",
@@ -5834,11 +6023,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GZGD/83aJQjnl1YxFWd67XzPfvT5pfH3Jo8FU95wrc4=\""
+          "Value": "\"mzER/PC1mdT23iVmYYr7is2cvFValoroZpSg96FEO7k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 07:21:35 GMT"
+          "Value": "Wed, 26 Mar 2025 08:44:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5856,18 +6045,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GZGD/83aJQjnl1YxFWd67XzPfvT5pfH3Jo8FU95wrc4="
+          "Value": "sha256-mzER/PC1mdT23iVmYYr7is2cvFValoroZpSg96FEO7k="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\6prb22z6o7-b9sayid5wm.gz",
+      "Route": "css/site.biz3nacw37.css",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\6prb22z6o7-biz3nacw37.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003125000000"
+          "Quality": "0.002525252525"
         }
       ],
       "ResponseHeaders": [
@@ -5877,15 +6066,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "395"
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"S/fSEDdKnG+uW/UKoVi3kTgnrHVYqp3hyAma3hcSMkE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 07:21:35 GMT"
+          "Value": "Wed, 26 Mar 2025 08:44:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5905,13 +6094,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"g3UWvmo4/Z82LujS7wSb6b8rdEF+DyXpp7bMzmDIhoU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "biz3nacw37"
         },
         {
           "Name": "label",
@@ -5919,12 +6108,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-g3UWvmo4/Z82LujS7wSb6b8rdEF+DyXpp7bMzmDIhoU="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
+      "Route": "css/site.biz3nacw37.css",
       "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5934,7 +6123,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "865"
         },
         {
           "Name": "Content-Type",
@@ -5942,11 +6131,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"g3UWvmo4/Z82LujS7wSb6b8rdEF+DyXpp7bMzmDIhoU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 07:21:35 GMT"
+          "Value": "Wed, 26 Mar 2025 08:44:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5956,7 +6145,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "biz3nacw37"
         },
         {
           "Name": "label",
@@ -5964,13 +6153,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-g3UWvmo4/Z82LujS7wSb6b8rdEF+DyXpp7bMzmDIhoU="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\6prb22z6o7-b9sayid5wm.gz",
+      "Route": "css/site.biz3nacw37.css.gz",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\6prb22z6o7-biz3nacw37.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5979,7 +6168,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "395"
         },
         {
           "Name": "Content-Type",
@@ -5987,11 +6176,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"S/fSEDdKnG+uW/UKoVi3kTgnrHVYqp3hyAma3hcSMkE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 07:21:35 GMT"
+          "Value": "Wed, 26 Mar 2025 08:44:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6009,7 +6198,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "biz3nacw37"
         },
         {
           "Name": "label",
@@ -6017,7 +6206,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
+          "Value": "sha256-S/fSEDdKnG+uW/UKoVi3kTgnrHVYqp3hyAma3hcSMkE="
         }
       ]
     },
@@ -6060,12 +6249,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\6prb22z6o7-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\6prb22z6o7-biz3nacw37.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003125000000"
+          "Quality": "0.002525252525"
         }
       ],
       "ResponseHeaders": [
@@ -6075,15 +6264,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "395"
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"S/fSEDdKnG+uW/UKoVi3kTgnrHVYqp3hyAma3hcSMkE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 07:21:35 GMT"
+          "Value": "Wed, 26 Mar 2025 08:44:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6103,13 +6292,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"g3UWvmo4/Z82LujS7wSb6b8rdEF+DyXpp7bMzmDIhoU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-g3UWvmo4/Z82LujS7wSb6b8rdEF+DyXpp7bMzmDIhoU="
         }
       ]
     },
@@ -6124,7 +6313,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "865"
         },
         {
           "Name": "Content-Type",
@@ -6132,11 +6321,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"g3UWvmo4/Z82LujS7wSb6b8rdEF+DyXpp7bMzmDIhoU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 07:21:35 GMT"
+          "Value": "Wed, 26 Mar 2025 08:44:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6146,13 +6335,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-g3UWvmo4/Z82LujS7wSb6b8rdEF+DyXpp7bMzmDIhoU="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\6prb22z6o7-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\obj\\Debug\\net9.0\\compressed\\6prb22z6o7-biz3nacw37.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6161,7 +6350,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "395"
         },
         {
           "Name": "Content-Type",
@@ -6169,11 +6358,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"S/fSEDdKnG+uW/UKoVi3kTgnrHVYqp3hyAma3hcSMkE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 07:21:35 GMT"
+          "Value": "Wed, 26 Mar 2025 08:44:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6191,7 +6380,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
+          "Value": "sha256-S/fSEDdKnG+uW/UKoVi3kTgnrHVYqp3hyAma3hcSMkE="
         }
       ]
     },
@@ -7038,6 +7227,170 @@
       ]
     },
     {
+      "Route": "DocFile/2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.docx",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\DocFile\\2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23612"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WWtBjENY72NPrTRjahVSXzCyK6P67GfNAzCzARr4Zd8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 08:33:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WWtBjENY72NPrTRjahVSXzCyK6P67GfNAzCzARr4Zd8="
+        }
+      ]
+    },
+    {
+      "Route": "DocFile/2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.ec8jhq44c3.pdf",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\DocFile\\2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ArY8ZTZleJaQmvEArjAJ6oUYSq9VEuGNDZfi0FCINQM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 08:34:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ec8jhq44c3"
+        },
+        {
+          "Name": "label",
+          "Value": "DocFile/2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ArY8ZTZleJaQmvEArjAJ6oUYSq9VEuGNDZfi0FCINQM="
+        }
+      ]
+    },
+    {
+      "Route": "DocFile/2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.pdf",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\DocFile\\2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ArY8ZTZleJaQmvEArjAJ6oUYSq9VEuGNDZfi0FCINQM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 08:34:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ArY8ZTZleJaQmvEArjAJ6oUYSq9VEuGNDZfi0FCINQM="
+        }
+      ]
+    },
+    {
+      "Route": "DocFile/2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.pgkv6j43wc.docx",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\DocFile\\2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23612"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WWtBjENY72NPrTRjahVSXzCyK6P67GfNAzCzARr4Zd8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 08:33:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pgkv6j43wc"
+        },
+        {
+          "Name": "label",
+          "Value": "DocFile/2. [2C-1] Phân tích thực trạng _ khảo sát nhu cầu thị trường_khách hàng.docx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WWtBjENY72NPrTRjahVSXzCyK6P67GfNAzCzARr4Zd8="
+        }
+      ]
+    },
+    {
       "Route": "DocFile/3181_TongAnhThu_BT05.3rm87xn7r5.docx",
       "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\DocFile\\3181_TongAnhThu_BT05.docx",
       "Selectors": [],
@@ -7198,6 +7551,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-huLIwv6iEAPmO4iocPA6/w6JxOHwfKx0H60W8izr5FU="
+        }
+      ]
+    },
+    {
+      "Route": "DocFile/8. [8N-5] Hệ Sinh thái KD và tính cạnh tranh của dự án sáng tạo nhóm.1ujjz1s8iy.pdf",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\DocFile\\8. [8N-5] Hệ Sinh thái KD và tính cạnh tranh của dự án sáng tạo nhóm.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KVLrH4zo8yAJClBPLFGFvHUVPrppwC5krJ6dmOdiTI4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 08:24:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ujjz1s8iy"
+        },
+        {
+          "Name": "label",
+          "Value": "DocFile/8. [8N-5] Hệ Sinh thái KD và tính cạnh tranh của dự án sáng tạo nhóm.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KVLrH4zo8yAJClBPLFGFvHUVPrppwC5krJ6dmOdiTI4="
+        }
+      ]
+    },
+    {
+      "Route": "DocFile/8. [8N-5] Hệ Sinh thái KD và tính cạnh tranh của dự án sáng tạo nhóm.pdf",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\DocFile\\8. [8N-5] Hệ Sinh thái KD và tính cạnh tranh của dự án sáng tạo nhóm.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KVLrH4zo8yAJClBPLFGFvHUVPrppwC5krJ6dmOdiTI4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 08:24:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KVLrH4zo8yAJClBPLFGFvHUVPrppwC5krJ6dmOdiTI4="
         }
       ]
     },
@@ -16228,6 +16663,498 @@
         {
           "Name": "integrity",
           "Value": "sha256-1HkjQSVuV0/ji/X/lGeDTHeagBS0BwopMrHDQuwqgtU="
+        }
+      ]
+    },
+    {
+      "Route": "images/08d04ec9-0e09-4179-82e5-29f9bdf4474b.6ks0i63cr8.png",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\images\\08d04ec9-0e09-4179-82e5-29f9bdf4474b.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66634"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 08:38:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6ks0i63cr8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/08d04ec9-0e09-4179-82e5-29f9bdf4474b.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc="
+        }
+      ]
+    },
+    {
+      "Route": "images/08d04ec9-0e09-4179-82e5-29f9bdf4474b.png",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\images\\08d04ec9-0e09-4179-82e5-29f9bdf4474b.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66634"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 08:38:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc="
+        }
+      ]
+    },
+    {
+      "Route": "images/6b15ccff-7fd3-49c3-b900-7eb0f11148fb.6ks0i63cr8.png",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\images\\6b15ccff-7fd3-49c3-b900-7eb0f11148fb.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66634"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 08:38:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6ks0i63cr8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/6b15ccff-7fd3-49c3-b900-7eb0f11148fb.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc="
+        }
+      ]
+    },
+    {
+      "Route": "images/6b15ccff-7fd3-49c3-b900-7eb0f11148fb.png",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\images\\6b15ccff-7fd3-49c3-b900-7eb0f11148fb.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66634"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 08:38:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc="
+        }
+      ]
+    },
+    {
+      "Route": "images/6d0f34d0-4f32-4e74-b736-92aaa20fca12.6ks0i63cr8.png",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\images\\6d0f34d0-4f32-4e74-b736-92aaa20fca12.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66634"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 08:41:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6ks0i63cr8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/6d0f34d0-4f32-4e74-b736-92aaa20fca12.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc="
+        }
+      ]
+    },
+    {
+      "Route": "images/6d0f34d0-4f32-4e74-b736-92aaa20fca12.png",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\images\\6d0f34d0-4f32-4e74-b736-92aaa20fca12.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66634"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 08:41:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc="
+        }
+      ]
+    },
+    {
+      "Route": "images/958bacc2-b8cf-4d1c-af1d-d43e1fed1d56.6ks0i63cr8.png",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\images\\958bacc2-b8cf-4d1c-af1d-d43e1fed1d56.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66634"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 08:34:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6ks0i63cr8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/958bacc2-b8cf-4d1c-af1d-d43e1fed1d56.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc="
+        }
+      ]
+    },
+    {
+      "Route": "images/958bacc2-b8cf-4d1c-af1d-d43e1fed1d56.png",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\images\\958bacc2-b8cf-4d1c-af1d-d43e1fed1d56.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66634"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 08:34:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc="
+        }
+      ]
+    },
+    {
+      "Route": "images/a4644056-c055-4d19-bfe1-cd26b6e24b19.6ks0i63cr8.png",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\images\\a4644056-c055-4d19-bfe1-cd26b6e24b19.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66634"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 08:33:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6ks0i63cr8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/a4644056-c055-4d19-bfe1-cd26b6e24b19.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc="
+        }
+      ]
+    },
+    {
+      "Route": "images/a4644056-c055-4d19-bfe1-cd26b6e24b19.png",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\images\\a4644056-c055-4d19-bfe1-cd26b6e24b19.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66634"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 08:33:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lurQi9ISstR8l4tCWG8pTjc07okf0b9eQqVP25wOBzc="
+        }
+      ]
+    },
+    {
+      "Route": "images/b1062f7f-f455-40f5-b18e-faf0dff942de.emftuqb6mi.png",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\images\\b1062f7f-f455-40f5-b18e-faf0dff942de.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "69191"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VqpTYa21VuMA/1tr4KV8qUuIcVw9vVDeBfPEVnON2d0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 08:24:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "emftuqb6mi"
+        },
+        {
+          "Name": "label",
+          "Value": "images/b1062f7f-f455-40f5-b18e-faf0dff942de.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VqpTYa21VuMA/1tr4KV8qUuIcVw9vVDeBfPEVnON2d0="
+        }
+      ]
+    },
+    {
+      "Route": "images/b1062f7f-f455-40f5-b18e-faf0dff942de.png",
+      "AssetFile": "C:\\Users\\MSI MODERN\\source\\repos\\DALTW\\DALTW\\wwwroot\\images\\b1062f7f-f455-40f5-b18e-faf0dff942de.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "69191"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VqpTYa21VuMA/1tr4KV8qUuIcVw9vVDeBfPEVnON2d0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 08:24:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VqpTYa21VuMA/1tr4KV8qUuIcVw9vVDeBfPEVnON2d0="
         }
       ]
     },
