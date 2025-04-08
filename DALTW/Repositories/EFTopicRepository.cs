@@ -12,32 +12,40 @@ namespace DALTW.Repositories
             _context = context;
         }
 
-        public Task AddAsync(Topic topic)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task DeleteAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
         public async Task<IEnumerable<Topic>> GetAllAsync()
         {
             return await _context.Topics
-            .Include(p => p.Documents) 
-            .ToListAsync();
+                .Include(t => t.Documents)
+                .ToListAsync();
         }
 
         public async Task<Topic> GetByIdAsync(int id)
         {
-            return await _context.Topics.Include(p =>
-            p.Documents).FirstOrDefaultAsync(p => p.TopicID == id);
+            return await _context.Topics
+                .Include(t => t.Documents)
+                .FirstOrDefaultAsync(t => t.TopicID == id);
         }
 
-        public Task UpdateAsync(Topic topic)
+        public async Task AddAsync(Topic topic)
         {
-            throw new NotImplementedException();
+            _context.Topics.Add(topic);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task UpdateAsync(Topic topic)
+        {
+            _context.Topics.Update(topic);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task DeleteAsync(int id)
+        {
+            var topic = await _context.Topics.FindAsync(id);
+            if (topic != null)
+            {
+                _context.Topics.Remove(topic);
+                await _context.SaveChangesAsync();
+            }
         }
     }
 }

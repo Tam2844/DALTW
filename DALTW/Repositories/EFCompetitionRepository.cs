@@ -12,32 +12,40 @@ namespace DALTW.Repositories
             _context = context;
         }
 
-        public Task AddAsync(Competition competition)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task DeleteAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
         public async Task<IEnumerable<Competition>> GetAllAsync()
         {
             return await _context.Competitions
-            .Include(p => p.Documents)
-            .ToListAsync();
+                .Include(c => c.Documents)
+                .ToListAsync();
         }
 
         public async Task<Competition> GetByIdAsync(int id)
         {
-            return await _context.Competitions.Include(p =>
-           p.Documents).FirstOrDefaultAsync(p => p.CompetitionID == id);
+            return await _context.Competitions
+                .Include(c => c.Documents)
+                .FirstOrDefaultAsync(c => c.CompetitionID == id);
         }
 
-        public Task UpdateAsync(Competition competition)
+        public async Task AddAsync(Competition competition)
         {
-            throw new NotImplementedException();
+            _context.Competitions.Add(competition);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task UpdateAsync(Competition competition)
+        {
+            _context.Competitions.Update(competition);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task DeleteAsync(int id)
+        {
+            var competition = await _context.Competitions.FindAsync(id);
+            if (competition != null)
+            {
+                _context.Competitions.Remove(competition);
+                await _context.SaveChangesAsync();
+            }
         }
     }
 }

@@ -6,38 +6,46 @@ namespace DALTW.Repositories
     public class EFCategoryRepository : ICategoryRepository
     {
         private readonly ApplicationDbContext _context;
+
         public EFCategoryRepository(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        public Task AddAsync(Category category)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task DeleteAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
         public async Task<IEnumerable<Category>> GetAllAsync()
         {
-   
             return await _context.Categories
-            .Include(p => p.Documents) 
-            .ToListAsync();
+                .Include(p => p.Documents)
+                .ToListAsync();
         }
 
         public async Task<Category> GetByIdAsync(int id)
         {
-            return await _context.Categories.Include(p =>
-            p.Documents).FirstOrDefaultAsync(p => p.CategoryID == id);
+            return await _context.Categories
+                .Include(p => p.Documents)
+                .FirstOrDefaultAsync(p => p.CategoryID == id);
         }
 
-        public Task UpdateAsync(Category category)
+        public async Task AddAsync(Category category)
         {
-            throw new NotImplementedException();
+            _context.Categories.Add(category);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task UpdateAsync(Category category)
+        {
+            _context.Categories.Update(category);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task DeleteAsync(int id)
+        {
+            var category = await _context.Categories.FindAsync(id);
+            if (category != null)
+            {
+                _context.Categories.Remove(category);
+                await _context.SaveChangesAsync();
+            }
         }
     }
 }
