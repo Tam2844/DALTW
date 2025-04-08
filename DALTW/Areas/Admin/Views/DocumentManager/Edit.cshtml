@@ -5,6 +5,8 @@
 
 <h2>Chỉnh sửa tài liệu</h2>
 
+<a class="btn btn-primary mb-3" href="@Url.Action("Add", "DocumentManager", new { area = "Admin" })">Thêm tài liệu</a>
+
 <form asp-action="Edit" method="post" enctype="multipart/form-data">
     <input type="hidden" asp-for="DocumentID" />
 

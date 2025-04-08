@@ -1,0 +1,39 @@
+﻿@using DALTW.Areas.Admin.Controllers
+@using static DALTW.Areas.Admin.Controllers.UserController
+@model EditUserRolesViewModel
+
+<div class="container mt-4">
+    <div class="card shadow-lg">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Chỉnh sửa vai trò - @Model.UserEmail</h4>
+        </div>
+        <div class="card-body">
+            <form asp-action="EditUserRoles" method="post">
+                <input type="hidden" asp-for="UserId" />
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Vai trò:</label>
+                    <div class="row">
+                        @for (var i = 0; i < Model.Roles.Count; i++)
+                        {
+                            <div class="col-md-6">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" asp-for="Roles[i].IsSelected" id="role_@i">
+                                    <label class="form-check-label" for="role_@i">
+                                        @Model.Roles[i].RoleName
+                                    </label>
+                                    <input type="hidden" asp-for="Roles[i].RoleName" />
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+                <div class="text-end">
+                    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+                    <button type="submit" class="btn btn-success">
+                        <i class="fas fa-save"></i> Lưu thay đổi
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

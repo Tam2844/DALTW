@@ -50,6 +50,7 @@ app.UseMiddleware<TrafficLoggerMiddleware>();
 
 
 app.MapStaticAssets();
+
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllerRoute(name: "Admin", pattern: "{area:exists}/{controller=DocumentManager}/{action=Index}/{id?}");

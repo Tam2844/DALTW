@@ -1,0 +1,31 @@
+﻿@model IEnumerable<DALTW.Models.Grade>
+
+@{
+    ViewData["Title"] = "Danh sách khối lớp";
+    Layout = "~/Areas/Admin/Views/shared/_LayoutAdmin.cshtml";
+}
+
+<h2>@ViewData["Title"]</h2>
+<a asp-area="Admin" asp-controller="Grade" asp-action="Create" class="btn btn-success mb-3">+ Thêm khối lớp</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Tên khối lớp</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.GradeID" class="btn btn-sm btn-warning">Sửa</a>
+                    <a asp-action="Details" asp-route-id="@item.GradeID" class="btn btn-sm btn-info">Xem</a>
+                    <a asp-action="Delete" asp-route-id="@item.GradeID" class="btn btn-sm btn-danger">Xoá</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

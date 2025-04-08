@@ -6,37 +6,46 @@ namespace DALTW.Repositories
     public class EFSemesterRepository : ISemesterRepository
     {
         private readonly ApplicationDbContext _context;
+
         public EFSemesterRepository(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        public Task AddAsync(Semester semester)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task DeleteAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
         public async Task<IEnumerable<Semester>> GetAllAsync()
         {
             return await _context.Semesters
-            .Include(p => p.Documents)
-            .ToListAsync();
+                .Include(s => s.Documents)
+                .ToListAsync();
         }
 
         public async Task<Semester> GetByIdAsync(int id)
         {
-            return await _context.Semesters.Include(p =>
-           p.Documents).FirstOrDefaultAsync(p => p.SemesterID == id);
+            return await _context.Semesters
+                .Include(s => s.Documents)
+                .FirstOrDefaultAsync(s => s.SemesterID == id);
         }
 
-        public Task UpdateAsync(Semester semester)
+        public async Task AddAsync(Semester semester)
         {
-            throw new NotImplementedException();
+            _context.Semesters.Add(semester);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task UpdateAsync(Semester semester)
+        {
+            _context.Semesters.Update(semester);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task DeleteAsync(int id)
+        {
+            var semester = await _context.Semesters.FindAsync(id);
+            if (semester != null)
+            {
+                _context.Semesters.Remove(semester);
+                await _context.SaveChangesAsync();
+            }
         }
     }
 }

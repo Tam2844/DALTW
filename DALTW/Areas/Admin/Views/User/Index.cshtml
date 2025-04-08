@@ -1,0 +1,61 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model List<IdentityUser>
+
+@{
+    ViewData["Title"] = "Quản lý Người Dùng";
+}
+
+<a class="btn btn-primary mb-3" href="@Url.Action("CreateUser", "User", new { area = "Admin" })">Thêm Người Dùng</a>
+
+<table class="table table-bordered">
+    <thead class="thead-dark">
+        <tr>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Trạng thái</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Email</td>
+                <td>
+                    @{
+                        var roles = ViewBag.UserRoles.ContainsKey(user.Id) ? ViewBag.UserRoles[user.Id] as List<string> : new List<string>();
+                    }
+                    @if (roles.Any())
+                    {
+                        <span>@string.Join(", ", roles)</span>
+                    }
+                    else
+                    {
+                        <span class="text-muted">Chưa có vai trò</span>
+                    }
+                </td>
+                <td>
+                    @(user.LockoutEnd.HasValue && user.LockoutEnd.Value > DateTimeOffset.UtcNow
+                        ? "Bị khóa"
+                        : "Hoạt động")
+                </td>
+                <td>
+                    <a class="btn btn-danger" href="@Url.Action("DeleteUser", "User", new { userId = user.Id })"
+                       onclick="return confirm('Bạn có chắc muốn xóa?');">Xóa</a>
+
+                    @if (user.LockoutEnd.HasValue && user.LockoutEnd.Value > DateTimeOffset.UtcNow)
+                    {
+                        <a class="btn btn-success" href="@Url.Action("UnbanUser", "User", new { userId = user.Id })">Mở khóa</a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-warning" href="@Url.Action("BanUser", "User", new { userId = user.Id, days = 7 })">Khóa 7 ngày</a>
+                    }
+
+                    <a class="btn btn-success btn-sm" asp-area="Admin" asp-controller="User" asp-action="EditUserRoles" asp-route-userId="@user.Id">Sửa vai trò</a>
+                </td>
+                
+            </tr>
+        }
+    </tbody>
+</table>
