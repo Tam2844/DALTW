@@ -9,5 +9,6 @@ namespace DALTW.Repositories
         Task AddAsync(Topic topic);
         Task UpdateAsync(Topic topic);
         Task DeleteAsync(int id);
+
     }
 }
