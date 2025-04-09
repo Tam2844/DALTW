@@ -19,7 +19,6 @@
           "Microsoft.EntityFrameworkCore.Tools": "9.0.3",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "9.0.0",
           "PDFiumCore": "134.0.6982",
-          "PdfiumViewer": "2.13.0",
           "System.Drawing.Common": "9.0.3"
         },
         "runtime": {
@@ -2165,19 +2164,6 @@
           }
         }
       },
-      "PdfiumViewer/2.13.0": {
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "assemblyVersion": "2.13.0.0",
-            "fileVersion": "2.13.0.0"
-          }
-        },
-        "resources": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
-          }
-        }
-      },
       "SkiaSharp/3.116.1": {
         "dependencies": {
           "SkiaSharp.NativeAssets.Win32": "3.116.1",
@@ -3619,13 +3605,6 @@
       "sha512": "sha512-wFZyAsxiCErBOp7SKuuxKJ7K1qAIusH1PBPWRgaOKIA80DSinBK0wZzak8J6qY3ix0q5GBcLlLvDsBPKVm/27w==",
       "path": "pdfiumcore/134.0.6982",
       "hashPath": "pdfiumcore.134.0.6982.nupkg.sha512"
-    },
-    "PdfiumViewer/2.13.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Nw4owBmJzDVXoMRjCnqPbET07CPOawwhcNjt+PyRaSxONN9bsFF+cm9kcMsDLEAEaxsiDJo5jls8bCQjvjidkA==",
-      "path": "pdfiumviewer/2.13.0",
-      "hashPath": "pdfiumviewer.2.13.0.nupkg.sha512"
     },
     "SkiaSharp/3.116.1": {
       "type": "package",

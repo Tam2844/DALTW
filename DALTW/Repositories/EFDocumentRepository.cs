@@ -50,5 +50,18 @@ namespace DALTW.Repositories
             await _context.SaveChangesAsync();
         }
 
+        public async Task<List<Document>> GetNewestDocumentsAsync(int count)
+        {
+            return await _context.Documents
+                .Include(d => d.Category)
+                .Include(d => d.Topic)
+                .Include(d => d.Grade)
+                .OrderByDescending(d => d.CreatedDate)
+                .Take(count)
+                .ToListAsync();
+        }
+
+
+
     }
 }

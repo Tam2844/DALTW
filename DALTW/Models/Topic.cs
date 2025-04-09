@@ -10,6 +10,6 @@ namespace DALTW.Models
         [StringLength(255)]
         public string TopicName { get; set; }
 
-        public ICollection<Document> Documents { get; set; }
+        public ICollection<Document>? Documents { get; set; } = new List<Document>();
     }
 }

@@ -1,94 +1,96 @@
-﻿@model IEnumerable<Document>
+﻿@model IEnumerable<DALTW.Models.Document>
 
-<h2>Tài liệu</h2>
-@using (Html.BeginForm("Index", "DocumentManager", FormMethod.Get))
-{
-    <div class="row mb-3">
-        <div class="col-md-4">
-            <label><b>Topic:</b></label>
-            @Html.DropDownList("topicId", ViewBag.Topics as SelectList, "Tất cả", new { @class = "form-control" })
-        </div>
-
-        <div class="col-md-4">
-            <label><b>Grade:</b></label>
-            @Html.DropDownList("gradeId", ViewBag.Grades as SelectList, "Tất cả", new { @class = "form-control" })
-        </div>
-
-        <div class="col-md-4">
-            <label><b>Category:</b></label>
-            @Html.DropDownList("categoryId", ViewBag.Categories as SelectList, "Tất cả", new { @class = "form-control" })
-        </div>
-    </div>
-
-    <div class="text-center">
-        <button type="submit" class="btn btn-primary"><i class="fas fa-filter"></i> Lọc</button>
-    </div>
-
-    <form asp-action="Index" method="get" class="mb-3 d-flex align-items-center gap-2">
-        <!-- Ô tìm kiếm -->
-        <input type="text" name="keyword" value="@ViewBag.Keyword" class="form-control w-25" placeholder="Tìm kiếm tài liệu..." />
-        <!-- Nút tìm kiếm -->
-        <button type="submit" class="btn btn-primary"> Tìm kiếm</button>
-    </form>
+@{
+    ViewData["Title"] = "Index";
 }
-<div class="row mt-4">
-    @foreach (var document in Model)
-    {
-        <div class="col-md-12 mb-4">
-            <div class="card" style="display: flex; flex-direction: row; padding: 10px;">
 
-                <!-- Hiển thị trang đầu tiên của Word -->
-                @if (!string.IsNullOrEmpty(document.ImageFilePath) && (document.FileURL == null || !document.FileURL.EndsWith(".pdf")))
+<h1>Index</h1>
 
-                {
-                    <div class="word-preview" style="flex: 1; margin-right: 20px;">
-                        <img src="@Url.Content(document.ImageFilePath)" alt="Word Document Preview" style="width: 400px; height: 500px;" />
-                    </div>
-                }
-
-                <!-- Hiển thị trang đầu tiên của PDF -->
-                @if (document.FileURL != null && document.FileURL.EndsWith(".pdf"))
-
-                {
-                    <div class="pdf-preview" style="flex: 1; margin-right: 20px;">
-                        <canvas id="canvas-@document.DocumentID" width="400" height="500"></canvas>
-                    </div>
-
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
-                    <script>
-                        var url = '@Url.Content("~/" + document.FileURL.TrimStart('/'))';
-
-                        pdfjsLib.getDocument(url).promise.then(function(pdf) {
-                            pdf.getPage(1).then(function(page) {
-                                var scale = 0.5;  // Tỷ lệ thu nhỏ trang PDF
-                                var viewport = page.getViewport({ scale: scale });
-
-                                var canvas = document.getElementById("canvas-@document.DocumentID");
-                                var context = canvas.getContext('2d');
-                                canvas.height = viewport.height;
-                                canvas.width = viewport.width;
-
-                                page.render({
-                                    canvasContext: context,
-                                    viewport: viewport
-                                });
-                            });
-                        });
-                    </script>
-                }
-
-                <!-- Thông tin tài liệu (Tên, Mô tả, Ngày tạo) -->
-                <div class="card-body" style="flex: 1;">
-                    <h5 class="card-title">
-                        <a href="@Url.Action("ViewPdf", "DocumentManager", new { id = document.DocumentID })" class="document-title">
-                            @document.Name
-                        </a>
-                    </h5>
-
-                    <p class="card-text">@document.Content</p>
-                    <p class="card-text"><small class="text-muted">@document.CreatedDate.ToString("dd/MM/yyyy")</small></p>
-                </div>
-            </div>
-        </div>
-    }
-</div>
+<p>
+    <a asp-action="Add">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Content)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FileURL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Topic)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Grade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Semester)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Competition)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageFilePath)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Content)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FileURL)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Topic.TopicName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Grade.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Semester.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Competition.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ImageFilePath)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.DocumentID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.DocumentID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.DocumentID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
