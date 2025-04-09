@@ -32,6 +32,12 @@
             <li class="nav-item mb-2">
                 <a class="nav-link text-white" href="/Admin/Topic/Index">📚 Quản lý Chủ đề</a>
             </li>
+            @if (User.IsInRole("Admin"))
+            {
+                <li class="nav-item mb-2">
+                    <a class="nav-link text-white" href="/Admin/User/Index">👤 Quản lý Người dùng</a>
+                </li>
+            }
             <li class="nav-item mt-4">
                 <a class="nav-link text-warning" asp-area="Identity" asp-page="/Account/Logout">🚪 Đăng xuất</a>
             </li>
