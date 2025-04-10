@@ -6,7 +6,11 @@
 
 <h2>@Model.Name</h2> <!-- Hiển thị tên tài liệu -->
 
-<p><strong>Description:</strong> @Model.Content</p>
+<p><strong>Description:</strong></p>
+<div style="padding-left: 4px;">
+    @Html.Raw(Model.Content)
+</div>
+
 <p><strong>Upload Date:</strong> @Model.CreatedDate.ToString("dd/MM/yyyy")</p>
 
 @if (!string.IsNullOrEmpty(Model.FileURL))

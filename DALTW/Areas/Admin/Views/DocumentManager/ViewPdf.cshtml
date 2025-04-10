@@ -1,22 +1,52 @@
-﻿@model DALTW.Models.Document
-
 @{
     ViewData["Title"] = "Xem tài liệu PDF";
+    var document = ViewBag.Document as DALTW.Models.Document;
 }
 
-<h2>@Model.Name</h2> 
+<div class="container mt-4">
+    <h2 class="mb-3">@document?.Name</h2>
 
-<p><strong>Description:</strong> @Model.Content</p>
-<p><strong>Upload Date:</strong> @Model.CreatedDate.ToString("dd/MM/yyyy")</p>
+    <!-- Hiển thị nội dung mô tả (content) -->
+    @if (!string.IsNullOrEmpty(document?.Content))
+    {
+        <div class="mb-3">
+            <strong>Description:</strong>
+            <div class="border rounded p-3 bg-light" style="white-space: normal;">
+                @Html.Raw(document.Content)
+            </div>
+        </div>
+    }
 
-@if (!string.IsNullOrEmpty(Model.FileURL))
-{
-    <div class="pdf-preview">
-        <iframe src="@Url.Content(Model.FileURL)" width="100%" height="800px"></iframe>
+    <!-- Ngày upload và lượt xem -->
+    <p>
+        <strong>Upload Date:</strong> @document?.CreatedDate.ToString("dd/MM/yyyy")<br />
+        <strong>View Count:</strong> @document?.ViewCount
+    </p>
+
+    <!-- Nút chức năng -->
+    <div class="mb-4">
+        <form action="@Url.Action("Edit", "DocumentManager", new { id = document?.DocumentID })" method="get" style="display:inline;">
+            <button type="submit" class="btn btn-warning me-2">
+                <i class="fas fa-edit"></i> Chỉnh sửa
+            </button>
+        </form>
+
+        @if (User.IsInRole("Admin"))
+        {
+            <form action="@Url.Action("Delete", "DocumentManager", new { id = document?.DocumentID })"
+                  method="post" style="display:inline;">
+                <button type="submit" class="btn btn-danger me-2"
+                        onclick="return confirm('Bạn có chắc muốn xóa?');">
+                    <i class="fas fa-trash-alt"></i> Xóa
+                </button>
+            </form>
+        }
+
+        <a href="@Url.Action("Index", "DocumentManager")" class="btn btn-secondary">
+            <i class="fas fa-arrow-left"></i> Quay lại
+        </a>
     </div>
 
-    <a href="@Url.Action("Index", "DocumentManager")" class="btn btn-secondary">
-        <i class="fas fa-arrow-left"></i> Quay lại
-    </a>
-}
-
+    <!-- Hiển thị file PDF -->
+    <iframe src="@Model" width="100%" height="800px" style="border:1px solid #ccc; border-radius: 8px;"></iframe>
+</div>
