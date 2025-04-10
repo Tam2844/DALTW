@@ -1,4 +1,6 @@
 ﻿@model IEnumerable<Document>
+@using DALTW.Helper
+
 <link href="~/css/site.css" rel="stylesheet" />
 <h2>Tài liệu</h2>
 @using (Html.BeginForm("Index", "DocumentUser", FormMethod.Get))
@@ -69,10 +71,10 @@
                 <!-- Nội dung -->
                 <div class="flex-grow-1">
                     <h6 class="fw-bold mb-2" style="font-size: 1.05rem;">
-                        <a href="@Url.Action("ViewPdf", "DocumentUser", new { id = document.DocumentID })" class="text-dark text-decoration-none">
+                        <a href="@Url.RouteUrl("document_slug", new { id = document.DocumentID, slug = SlugHelper.GenerateSlug(document.Name) })" class="text-dark text-decoration-none">
                             @document.Name
-
                         </a>
+
                     </h6>
 
                     @if (!string.IsNullOrEmpty(document.Content))

@@ -9,6 +9,7 @@ namespace DALTW.Repositories
         Task UpdateAsync(Document document);
         Task DeleteAsync(int id);
         Task<List<Document>> GetNewestDocumentsAsync(int count);
+        Task<Document> GetBySlugAsync(string slug);
 
     }
 }
