@@ -9,12 +9,15 @@ using Microsoft.AspNetCore.Authorization;
 using System.Linq;
 using DALTW.Repositories;
 using Aspose.Words;
+using DALTW.Models;
 
 namespace DALTW.Controllers
 {
     public class DocumentUserController : Controller
     {
-    
+        private readonly ApplicationDbContext _context;
+
+
         private readonly IWebHostEnvironment _webHostEnvironment;
         private readonly IDocumentRepository _documentRepository;
         private readonly ICategoryRepository _categoryRepository;
@@ -24,6 +27,7 @@ namespace DALTW.Controllers
         private readonly ICompetitionRepository _competitionRepository;
 
         public DocumentUserController(
+            ApplicationDbContext context,
             IWebHostEnvironment webHostEnvironment,
             IDocumentRepository documentRepository,
             ICategoryRepository categoryRepository,
@@ -32,6 +36,7 @@ namespace DALTW.Controllers
             ISemesterRepository semesterRepository,
             ICompetitionRepository competitionRepository)
         {
+            _context = context;
             _webHostEnvironment = webHostEnvironment;
             _documentRepository = documentRepository;
             _categoryRepository = categoryRepository;
@@ -209,6 +214,18 @@ namespace DALTW.Controllers
                 return null;
             }
         }
+        public IActionResult ByGradeSemester(int gradeId, int semesterId)
+        {
+            var documents = _context.Documents
+                .Where(d => d.GradeID == gradeId && d.SemesterID == semesterId)
+                .ToList();
+
+            ViewBag.GradeName = _context.Grades.FirstOrDefault(g => g.GradeID == gradeId)?.Name;
+            ViewBag.SemesterName = _context.Semesters.FirstOrDefault(s => s.SemesterID == semesterId)?.Name;
+
+            return View(documents);
+        }
+
         [HttpGet]
         public async Task<IActionResult> GetSuggestions(string keyword)
         {
