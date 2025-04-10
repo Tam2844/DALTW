@@ -4,13 +4,30 @@
 }
 
 <style>
+
+    #suggestion-box {
+        max-height: 250px;
+        overflow-y: auto;
+        border: 1px solid #ccc;
+        border-top: none;
+        background-color: white;
+        border-radius: 0 0 5px 5px;
+    }
+
+        #suggestion-box a {
+            padding: 8px 12px;
+            font-size: 0.95rem;
+        }
+
+            #suggestion-box a:hover {
+                background-color: #f5f5f5;
+            }
     .hero-text {
         color: #b35c2e;
         font-weight: bold;
         text-align: center;
         margin-top: 30px;
     }
-
     .search-box {
         width: 60%;
         margin: 15px auto;
@@ -70,10 +87,18 @@
 <div class="container text-center">
     <h2 class="hero-text">📚 What do you want to learn today?</h2>
 
-    <div class="search-box">
-        <input type="text" placeholder="Search for English lessons, topics, and resources..." />
+    <div class="search-box position-relative">
+        <input type="text" id="search-box" placeholder="Search for English lessons, topics, and resources..." autocomplete="off" />
         <button><i class="bi bi-search"></i> 🔍</button>
+
+        <!-- Suggestion box -->
+        <div id="suggestion-box"
+             class="list-group position-absolute w-100"
+             style="top: 100%; z-index: 1000; display: none;">
+        </div>
     </div>
+
+
 </div>
 
 <!-- Danh sách tài liệu mới -->
@@ -131,6 +156,9 @@
 
                     <p class="text-muted mb-0" style="font-size: 0.9rem;">
                         <i class="far fa-clock me-1"></i> @document.CreatedDate.ToString("dd/MM/yyyy")
+
+                    <p><strong>Lượt xem:</strong> @document.ViewCount</p>
+
                     </p>
                 </div>
             </div>
@@ -143,3 +171,37 @@
     <h5>Lượt truy cập: <strong>@ViewBag.TotalVisits</strong></h5>
     <h5>Số tài liệu: <strong>@ViewBag.TotalDocuments</strong></h5>
 </div>
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#search-box').on('keyup', function () {
+                let keyword = $(this).val();
+                if (keyword.length >= 2) {
+                    $.ajax({
+                        url: '/DocumentUser/GetSuggestions',
+                        type: 'GET',
+                        data: { keyword: keyword },
+                        success: function (data) {
+                            let suggestionHtml = '';
+                            data.forEach(function (item) {
+                                suggestionHtml += `<a href="/DocumentUser/ViewPdf/${item.id}" class="list-group-item list-group-item-action">${item.name}</a>`;
+                            });
+                            $('#suggestion-box').html(suggestionHtml).show();
+                        }
+                    });
+                } else {
+                    $('#suggestion-box').hide();
+                }
+            });
+
+            // Click ra ngoài thì ẩn gợi ý
+            $(document).on('click', function (e) {
+                if (!$(e.target).closest('#search-box').length) {
+                    $('#suggestion-box').hide();
+                }
+            });
+        });
+    </script>
+}
+

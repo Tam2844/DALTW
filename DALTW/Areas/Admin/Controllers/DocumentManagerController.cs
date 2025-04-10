@@ -138,33 +138,50 @@ namespace DALTW.Areas.Admin.Controllers
         }
         [Authorize(Roles = "Admin, Employee")]
         // 🔄 Chuyển đổi Word sang PDF
+
         public async Task<IActionResult> ViewPdf(int id)
         {
             var document = await _documentRepository.GetByIdAsync(id);
+
             if (document == null || string.IsNullOrEmpty(document.FileURL))
             {
                 return NotFound("Tài liệu không tồn tại hoặc không có file Word.");
             }
 
-            // Đường dẫn file
-            string wordPath = Path.Combine(_webHostEnvironment.WebRootPath, document.FileURL.TrimStart('/'));
-            string pdfPath = Path.ChangeExtension(wordPath, ".pdf");
+            string viewedKey = $"viewed_doc_{id}";
 
-            // Nếu file PDF chưa tồn tại, thực hiện chuyển đổi
+            // Kiểm tra xem session đã lưu lượt xem chưa
+            if (HttpContext.Session.GetString(viewedKey) == null)
+            {
+                document.ViewCount += 1;
+                await _documentRepository.UpdateAsync(document); // Gọi hàm update
+                HttpContext.Session.SetString(viewedKey, "true"); // Đánh dấu đã xem
+            }
+
+            string wordPath = Path.Combine(_webHostEnvironment.WebRootPath, document.FileURL.TrimStart('/'));
+
+            if (!System.IO.File.Exists(wordPath))
+            {
+                return NotFound("File Word không tồn tại.");
+            }
+
+            string pdfPath = Path.ChangeExtension(wordPath, ".pdf");
             if (!System.IO.File.Exists(pdfPath))
             {
                 try
                 {
-                    new Aspose.Words.Document(wordPath).Save(pdfPath, SaveFormat.Pdf);
+                    var wordDocument = new Aspose.Words.Document(wordPath);
+                    wordDocument.Save(pdfPath, Aspose.Words.SaveFormat.Pdf);
                 }
                 catch (Exception ex)
                 {
                     return BadRequest("Lỗi chuyển đổi file: " + ex.Message);
                 }
             }
-            ViewBag.DocumentID = document.DocumentID;
-            string pdfUrl = "/" + Path.GetRelativePath(_webHostEnvironment.WebRootPath, pdfPath).Replace("\\", "/");
-            return View("ViewPdf", pdfUrl);
+
+            document.FileURL = "/" + Path.GetRelativePath(_webHostEnvironment.WebRootPath, pdfPath).Replace("\\", "/");
+
+            return View("ViewPdf", document);
         }
 
 
@@ -352,6 +369,26 @@ namespace DALTW.Areas.Admin.Controllers
                 Console.WriteLine("Lỗi khi chuyển đổi: " + ex.Message);
                 return null;
             }
+        }
+        [HttpGet]
+        public async Task<IActionResult> GetSuggestions(string keyword)
+        {
+            if (string.IsNullOrWhiteSpace(keyword))
+                return Json(new List<object>());
+
+            var documents = await _documentRepository.GetAllAsync();
+
+            var results = documents
+                .Where(d => d.Name.ToLower().Contains(keyword.ToLower()))
+                .Select(d => new
+                {
+                    id = d.DocumentID,
+                    name = d.Name
+                })
+                .Take(10) // Giới hạn 10 kết quả gợi ý
+                .ToList();
+
+            return Json(results);
         }
     }
 }

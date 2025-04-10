@@ -19,6 +19,7 @@ public class TrafficLoggerMiddleware
 
     public async Task Invoke(HttpContext context)
     {
+        // Bỏ qua các file tĩnh
         if (context.Request.Path.StartsWithSegments("/css") ||
             context.Request.Path.StartsWithSegments("/js") ||
             context.Request.Path.StartsWithSegments("/images") ||
@@ -28,13 +29,20 @@ public class TrafficLoggerMiddleware
             return;
         }
 
-        using (var scope = _scopeFactory.CreateScope())
+        // Kiểm tra Session
+        if (!context.Session.Keys.Contains("HasLoggedTraffic"))
         {
-            var trafficLogRepository = scope.ServiceProvider.GetRequiredService<ITrafficLogRepository>();
-            string ipAddress = context.Connection.RemoteIpAddress?.ToString();
-            string url = context.Request.Path;
+            using (var scope = _scopeFactory.CreateScope())
+            {
+                var trafficLogRepository = scope.ServiceProvider.GetRequiredService<ITrafficLogRepository>();
+                string ipAddress = context.Connection.RemoteIpAddress?.ToString();
+                string url = context.Request.Path;
 
-            await trafficLogRepository.LogVisitAsync(ipAddress, url);
+                await trafficLogRepository.LogVisitAsync(ipAddress, url);
+
+                // Gắn cờ session đã log
+                context.Session.SetString("HasLoggedTraffic", "true");
+            }
         }
 
         await _next(context);
