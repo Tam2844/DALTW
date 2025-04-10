@@ -9,10 +9,6 @@
       "PackagePath": "staticwebassets\\DocFile\\The_Research_Study_on_DynamoDB_NoSQL_Dat.pdf"
     },
     {
-      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\DocFile\\Tài liệu tiếng Anh bổ trợ lớp 5 - Unit 1.pdf",
-      "PackagePath": "staticwebassets\\DocFile\\Tài liệu tiếng Anh bổ trợ lớp 5 - Unit 1.pdf"
-    },
-    {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\DocFile\\tieng-anh-chuyen-de-2.docx",
       "PackagePath": "staticwebassets\\DocFile\\tieng-anh-chuyen-de-2.docx"
     },
@@ -53,6 +49,10 @@
       "PackagePath": "staticwebassets\\images\\0027e8d4-6d86-407e-bc49-c59443557718.png"
     },
     {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\00e297c9-087f-4031-ad6d-9ca450b30560.png",
+      "PackagePath": "staticwebassets\\images\\00e297c9-087f-4031-ad6d-9ca450b30560.png"
+    },
+    {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\010132ea-6237-4b12-a727-abdec7ec7743.png",
       "PackagePath": "staticwebassets\\images\\010132ea-6237-4b12-a727-abdec7ec7743.png"
     },
@@ -75,6 +75,10 @@
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\057f6fcf-66f3-4200-afe1-52cc74bb31ee.png",
       "PackagePath": "staticwebassets\\images\\057f6fcf-66f3-4200-afe1-52cc74bb31ee.png"
+    },
+    {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\07c607a7-ae98-4dfe-9ae6-d1d7294b2670.png",
+      "PackagePath": "staticwebassets\\images\\07c607a7-ae98-4dfe-9ae6-d1d7294b2670.png"
     },
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\08d04ec9-0e09-4179-82e5-29f9bdf4474b.png",
@@ -119,6 +123,10 @@
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\10775453-0d4e-47c0-9fc4-8f4a19bebb55.png",
       "PackagePath": "staticwebassets\\images\\10775453-0d4e-47c0-9fc4-8f4a19bebb55.png"
+    },
+    {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\110856cb-4ca1-429f-a6e7-48f795a9a2e8.png",
+      "PackagePath": "staticwebassets\\images\\110856cb-4ca1-429f-a6e7-48f795a9a2e8.png"
     },
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\11ece75f-fb3e-4d43-bfed-147df5823a37.png",
@@ -261,6 +269,10 @@
       "PackagePath": "staticwebassets\\images\\2d7c43f0-4ae0-4e85-873d-2d952c6a40bd.png"
     },
     {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\2eaa289e-73ec-4e0e-81af-11c0dd7da4c3.png",
+      "PackagePath": "staticwebassets\\images\\2eaa289e-73ec-4e0e-81af-11c0dd7da4c3.png"
+    },
+    {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\31246555-72ef-4db3-8449-d74238781291.png",
       "PackagePath": "staticwebassets\\images\\31246555-72ef-4db3-8449-d74238781291.png"
     },
@@ -273,8 +285,16 @@
       "PackagePath": "staticwebassets\\images\\317cc149-927e-475e-9734-e4e88b343164.png"
     },
     {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\330064f2-1153-496f-a25e-c99869e82368.png",
+      "PackagePath": "staticwebassets\\images\\330064f2-1153-496f-a25e-c99869e82368.png"
+    },
+    {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\331e172b-8196-4a91-884c-b84b3a98a8fd.png",
       "PackagePath": "staticwebassets\\images\\331e172b-8196-4a91-884c-b84b3a98a8fd.png"
+    },
+    {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\3387289c-0936-43f3-91be-c4d45a7ee04c.png",
+      "PackagePath": "staticwebassets\\images\\3387289c-0936-43f3-91be-c4d45a7ee04c.png"
     },
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\340beedb-9a36-4f3c-acca-c6f58466caf2.png",
@@ -353,6 +373,10 @@
       "PackagePath": "staticwebassets\\images\\42b17a93-74be-464b-86f7-0653c585e4fe.png"
     },
     {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\4980139f-5446-413e-acf0-bd5637776268.png",
+      "PackagePath": "staticwebassets\\images\\4980139f-5446-413e-acf0-bd5637776268.png"
+    },
+    {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\49a6b796-aa39-4f43-95f0-2b7a622afc40.png",
       "PackagePath": "staticwebassets\\images\\49a6b796-aa39-4f43-95f0-2b7a622afc40.png"
     },
@@ -395,6 +419,10 @@
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\55d50d1c-46ff-410f-964d-6025c53ff4ab.png",
       "PackagePath": "staticwebassets\\images\\55d50d1c-46ff-410f-964d-6025c53ff4ab.png"
+    },
+    {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\56c8d235-9f09-4314-a091-ea6030a7e621.png",
+      "PackagePath": "staticwebassets\\images\\56c8d235-9f09-4314-a091-ea6030a7e621.png"
     },
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\571f5f6f-0836-4fba-b25a-dd84a930c87f.png",
@@ -561,6 +589,10 @@
       "PackagePath": "staticwebassets\\images\\77cc68f7-b309-432d-b990-fa4b0fbf7953.png"
     },
     {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\7997fda4-d3c2-4c16-a0fe-ed7860d1db9a.png",
+      "PackagePath": "staticwebassets\\images\\7997fda4-d3c2-4c16-a0fe-ed7860d1db9a.png"
+    },
+    {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\7aa416a0-e6fd-4d19-9415-5510c2b20b7b.png",
       "PackagePath": "staticwebassets\\images\\7aa416a0-e6fd-4d19-9415-5510c2b20b7b.png"
     },
@@ -571,6 +603,18 @@
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\7ee39fef-1936-469d-b6c5-7a8141571c8c.png",
       "PackagePath": "staticwebassets\\images\\7ee39fef-1936-469d-b6c5-7a8141571c8c.png"
+    },
+    {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\7f64e477-af39-4f44-a4c0-5fd45a728334.png",
+      "PackagePath": "staticwebassets\\images\\7f64e477-af39-4f44-a4c0-5fd45a728334.png"
+    },
+    {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\7fd761d1-2eec-4afb-98a0-ff78a22a2d67.png",
+      "PackagePath": "staticwebassets\\images\\7fd761d1-2eec-4afb-98a0-ff78a22a2d67.png"
+    },
+    {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\80f4e4c8-479c-4843-81c5-e9241ee15f49.png",
+      "PackagePath": "staticwebassets\\images\\80f4e4c8-479c-4843-81c5-e9241ee15f49.png"
     },
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\81db028f-b1d9-4fc8-89e0-5cbcd5e1ab61.png",
@@ -609,8 +653,16 @@
       "PackagePath": "staticwebassets\\images\\8789ab53-500b-45f5-b93b-bf5c93bec631.png"
     },
     {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\87d19697-6652-40b6-a2ff-a58201cd4f56.png",
+      "PackagePath": "staticwebassets\\images\\87d19697-6652-40b6-a2ff-a58201cd4f56.png"
+    },
+    {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\8897b46f-7e9d-49ec-bdef-013c2f65f6e6.png",
       "PackagePath": "staticwebassets\\images\\8897b46f-7e9d-49ec-bdef-013c2f65f6e6.png"
+    },
+    {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\88cf558b-5297-4a0a-9c3a-c05ca926c59f.png",
+      "PackagePath": "staticwebassets\\images\\88cf558b-5297-4a0a-9c3a-c05ca926c59f.png"
     },
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\8a6bbd94-5756-42c4-b529-2ea6108036cf.png",
@@ -623,6 +675,10 @@
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\8b02e9f3-b938-4f4a-b2d9-d1a76c913e96.png",
       "PackagePath": "staticwebassets\\images\\8b02e9f3-b938-4f4a-b2d9-d1a76c913e96.png"
+    },
+    {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\8be5dbdf-e005-49cc-aa80-6f314685df45.png",
+      "PackagePath": "staticwebassets\\images\\8be5dbdf-e005-49cc-aa80-6f314685df45.png"
     },
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\8d9efe9c-f769-4010-9d8a-cc453db217b4.png",
@@ -647,6 +703,10 @@
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\910c9793-fddf-4796-b1e6-4a5cd1536637.png",
       "PackagePath": "staticwebassets\\images\\910c9793-fddf-4796-b1e6-4a5cd1536637.png"
+    },
+    {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\91e97a99-ba57-423d-87f1-1cca91b3a007.png",
+      "PackagePath": "staticwebassets\\images\\91e97a99-ba57-423d-87f1-1cca91b3a007.png"
     },
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\94599191-dc2c-43d3-b83d-4cc52d5eb0db.png",
@@ -709,6 +769,10 @@
       "PackagePath": "staticwebassets\\images\\9ec28c1d-0002-4988-b641-0f4fce0d0dc3.png"
     },
     {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\9f117165-fcb4-4b37-989a-2976a691f629.png",
+      "PackagePath": "staticwebassets\\images\\9f117165-fcb4-4b37-989a-2976a691f629.png"
+    },
+    {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\a018e0c9-d417-44bc-888b-e76f346cb885.png",
       "PackagePath": "staticwebassets\\images\\a018e0c9-d417-44bc-888b-e76f346cb885.png"
     },
@@ -735,6 +799,14 @@
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\a4644056-c055-4d19-bfe1-cd26b6e24b19.png",
       "PackagePath": "staticwebassets\\images\\a4644056-c055-4d19-bfe1-cd26b6e24b19.png"
+    },
+    {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\a529e16d-520a-4a7d-a410-07735da884ec.png",
+      "PackagePath": "staticwebassets\\images\\a529e16d-520a-4a7d-a410-07735da884ec.png"
+    },
+    {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\a5425349-1d9e-4e4a-89cb-096f646a85ee.png",
+      "PackagePath": "staticwebassets\\images\\a5425349-1d9e-4e4a-89cb-096f646a85ee.png"
     },
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\a5865939-606f-461d-9155-2377f9b999cb.png",
@@ -781,6 +853,10 @@
       "PackagePath": "staticwebassets\\images\\aea3049e-64eb-4c52-a492-34157d883d0a.png"
     },
     {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\af3d4376-b17d-4211-ac7d-5e00b926c85c.png",
+      "PackagePath": "staticwebassets\\images\\af3d4376-b17d-4211-ac7d-5e00b926c85c.png"
+    },
+    {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\afb49fe6-5d5e-4567-ba92-aeea26f2a4dd.png",
       "PackagePath": "staticwebassets\\images\\afb49fe6-5d5e-4567-ba92-aeea26f2a4dd.png"
     },
@@ -791,6 +867,10 @@
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\b136c53c-30ac-428c-99d9-bd1893c6f77a.png",
       "PackagePath": "staticwebassets\\images\\b136c53c-30ac-428c-99d9-bd1893c6f77a.png"
+    },
+    {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\b13ab169-d29b-41d0-ae69-25d791afa07b.png",
+      "PackagePath": "staticwebassets\\images\\b13ab169-d29b-41d0-ae69-25d791afa07b.png"
     },
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\b183da33-b15a-48da-8314-7e96af7a598e.png",
@@ -815,6 +895,10 @@
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\b563defa-597a-430f-ba39-61916cb2e576.png",
       "PackagePath": "staticwebassets\\images\\b563defa-597a-430f-ba39-61916cb2e576.png"
+    },
+    {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\b57ea64f-bace-494f-8a9d-0e4a08d7dad1.png",
+      "PackagePath": "staticwebassets\\images\\b57ea64f-bace-494f-8a9d-0e4a08d7dad1.png"
     },
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\b583fd1d-ff01-42af-8fe8-fcb902da45f1.png",
@@ -855,6 +939,10 @@
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\ba3e0c0f-53d8-4f8d-b9af-ce7539303dd3.png",
       "PackagePath": "staticwebassets\\images\\ba3e0c0f-53d8-4f8d-b9af-ce7539303dd3.png"
+    },
+    {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\baac221b-21dc-48c5-8067-eedb1b352d59.png",
+      "PackagePath": "staticwebassets\\images\\baac221b-21dc-48c5-8067-eedb1b352d59.png"
     },
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\bae8decf-eb56-4071-89c6-e11d17c5fe20.png",
@@ -927,6 +1015,10 @@
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\c5bd7c77-6823-4317-b1f0-9bdf50232644.png",
       "PackagePath": "staticwebassets\\images\\c5bd7c77-6823-4317-b1f0-9bdf50232644.png"
+    },
+    {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\c5f3e73a-c6a2-4825-b0d5-84ea944ddd29.png",
+      "PackagePath": "staticwebassets\\images\\c5f3e73a-c6a2-4825-b0d5-84ea944ddd29.png"
     },
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\c671a162-8ca2-4b24-b5f8-8b5eec1bb39e.png",
@@ -1053,6 +1145,14 @@
       "PackagePath": "staticwebassets\\images\\dc201bb2-8620-44ef-a25e-00a4a23403c9.png"
     },
     {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\dc8c6d9a-1031-43d6-a08b-d84afb928674.png",
+      "PackagePath": "staticwebassets\\images\\dc8c6d9a-1031-43d6-a08b-d84afb928674.png"
+    },
+    {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\dddc7fea-67fc-497c-adb3-29f75b211ccc.png",
+      "PackagePath": "staticwebassets\\images\\dddc7fea-67fc-497c-adb3-29f75b211ccc.png"
+    },
+    {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\e0252103-b83d-42ef-9e90-8812dd3c1e05.png",
       "PackagePath": "staticwebassets\\images\\e0252103-b83d-42ef-9e90-8812dd3c1e05.png"
     },
@@ -1079,6 +1179,10 @@
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\e75f8b68-bf8e-4c40-b59f-ed2cd630fb87.png",
       "PackagePath": "staticwebassets\\images\\e75f8b68-bf8e-4c40-b59f-ed2cd630fb87.png"
+    },
+    {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\e7ac43ba-a68f-48f3-97c2-3ff471d107ff.png",
+      "PackagePath": "staticwebassets\\images\\e7ac43ba-a68f-48f3-97c2-3ff471d107ff.png"
     },
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\e7ff3ac0-a746-49f7-a3d2-7e1380742bee.png",
@@ -1185,6 +1289,10 @@
       "PackagePath": "staticwebassets\\images\\f9db266d-0802-4bd7-9d62-1dfa605993f8.png"
     },
     {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\fa008229-8267-4310-921e-1d4201c83ee6.png",
+      "PackagePath": "staticwebassets\\images\\fa008229-8267-4310-921e-1d4201c83ee6.png"
+    },
+    {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\fa4e8850-9e0b-40f0-8a77-c4c595c0a299.png",
       "PackagePath": "staticwebassets\\images\\fa4e8850-9e0b-40f0-8a77-c4c595c0a299.png"
     },
@@ -1207,6 +1315,10 @@
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\fdcef784-c11b-4694-90e0-a0488330fd41.png",
       "PackagePath": "staticwebassets\\images\\fdcef784-c11b-4694-90e0-a0488330fd41.png"
+    },
+    {
+      "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\ff08146b-cbce-4a9e-8a71-954040204472.png",
+      "PackagePath": "staticwebassets\\images\\ff08146b-cbce-4a9e-8a71-954040204472.png"
     },
     {
       "Id": "D:\\Lap trinh web\\DALTW\\DALTW\\wwwroot\\images\\ff9bb438-a7ff-44f4-854b-bff242ec8135.png",

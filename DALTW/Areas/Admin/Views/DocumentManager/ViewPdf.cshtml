@@ -1,29 +1,53 @@
-﻿@{
+﻿@model string
+@{
     ViewData["Title"] = "Xem tài liệu PDF";
-}
-<h2>Xem tài liệu PDF</h2>
-
-<form action="@Url.Action("Edit", "DocumentManager", new { id = ViewBag.DocumentID })" method="get" style="display:inline;">
-    <button type="submit" class="btn btn-warning mt-3">
-        <i class="fas fa-edit"></i> Chỉnh sửa
-    </button>
-</form>
-
-@if (User.IsInRole("Admin"))
-{
-    <form action="@Url.Action("Delete", "DocumentManager", new { id = ViewBag.DocumentID })"
-          method="post" style="display:inline;">
-        <button type="submit" class="btn btn-danger mt-3"
-                onclick="return confirm('Bạn có chắc muốn xóa?');">
-            <i class="fas fa-trash-alt"></i> Xóa
-        </button>
-    </form>
+    var document = ViewBag.Document as DALTW.Models.Document;
 }
 
+<div class="container mt-4">
+    <h2 class="mb-3">@document?.Name</h2>
 
-<a href="@Url.Action("Index", "DocumentManager")" class="btn btn-secondary mt-3">
-    <i class="fas fa-arrow-left"></i> Quay lại
-</a>
+    <!-- Hiển thị nội dung mô tả (content) -->
+    @if (!string.IsNullOrEmpty(document?.Content))
+    {
+        <div class="mb-3">
+            <strong>Description:</strong>
+            <div class="border rounded p-3 bg-light" style="white-space: normal;">
+                @Html.Raw(document.Content)
+            </div>
+        </div>
+    }
 
+    <!-- Ngày upload và lượt xem -->
+    <p>
+        <strong>Upload Date:</strong> @document?.CreatedDate.ToString("dd/MM/yyyy")<br />
+        <strong>View Count:</strong> @document?.ViewCount
+    </p>
 
-<iframe src="@Model" width="100%" height="800px"></iframe>
+    <!-- Nút chức năng -->
+    <div class="mb-4">
+        <form action="@Url.Action("Edit", "DocumentManager", new { id = document?.DocumentID })" method="get" style="display:inline;">
+            <button type="submit" class="btn btn-warning me-2">
+                <i class="fas fa-edit"></i> Chỉnh sửa
+            </button>
+        </form>
+
+        @if (User.IsInRole("Admin"))
+        {
+            <form action="@Url.Action("Delete", "DocumentManager", new { id = document?.DocumentID })"
+                  method="post" style="display:inline;">
+                <button type="submit" class="btn btn-danger me-2"
+                        onclick="return confirm('Bạn có chắc muốn xóa?');">
+                    <i class="fas fa-trash-alt"></i> Xóa
+                </button>
+            </form>
+        }
+
+        <a href="@Url.Action("Index", "DocumentManager")" class="btn btn-secondary">
+            <i class="fas fa-arrow-left"></i> Quay lại
+        </a>
+    </div>
+
+    <!-- Hiển thị file PDF -->
+    <iframe src="@Model" width="100%" height="800px" style="border:1px solid #ccc; border-radius: 8px;"></iframe>
+</div>

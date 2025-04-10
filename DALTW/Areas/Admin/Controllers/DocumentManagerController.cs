@@ -145,27 +145,27 @@ namespace DALTW.Areas.Admin.Controllers
 
             if (document == null || string.IsNullOrEmpty(document.FileURL))
             {
-                return NotFound("Tài liệu không tồn tại hoặc không có file Word.");
+                return Content("Tài liệu không tồn tại hoặc không có file Word.");
             }
 
             string viewedKey = $"viewed_doc_{id}";
 
-            // Kiểm tra xem session đã lưu lượt xem chưa
             if (HttpContext.Session.GetString(viewedKey) == null)
             {
                 document.ViewCount += 1;
-                await _documentRepository.UpdateAsync(document); // Gọi hàm update
-                HttpContext.Session.SetString(viewedKey, "true"); // Đánh dấu đã xem
+                await _documentRepository.UpdateAsync(document);
+                HttpContext.Session.SetString(viewedKey, "true");
             }
 
             string wordPath = Path.Combine(_webHostEnvironment.WebRootPath, document.FileURL.TrimStart('/'));
 
             if (!System.IO.File.Exists(wordPath))
             {
-                return NotFound("File Word không tồn tại.");
+                return Content("File Word không tồn tại.");
             }
 
             string pdfPath = Path.ChangeExtension(wordPath, ".pdf");
+
             if (!System.IO.File.Exists(pdfPath))
             {
                 try
@@ -175,13 +175,15 @@ namespace DALTW.Areas.Admin.Controllers
                 }
                 catch (Exception ex)
                 {
-                    return BadRequest("Lỗi chuyển đổi file: " + ex.Message);
+                    return Content("Lỗi chuyển đổi file: " + ex.Message);
                 }
             }
 
-            document.FileURL = "/" + Path.GetRelativePath(_webHostEnvironment.WebRootPath, pdfPath).Replace("\\", "/");
+            // ✅ Truyền đường dẫn PDF cho view
+            string pdfRelativePath = "/" + Path.GetRelativePath(_webHostEnvironment.WebRootPath, pdfPath).Replace("\\", "/");
+            ViewBag.Document = document;
 
-            return View("ViewPdf", document);
+            return View("ViewPdf", pdfRelativePath);
         }
 
 
