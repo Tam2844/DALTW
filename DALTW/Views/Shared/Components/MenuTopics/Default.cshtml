@@ -1,0 +1,19 @@
+﻿<li class="nav-item dropdown mega-dropdown">
+    <a class="nav-link dropdown-toggle text-dark" href="#" id="topicsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Topics
+    </a>
+
+    <div class="dropdown-menu p-3" aria-labelledby="topicsDropdown" style="min-width: 300px;">
+        <ul class="list-unstyled">
+            @foreach (var topic in Model as List<DALTW.Models.Topic>)
+            {
+                <li class="mb-2">
+                    <a class="text-dark text-decoration-none fw-medium"
+                       href="/DocumentUser?topicId=@topic.TopicID">
+                        @topic.TopicName
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+</li>

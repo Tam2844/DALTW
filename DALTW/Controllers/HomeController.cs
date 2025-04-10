@@ -34,7 +34,7 @@ public class HomeController : Controller
                 document.ImageFilePath = ConvertWordToImage(filePath);
             }
         }
-
+        
         return View(documents);
     }
 

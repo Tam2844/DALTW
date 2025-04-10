@@ -1,0 +1,25 @@
+﻿<li class="nav-item dropdown mega-dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="gradesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Grades
+    </a>
+
+    <div class="dropdown-menu mega-menu p-4" aria-labelledby="gradesDropdown">
+        <div class="d-flex flex-wrap" style="min-width: 600px;">
+            @foreach (var grade in ViewBag.Grades as List<DALTW.Models.Grade>)
+            {
+                <div style="width: 22%; margin-right: 15px; margin-bottom: 20px;">
+                    <div class="fw-bold text-danger">@grade.Name</div>
+                    <ul class="list-unstyled ps-3">
+                        @foreach (var semester in ViewBag.Semesters as List<DALTW.Models.Semester>)
+                        {
+                            <li>
+                                <a href="/DocumentUser/ByGradeSemester?gradeId=@grade.GradeID&semesterId=@semester.SemesterID">
+    @semester.Name
+</a>
+
+                            </li>
+                        }
+                    </ul>
+                </div>
+            }
+        </div>

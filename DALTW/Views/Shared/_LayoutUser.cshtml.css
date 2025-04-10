@@ -1,5 +1,64 @@
 ﻿/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
+.mega-dropdown {
+    position: relative;
+}
+
+.mega-menu {
+    min-width: 600px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 999;
+}
+
+    .mega-menu a {
+        text-decoration: none;
+        color: #007bff;
+    }
+
+        .mega-menu a:hover {
+            text-decoration: underline;
+        }
+    .mega-menu ul {
+        padding-left: 15px;
+        list-style-type: disc;
+    }
+
+.grades-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.grade-block {
+    width: 22%;
+    min-width: 180px;
+}
+
+.grade-title {
+    font-weight: bold;
+    color: #d9534f;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.grade-block ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.grade-block li {
+    line-height: 1.6;
+}
+
+.grade-block a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+    .grade-block a:hover {
+        text-decoration: underline;
+    }
 
 a.navbar-brand {
   white-space: normal;

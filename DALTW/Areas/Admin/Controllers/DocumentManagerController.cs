@@ -18,6 +18,7 @@ namespace DALTW.Areas.Admin.Controllers
     
     public class DocumentManagerController : Controller
     {
+        private readonly ApplicationDbContext _context;
         private readonly IWebHostEnvironment _webHostEnvironment;
         private readonly IDocumentRepository _documentRepository;
         private readonly ICategoryRepository _categoryRepository;
@@ -27,6 +28,7 @@ namespace DALTW.Areas.Admin.Controllers
         private readonly ICompetitionRepository _competitionRepository;
 
         public DocumentManagerController(
+             ApplicationDbContext context,
             IWebHostEnvironment webHostEnvironment,
             IDocumentRepository documentRepository,
             ICategoryRepository categoryRepository,
@@ -35,6 +37,7 @@ namespace DALTW.Areas.Admin.Controllers
             ISemesterRepository semesterRepository,
             ICompetitionRepository competitionRepository)
         {
+            _context = context;
             _webHostEnvironment = webHostEnvironment;
             _documentRepository = documentRepository;
             _categoryRepository = categoryRepository;
