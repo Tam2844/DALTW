@@ -1,10 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using DALTW.Models;
 using DALTW.Repositories;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DALTW.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin, Employee")]
     public class SemesterController : Controller
     {
         private readonly ISemesterRepository _repository;

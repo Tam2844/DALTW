@@ -24,71 +24,108 @@
         <button type="submit" class="btn btn-primary"><i class="fas fa-filter"></i> Lọc</button>
     </div>
 
-    <form asp-action="Index" method="get" class="mb-3 d-flex align-items-center gap-2">
-        <!-- Ô tìm kiếm -->
-        <input type="text" name="keyword" value="@ViewBag.Keyword" class="form-control w-25" placeholder="Tìm kiếm tài liệu..." />
-        <!-- Nút tìm kiếm -->
-        <button type="submit" class="btn btn-primary"> Tìm kiếm</button>
-    </form>
+    <div class="mb-3 position-relative">
+        <input type="text" name="keyword" id="search-box" value="@ViewBag.Keyword" class="form-control w-25" placeholder="Tìm kiếm tài liệu..." autocomplete="off" />
+        <div id="suggestion-box" class="list-group position-absolute w-25" style="z-index: 1000;"></div>
+    </div>
+    <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+
 }
 <div class="row mt-4">
     @foreach (var document in Model)
     {
-        <div class="col-md-12 mb-4">
-            <div class="card" style="display: flex; flex-direction: row; padding: 10px;">
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm h-100 d-flex flex-row p-3" style="border-radius: 14px; align-items: flex-start; min-height: 180px;">
 
-                <!-- Hiển thị trang đầu tiên của Word -->
-                @if (!string.IsNullOrEmpty(document.ImageFilePath) && (document.FileURL == null || !document.FileURL.EndsWith(".pdf")))
+                <!-- Preview -->
+                <div class="me-3" style="flex-shrink: 0;">
+                    @if (!string.IsNullOrEmpty(document.ImageFilePath) && (document.FileURL == null || !document.FileURL.EndsWith(".pdf")))
+                    {
+                        <img src="@Url.Content(document.ImageFilePath)" alt="Preview"
+                             style="width: 110px; height: 160px; object-fit: cover; border-radius: 8px;" />
+                    }
+                    else if (document.FileURL != null && document.FileURL.EndsWith(".pdf"))
+                    {
+                        <canvas id="canvas-@document.DocumentID" width="110" height="160" style="border-radius: 8px;"></canvas>
 
-                {
-                    <div class="word-preview" style="flex: 1; margin-right: 20px;">
-                        <img src="@Url.Content(document.ImageFilePath)" alt="Word Document Preview" style="width: 400px; height: 500px;" />
-                    </div>
-                }
-
-                <!-- Hiển thị trang đầu tiên của PDF -->
-                @if (document.FileURL != null && document.FileURL.EndsWith(".pdf"))
-
-                {
-                    <div class="pdf-preview" style="flex: 1; margin-right: 20px;">
-                        <canvas id="canvas-@document.DocumentID" width="400" height="500"></canvas>
-                    </div>
-
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
-                    <script>
-                        var url = '@Url.Content("~/" + document.FileURL.TrimStart('/'))';
-
-                        pdfjsLib.getDocument(url).promise.then(function(pdf) {
-                            pdf.getPage(1).then(function(page) {
-                                var scale = 0.5;  // Tỷ lệ thu nhỏ trang PDF
-                                var viewport = page.getViewport({ scale: scale });
-
-                                var canvas = document.getElementById("canvas-@document.DocumentID");
-                                var context = canvas.getContext('2d');
-                                canvas.height = viewport.height;
-                                canvas.width = viewport.width;
-
-                                page.render({
-                                    canvasContext: context,
-                                    viewport: viewport
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+                        <script>
+                            var url = '@Url.Content("~/" + document.FileURL.TrimStart('/'))';
+                            pdfjsLib.getDocument(url).promise.then(function (pdf) {
+                                pdf.getPage(1).then(function (page) {
+                                    var scale = 0.6;
+                                    var viewport = page.getViewport({ scale: scale });
+                                    var canvas = document.getElementById("canvas-@document.DocumentID");
+                                    var context = canvas.getContext('2d');
+                                    canvas.height = viewport.height;
+                                    canvas.width = viewport.width;
+                                    page.render({ canvasContext: context, viewport: viewport });
                                 });
                             });
-                        });
-                    </script>
-                }
+                        </script>
+                    }
+                </div>
+                <p class="text-danger">ImageFilePath = @document.ImageFilePath</p>
 
-                <!-- Thông tin tài liệu (Tên, Mô tả, Ngày tạo) -->
-                <div class="card-body" style="flex: 1;">
-                    <h5 class="card-title">
-                        <a href="@Url.Action("ViewPdf", "DocumentUser", new { id = document.DocumentID })" class="document-title">
+                <!-- Nội dung -->
+                <div class="flex-grow-1">
+                    <h6 class="fw-bold mb-2" style="font-size: 1.05rem;">
+                        <a href="@Url.Action("ViewPdf", "DocumentUser", new { id = document.DocumentID })" class="text-dark text-decoration-none">
                             @document.Name
-                        </a>
-                    </h5>
 
-                    <p class="card-text">@document.Content</p>
-                    <p class="card-text"><small class="text-muted">@document.CreatedDate.ToString("dd/MM/yyyy")</small></p>
+                        </a>
+                    </h6>
+
+                    @* Mô tả ngắn *@
+                    @if (!string.IsNullOrEmpty(document.Content))
+                    {
+                        <p class="text-muted mb-2" style="font-size: 0.85rem;">
+                            @(
+                                document.Content.Length > 120
+                                ? document.Content.Substring(0, 117) + "..."
+                                : document.Content
+                                )
+                        </p>
+                    }
+
+                    <p class="text-muted mb-0" style="font-size: 0.9rem;">
+                        <i class="far fa-clock me-1"></i> @document.CreatedDate.ToString("dd/MM/yyyy")
+                    <p><strong>Lượt xem:</strong> @document.ViewCount</p>
+                    </p>
                 </div>
             </div>
         </div>
     }
 </div>
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#search-box').on('keyup', function () {
+                let keyword = $(this).val();
+                if (keyword.length >= 2) {
+                    $.ajax({
+                        url: '/DocumentUser/GetSuggestions',
+                        type: 'GET',
+                        data: { keyword: keyword },
+                        success: function (data) {
+                            let suggestionHtml = '';
+                            data.forEach(function (item) {
+                                suggestionHtml += `<a href="/DocumentUser/ViewPdf/${item.id}" class="list-group-item list-group-item-action">${item.name}</a>`;
+                            });
+                            $('#suggestion-box').html(suggestionHtml).show();
+                        }
+                    });
+                } else {
+                    $('#suggestion-box').hide();
+                }
+            });
+
+            $(document).on('click', function (e) {
+                if (!$(e.target).closest('#search-box').length) {
+                    $('#suggestion-box').hide();
+                }
+            });
+        });
+    </script>
+}

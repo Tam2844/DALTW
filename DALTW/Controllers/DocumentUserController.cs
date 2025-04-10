@@ -88,6 +88,7 @@ namespace DALTW.Controllers
             return View(documents);
         }
         [Authorize]
+
         public async Task<IActionResult> ViewPdf(int id)
         {
             var document = await _documentRepository.GetByIdAsync(id);
@@ -95,6 +96,16 @@ namespace DALTW.Controllers
             if (document == null || string.IsNullOrEmpty(document.FileURL))
             {
                 return NotFound("Tài liệu không tồn tại hoặc không có file Word.");
+            }
+
+            string viewedKey = $"viewed_doc_{id}";
+
+            // Kiểm tra xem session đã lưu lượt xem chưa
+            if (HttpContext.Session.GetString(viewedKey) == null)
+            {
+                document.ViewCount += 1;
+                await _documentRepository.UpdateAsync(document); // Gọi hàm update
+                HttpContext.Session.SetString(viewedKey, "true"); // Đánh dấu đã xem
             }
 
             string wordPath = Path.Combine(_webHostEnvironment.WebRootPath, document.FileURL.TrimStart('/'));
@@ -117,6 +128,7 @@ namespace DALTW.Controllers
                     return BadRequest("Lỗi chuyển đổi file: " + ex.Message);
                 }
             }
+
             document.FileURL = "/" + Path.GetRelativePath(_webHostEnvironment.WebRootPath, pdfPath).Replace("\\", "/");
 
             return View("ViewPdf", document);
@@ -196,6 +208,26 @@ namespace DALTW.Controllers
                 Console.WriteLine("Lỗi khi chuyển đổi: " + ex.Message);
                 return null;
             }
+        }
+        [HttpGet]
+        public async Task<IActionResult> GetSuggestions(string keyword)
+        {
+            if (string.IsNullOrWhiteSpace(keyword))
+                return Json(new List<object>());
+
+            var documents = await _documentRepository.GetAllAsync();
+
+            var results = documents
+                .Where(d => d.Name.ToLower().Contains(keyword.ToLower()))
+                .Select(d => new
+                {
+                    id = d.DocumentID,
+                    name = d.Name
+                })
+                .Take(10) // Giới hạn 10 kết quả gợi ý
+                .ToList();
+
+            return Json(results);
         }
     }
 }

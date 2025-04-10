@@ -39,5 +39,7 @@ namespace DALTW.Models
         public Competition? Competition { get; set; }
 
         public string ImageFilePath { get; set; } = "default_image_path.jpg";
+
+        public int ViewCount { get; set; }
     }
 }

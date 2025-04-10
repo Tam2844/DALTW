@@ -1,10 +1,205 @@
-﻿@{
+﻿@model IEnumerable<DALTW.Models.Document>
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    <h3>Lượt truy cập: @ViewBag.TotalVisits</h3>
+<style>
+    #suggestion-box {
+        max-height: 250px;
+        overflow-y: auto;
+        border: 1px solid #ccc;
+        border-top: none;
+        background-color: white;
+        border-radius: 0 0 5px 5px;
+    }
+
+        #suggestion-box a {
+            padding: 8px 12px;
+            font-size: 0.95rem;
+        }
+
+            #suggestion-box a:hover {
+                background-color: #f5f5f5;
+            }
+
+    .hero-text {
+        color: #b35c2e;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .search-box {
+        width: 60%;
+        margin: 15px auto;
+        display: flex;
+        justify-content: center;
+    }
+
+        .search-box input {
+            width: 100%;
+            padding: 10px 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+        }
+
+        .search-box button {
+            padding: 10px 20px;
+            background-color: #e67e22;
+            color: white;
+            border: none;
+            border-radius: 0 5px 5px 0;
+        }
+
+    .doc-card {
+        display: flex;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 15px;
+        box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .doc-preview img,
+    .doc-preview canvas {
+        width: 100px;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+
+    .doc-info {
+        margin-left: 15px;
+    }
+
+        .doc-info h6 {
+            font-weight: bold;
+            font-size: 1rem;
+            margin-bottom: 6px;
+        }
+
+        .doc-info small {
+            color: #888;
+            font-size: 0.85rem;
+        }
+</style>
+
+<!-- Banner -->
+<div class="container text-center">
+    <h2 class="hero-text">📚 What do you want to learn today?</h2>
+
+    <div class="search-box position-relative">
+        <input type="text" id="search-box" placeholder="Search for English lessons, topics, and resources..." autocomplete="off" />
+        <button><i class="bi bi-search"></i> 🔍</button>
+
+        <!-- Suggestion box -->
+        <div id="suggestion-box"
+             class="list-group position-absolute w-100"
+             style="top: 100%; z-index: 1000; display: none;">
+        </div>
+    </div>
 
 </div>
+
+<!-- Danh sách tài liệu mới -->
+<div class="row mt-4">
+    <h4 class="mb-3 text-primary">📄 Tài liệu mới nhất</h4>
+    @foreach (var document in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm h-100 d-flex flex-row p-3" style="border-radius: 14px; align-items: flex-start; min-height: 180px;">
+                <!-- Preview -->
+                <div class="me-3" style="flex-shrink: 0;">
+                    @if (!string.IsNullOrEmpty(document.ImageFilePath) && (document.FileURL == null || !document.FileURL.EndsWith(".pdf")))
+                    {
+                        <img src="@Url.Content(document.ImageFilePath)" alt="Preview"
+                             style="width: 110px; height: 160px; object-fit: cover; border-radius: 8px;" />
+                    }
+                    else if (document.FileURL != null && document.FileURL.EndsWith(".pdf"))
+                    {
+                        <canvas id="canvas-@document.DocumentID" width="110" height="160" style="border-radius: 8px;"></canvas>
+
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+                        <script>
+                            var url = '@Url.Content("~/" + document.FileURL.TrimStart('/'))';
+                            pdfjsLib.getDocument(url).promise.then(function (pdf) {
+                                pdf.getPage(1).then(function (page) {
+                                    var scale = 0.6;
+                                    var viewport = page.getViewport({ scale: scale });
+                                    var canvas = document.getElementById("canvas-@document.DocumentID");
+                                    var context = canvas.getContext('2d');
+                                    canvas.height = viewport.height;
+                                    canvas.width = viewport.width;
+                                    page.render({ canvasContext: context, viewport: viewport });
+                                });
+                            });
+                        </script>
+                    }
+                </div>
+
+                <!-- Thông tin -->
+                <div class="flex-grow-1">
+                    <h6 class="fw-bold mb-2" style="font-size: 1.05rem;">
+                        <a href="@Url.Action("ViewPdf", "DocumentUser", new { id = document.DocumentID })" class="text-dark text-decoration-none">
+                            @document.Name
+                        </a>
+                    </h6>
+
+                    @if (!string.IsNullOrEmpty(document.Content))
+                    {
+                        <p class="text-muted mb-2" style="font-size: 0.85rem;">
+                            @(document.Content.Length > 120
+                                ? document.Content.Substring(0, 117) + "..."
+                                : document.Content)
+                        </p>
+                    }
+
+                    <p class="text-muted mb-0" style="font-size: 0.9rem;">
+                        <i class="far fa-clock me-1"></i> @document.CreatedDate.ToString("dd/MM/yyyy")
+                    <p><strong>Lượt xem:</strong> @document.ViewCount</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<!-- Thống kê -->
+<div class="text-center mt-5">
+    <h5>Lượt truy cập: <strong>@ViewBag.TotalVisits</strong></h5>
+    <h5>Số tài liệu: <strong>@ViewBag.TotalDocuments</strong></h5>
+</div>
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#search-box').on('keyup', function () {
+                let keyword = $(this).val();
+                if (keyword.length >= 2) {
+                    $.ajax({
+                        url: '/DocumentUser/GetSuggestions',
+                        type: 'GET',
+                        data: { keyword: keyword },
+                        success: function (data) {
+                            let suggestionHtml = '';
+                            data.forEach(function (item) {
+                                suggestionHtml += `<a href="/DocumentUser/ViewPdf/${item.id}" class="list-group-item list-group-item-action">${item.name}</a>`;
+                            });
+                            $('#suggestion-box').html(suggestionHtml).show();
+                        }
+                    });
+                } else {
+                    $('#suggestion-box').hide();
+                }
+            });
+
+            // Click ra ngoài thì ẩn gợi ý
+            $(document).on('click', function (e) {
+                if (!$(e.target).closest('#search-box').length) {
+                    $('#suggestion-box').hide();
+                }
+            });
+        });
+    </script>
+}
+
