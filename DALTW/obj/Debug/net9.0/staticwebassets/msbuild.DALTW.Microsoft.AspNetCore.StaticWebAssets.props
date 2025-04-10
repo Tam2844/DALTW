@@ -324,6 +324,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\029587f7-db0b-4a99-a9b0-9604eb53c6bf.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\02f46fef-dab0-4170-a653-362c92fd3c53.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/02f46fef-dab0-4170-a653-362c92fd3c53.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\02f46fef-dab0-4170-a653-362c92fd3c53.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\033d2291-0059-4230-8bfe-73a90229cdf1.png'))">
       <SourceType>Package</SourceType>
       <SourceId>DALTW</SourceId>
@@ -378,6 +396,63 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\057f6fcf-66f3-4200-afe1-52cc74bb31ee.png'))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< Updated upstream
+=======
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\05c1f5b9-54a2-4fe9-99a5-06ec6e8c094f.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/05c1f5b9-54a2-4fe9-99a5-06ec6e8c094f.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\05c1f5b9-54a2-4fe9-99a5-06ec6e8c094f.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\07a08800-958d-49bb-9942-9e7ef35c08a2.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/07a08800-958d-49bb-9942-9e7ef35c08a2.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\07a08800-958d-49bb-9942-9e7ef35c08a2.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\07c607a7-ae98-4dfe-9ae6-d1d7294b2670.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/07c607a7-ae98-4dfe-9ae6-d1d7294b2670.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\07c607a7-ae98-4dfe-9ae6-d1d7294b2670.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+>>>>>>> Stashed changes
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\08d04ec9-0e09-4179-82e5-29f9bdf4474b.png'))">
       <SourceType>Package</SourceType>
       <SourceId>DALTW</SourceId>
@@ -540,6 +615,45 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\0dc28c85-5381-4d7a-8fed-c100d2909086.png'))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< Updated upstream
+=======
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\0dcd7de5-3b18-40ef-963a-2dc02b9cb4d4.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/0dcd7de5-3b18-40ef-963a-2dc02b9cb4d4.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\0dcd7de5-3b18-40ef-963a-2dc02b9cb4d4.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\0e5b2fc3-8759-4260-9a91-baa5734755f3.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/0e5b2fc3-8759-4260-9a91-baa5734755f3.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\0e5b2fc3-8759-4260-9a91-baa5734755f3.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+>>>>>>> Stashed changes
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\0f01b721-510b-4ec0-b1bf-a580d5d52ad4.png'))">
       <SourceType>Package</SourceType>
       <SourceId>DALTW</SourceId>
@@ -792,6 +906,63 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\19f0ef8d-8899-4a59-84a4-da38d1b89e60.png'))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< Updated upstream
+=======
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\1bec77da-71b8-4567-acd7-165d2b112624.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/1bec77da-71b8-4567-acd7-165d2b112624.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\1bec77da-71b8-4567-acd7-165d2b112624.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\1c60b709-e2b5-4ae6-9b5b-087e0ae4027a.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/1c60b709-e2b5-4ae6-9b5b-087e0ae4027a.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\1c60b709-e2b5-4ae6-9b5b-087e0ae4027a.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\1e5d8ee0-ec60-471c-a00e-30e324c81a9e.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/1e5d8ee0-ec60-471c-a00e-30e324c81a9e.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\1e5d8ee0-ec60-471c-a00e-30e324c81a9e.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+>>>>>>> Stashed changes
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\1ebd878e-7f3c-4a9a-988a-e3b5945bae6e.png'))">
       <SourceType>Package</SourceType>
       <SourceId>DALTW</SourceId>
@@ -1061,6 +1232,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\267ca801-7b45-4ae5-b76a-7e3a508803be.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\2740aa52-78c7-46b5-b034-607f10a1886d.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/2740aa52-78c7-46b5-b034-607f10a1886d.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\2740aa52-78c7-46b5-b034-607f10a1886d.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\279c29e8-c377-42a7-bd8f-958c6a27e19e.png'))">
       <SourceType>Package</SourceType>
@@ -1584,6 +1773,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\4126dda9-4d25-46fa-8175-be421d85b227.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\417c77a8-4d06-431c-bcd6-4a9fd1eeb529.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/417c77a8-4d06-431c-bcd6-4a9fd1eeb529.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\417c77a8-4d06-431c-bcd6-4a9fd1eeb529.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\419c4536-1789-4583-92f4-5bb0e2bcd828.png'))">
       <SourceType>Package</SourceType>
       <SourceId>DALTW</SourceId>
@@ -1601,6 +1808,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\419c4536-1789-4583-92f4-5bb0e2bcd828.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\42ac1306-257b-4229-8eb3-581295f4d5af.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/42ac1306-257b-4229-8eb3-581295f4d5af.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\42ac1306-257b-4229-8eb3-581295f4d5af.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\42b17a93-74be-464b-86f7-0653c585e4fe.png'))">
       <SourceType>Package</SourceType>
@@ -2106,6 +2331,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\60632398-1328-4913-8aaa-c0cab937d215.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\620aeac7-e546-4d46-ba2d-d23b73fac0b9.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/620aeac7-e546-4d46-ba2d-d23b73fac0b9.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\620aeac7-e546-4d46-ba2d-d23b73fac0b9.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\621c8a85-13de-40b5-8591-3d56cc0ff742.png'))">
       <SourceType>Package</SourceType>
       <SourceId>DALTW</SourceId>
@@ -2195,6 +2438,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\65539f47-0cdc-48c2-824e-65bd66d15fe8.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\65d18435-624f-4218-99f7-07e05cb0c734.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/65d18435-624f-4218-99f7-07e05cb0c734.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\65d18435-624f-4218-99f7-07e05cb0c734.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\65ef9b69-9642-40d1-9991-c4981eff1c79.png'))">
       <SourceType>Package</SourceType>
@@ -2538,6 +2799,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\74b6b231-7420-497b-9c04-5c1f15f91799.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7604d03f-2203-422e-9985-e696c8037e07.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/7604d03f-2203-422e-9985-e696c8037e07.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7604d03f-2203-422e-9985-e696c8037e07.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\76e610f3-fab0-4431-a875-0970562574ef.png'))">
       <SourceType>Package</SourceType>
       <SourceId>DALTW</SourceId>
@@ -2646,6 +2925,81 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7ee39fef-1936-469d-b6c5-7a8141571c8c.png'))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< Updated upstream
+=======
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7f64e477-af39-4f44-a4c0-5fd45a728334.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/7f64e477-af39-4f44-a4c0-5fd45a728334.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7f64e477-af39-4f44-a4c0-5fd45a728334.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7fd761d1-2eec-4afb-98a0-ff78a22a2d67.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/7fd761d1-2eec-4afb-98a0-ff78a22a2d67.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7fd761d1-2eec-4afb-98a0-ff78a22a2d67.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\80f4e4c8-479c-4843-81c5-e9241ee15f49.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/80f4e4c8-479c-4843-81c5-e9241ee15f49.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\80f4e4c8-479c-4843-81c5-e9241ee15f49.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\810eb260-cccf-4f67-b2eb-2f314b6da0ce.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/810eb260-cccf-4f67-b2eb-2f314b6da0ce.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\810eb260-cccf-4f67-b2eb-2f314b6da0ce.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+>>>>>>> Stashed changes
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\81db028f-b1d9-4fc8-89e0-5cbcd5e1ab61.png'))">
       <SourceType>Package</SourceType>
       <SourceId>DALTW</SourceId>
@@ -3240,6 +3594,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\9e5553a2-8044-4b37-95a1-9944ce504ae2.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\9e818509-0513-4d63-91c7-509f1e2aa20d.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/9e818509-0513-4d63-91c7-509f1e2aa20d.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\9e818509-0513-4d63-91c7-509f1e2aa20d.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\9ec28c1d-0002-4988-b641-0f4fce0d0dc3.png'))">
       <SourceType>Package</SourceType>
       <SourceId>DALTW</SourceId>
@@ -3420,6 +3792,63 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a5865939-606f-461d-9155-2377f9b999cb.png'))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< Updated upstream
+=======
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a5b42ed2-a6e4-4064-a7d4-5784d10d07c3.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/a5b42ed2-a6e4-4064-a7d4-5784d10d07c3.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a5b42ed2-a6e4-4064-a7d4-5784d10d07c3.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a7d6a36d-3944-489f-be15-9d016bed29b8.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/a7d6a36d-3944-489f-be15-9d016bed29b8.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a7d6a36d-3944-489f-be15-9d016bed29b8.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a89f7a8c-3fb6-4c26-a105-5491a61a2c9f.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/a89f7a8c-3fb6-4c26-a105-5491a61a2c9f.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a89f7a8c-3fb6-4c26-a105-5491a61a2c9f.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+>>>>>>> Stashed changes
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a8cfbb00-9c95-4c3d-9f25-b331ef55b69b.png'))">
       <SourceType>Package</SourceType>
       <SourceId>DALTW</SourceId>
@@ -4086,6 +4515,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\bf76b3cb-d0af-4821-a1b0-218fb61e2b6c.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\bfe3c556-d0fd-46df-b2ad-e2ee84b13330.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/bfe3c556-d0fd-46df-b2ad-e2ee84b13330.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\bfe3c556-d0fd-46df-b2ad-e2ee84b13330.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\bfee3ae5-4984-4484-8d63-365e2cfbeae8.png'))">
       <SourceType>Package</SourceType>
       <SourceId>DALTW</SourceId>
@@ -4176,6 +4623,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\c1c1e3f6-7fac-40b5-9354-b80501caf338.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\c1ec0f94-b399-43bc-a09b-450ede95a4c6.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/c1ec0f94-b399-43bc-a09b-450ede95a4c6.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\c1ec0f94-b399-43bc-a09b-450ede95a4c6.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\c2496f99-fe31-40e1-a6a4-f0d8a730b444.png'))">
       <SourceType>Package</SourceType>
       <SourceId>DALTW</SourceId>
@@ -4193,6 +4658,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\c2496f99-fe31-40e1-a6a4-f0d8a730b444.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\c27cf9e6-15e4-4e02-bb08-93e5b62b57e8.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/c27cf9e6-15e4-4e02-bb08-93e5b62b57e8.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\c27cf9e6-15e4-4e02-bb08-93e5b62b57e8.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\c29ebdc1-184b-4112-93da-e2e843974442.png'))">
       <SourceType>Package</SourceType>
@@ -4229,6 +4712,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\c2c1ee8b-354a-4ab5-b8ad-9b350a6e1fd4.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\c329f240-f917-4f6e-b868-45d5dbcc60ff.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/c329f240-f917-4f6e-b868-45d5dbcc60ff.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\c329f240-f917-4f6e-b868-45d5dbcc60ff.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\c3d48503-0ed9-4f98-87a2-c4f7a4ef3a91.png'))">
       <SourceType>Package</SourceType>
@@ -4356,6 +4857,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\c747dfec-1d62-472c-a677-15d930fdfb88.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\c766c644-6fd1-4b1f-b655-881df96155a9.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/c766c644-6fd1-4b1f-b655-881df96155a9.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\c766c644-6fd1-4b1f-b655-881df96155a9.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\c77f497e-0f8c-44f4-bbfe-058e929c5988.png'))">
       <SourceType>Package</SourceType>
       <SourceId>DALTW</SourceId>
@@ -4482,6 +5001,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cd885a21-d60f-42a5-b094-c9f4db1b59d6.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cd945772-e8b8-4453-9e89-d00b60f75361.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/cd945772-e8b8-4453-9e89-d00b60f75361.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cd945772-e8b8-4453-9e89-d00b60f75361.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cdcb2d36-9f83-4aeb-a6d4-8f3e9ac13cef.png'))">
       <SourceType>Package</SourceType>
       <SourceId>DALTW</SourceId>
@@ -4535,6 +5072,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cde21d25-9d33-42ee-a4aa-347b0da6c81c.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ce54b5a1-792c-4ee6-a957-3da5f460b4c4.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/ce54b5a1-792c-4ee6-a957-3da5f460b4c4.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ce54b5a1-792c-4ee6-a957-3da5f460b4c4.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ce9a2a3e-be2d-424b-a093-b21bfbda1bf9.png'))">
       <SourceType>Package</SourceType>
@@ -4751,6 +5306,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d725ad9b-d824-4478-9d3d-f6e2062cb847.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d7856f9d-3f64-4206-b6d8-506d22271ca0.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/d7856f9d-3f64-4206-b6d8-506d22271ca0.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d7856f9d-3f64-4206-b6d8-506d22271ca0.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d78bf090-db4d-48b0-b4c5-dc62067715d5.png'))">
       <SourceType>Package</SourceType>
@@ -5346,6 +5919,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\f750a58e-5c9f-4778-b579-8ccaa51bdc12.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\f763f053-2e3c-4f3f-a385-a90b04909fd1.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/f763f053-2e3c-4f3f-a385-a90b04909fd1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\f763f053-2e3c-4f3f-a385-a90b04909fd1.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\f803c6a9-a5e1-4f6d-a694-c3c5fb6355c3.png'))">
       <SourceType>Package</SourceType>
       <SourceId>DALTW</SourceId>
@@ -5490,6 +6081,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\facc4efb-47b0-4746-b6f4-3e789619e8bd.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\fb4e8a32-32a1-4914-a4dc-ac28d969fae9.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/fb4e8a32-32a1-4914-a4dc-ac28d969fae9.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\fb4e8a32-32a1-4914-a4dc-ac28d969fae9.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\fb9ba2fe-0295-4354-9726-4d98baaa11d4.png'))">
       <SourceType>Package</SourceType>
       <SourceId>DALTW</SourceId>
@@ -5579,6 +6188,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ff9bb438-a7ff-44f4-854b-bff242ec8135.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ffa8eb9f-f4bd-4722-af1a-001f6980a56a.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DALTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DALTW</BasePath>
+      <RelativePath>images/ffa8eb9f-f4bd-4722-af1a-001f6980a56a.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>no49pi15fh</Fingerprint>
+      <Integrity>Ce8Pfs3Gf2m+XuNKts8HrA9hT//JJvpjXMDnKRg8E8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ffa8eb9f-f4bd-4722-af1a-001f6980a56a.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))">
       <SourceType>Package</SourceType>

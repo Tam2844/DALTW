@@ -44,7 +44,6 @@ namespace DALTW.Controllers
             _semesterRepository = semesterRepository;
             _competitionRepository = competitionRepository;
         }
-
         [AllowAnonymous]
         public async Task<IActionResult> Index(int? topicId, int? gradeId, int? categoryId, int? semesterID, int? competitionID, string keyword)
         {
@@ -84,7 +83,6 @@ namespace DALTW.Controllers
 
             return View(documents);
         }
-
         [Authorize]
         public async Task<IActionResult> ViewPdf(int id, string? slug)
         {
@@ -128,7 +126,6 @@ namespace DALTW.Controllers
             document.FileURL = "/" + Path.GetRelativePath(_webHostEnvironment.WebRootPath, pdfPath).Replace("\\", "/");
             return View("ViewPdf", document);
         }
-
         public IActionResult ByGradeSemester(int gradeId, int semesterId)
         {
             var documents = _context.Documents
@@ -141,7 +138,6 @@ namespace DALTW.Controllers
             return View(documents);
         }
 
-        [HttpGet]
         public async Task<IActionResult> GetSuggestions(string keyword)
         {
             if (string.IsNullOrWhiteSpace(keyword))

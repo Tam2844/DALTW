@@ -15,7 +15,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DALTW")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f03bf2c18f50eadb51b3c5cedf986a6794d70b51")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7c9db261833552c33682b6acf1ce1ac22a26129")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("DALTW")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DALTW")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

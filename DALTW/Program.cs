@@ -64,6 +64,8 @@ builder.Services.Configure<FormOptions>(options =>
 
 var app = builder.Build();
 
+
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -89,6 +91,7 @@ app.UseEndpoints(endpoints =>
     endpoints.MapControllerRoute(
         name: "Admin",
         pattern: "{area:exists}/{controller=DocumentManager}/{action=Index}/{id?}");
+
 
     endpoints.MapControllerRoute(
         name: "document_slug",
