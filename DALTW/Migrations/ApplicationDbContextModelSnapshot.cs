@@ -103,6 +103,9 @@ namespace DALTW.Migrations
                     b.Property<int?>("TopicID")
                         .HasColumnType("int");
 
+                    b.Property<int>("ViewCount")
+                        .HasColumnType("int");
+
                     b.HasKey("DocumentID");
 
                     b.HasIndex("CategoryID");
