@@ -120,3 +120,19 @@ body {
     border: 1px solid #ddd;
     background-color: #f8f9fa;
 }
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 600;
+}
+
+    .navbar-nav .nav-link:hover {
+        text-decoration: underline;
+    }
+
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}

@@ -96,10 +96,6 @@ app.UseEndpoints(endpoints =>
         defaults: new { controller = "DocumentUser", action = "ViewPdf" });
 
     endpoints.MapControllerRoute(
-        name: "User",
-        pattern: "{area:exists}/{controller=DocumentUser}/{action=Index}/{id?}");
-
-    endpoints.MapControllerRoute(
         name: "default",
         pattern: "{controller=Home}/{action=Index}/{id?}");
 });
