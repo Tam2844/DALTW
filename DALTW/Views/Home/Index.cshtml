@@ -69,9 +69,13 @@
                     @if (!string.IsNullOrEmpty(document.Content))
                     {
                         <p class="text-muted mb-2" style="font-size: 0.85rem;">
-                            @(document.Content.Length > 120
-                                ? document.Content.Substring(0, 117) + "..."
-                                : document.Content)
+                            <strong>
+                                @Html.Raw(
+                                    document.Content.Length > 120
+                                    ? document.Content.Substring(0, 117) + "..."
+                                    : document.Content
+                                )
+                            </strong>
                         </p>
                     }
 

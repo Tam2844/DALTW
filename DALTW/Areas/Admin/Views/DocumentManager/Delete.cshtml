@@ -1,34 +1,88 @@
 ﻿@model DALTW.Models.Document
+
 @{
-    ViewData["Title"] = "Xác nhận xóa tài liệu";
+    ViewData["Title"] = "Delete";
+    Layout = "~/Areas/Admin/Views/shared/_LayoutAdmin.cshtml";
 }
 
-<h2>Xác nhận xóa tài liệu</h2>
+<h1>Delete</h1>
 
-<p>Bạn có chắc chắn muốn xóa tài liệu này không?</p>
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Document</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Content)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Content)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CreatedDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CreatedDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FileURL)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FileURL)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Category)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Category.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Topic)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Topic.TopicName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Grade)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Grade.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Semester)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Semester.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Competition)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Competition.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ImageFilePath)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ImageFilePath)
+        </dd>
+    </dl>
 
-<table class="table">
-    <tr>
-        <th>Tên</th>
-        <td>@Model.Name</td>
-    </tr>
-    <tr>
-        <th>Giá</th>
-        <td>@Model.Price</td>
-    </tr>
-    <tr>
-        <th>File</th>
-        <td>
-            @if (!string.IsNullOrEmpty(Model.FileURL))
-            {
-                <a href="@Model.FileURL" target="_blank">Xem file</a>
-            }
-        </td>
-    </tr>
-</table>
-
-<form asp-action="DeleteConfirmed" method="post">
-    <input type="hidden" asp-for="DocumentID" />
-    <button type="submit" class="btn btn-danger">Xóa</button>
-    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
-</form>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="DocumentID" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

@@ -2,18 +2,29 @@
 @{
     ViewData["Title"] = "Chỉnh sửa tài liệu";
 }
+<head>
+    <script src="https://cdn.ckeditor.com/ckeditor5/41.3.0/classic/ckeditor.js"></script>
+</head>
 
 <h2>Chỉnh sửa tài liệu</h2>
 
-<a class="btn btn-primary mb-3" href="@Url.Action("Add", "DocumentManager", new { area = "Admin" })">Thêm tài liệu</a>
-
 <form asp-action="Edit" method="post" enctype="multipart/form-data">
     <input type="hidden" asp-for="DocumentID" />
+    <input type="hidden" asp-for="CreatedDate" />
+    <input type="hidden" asp-for="FileURL" />
+    <input type="hidden" asp-for="ImageFilePath" />
+    <input type="hidden" asp-for="ViewCount" />
 
     <div class="form-group">
         <label asp-for="Name"></label>
         <input asp-for="Name" class="form-control" />
         <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Nội dung</label>
+        <textarea asp-for="Content" id="ContentEditor" class="form-control">@Html.Raw(Model.Content)</textarea>
+        <span asp-validation-for="Content" class="text-danger"></span>
     </div>
 
     <div class="form-group">
@@ -29,21 +40,30 @@
 
     <div class="form-group">
         <label asp-for="TopicID">Chủ đề</label>
-        <select asp-for="TopicID" asp-items="ViewBag.Topics" class="form-control"></select>
+        <select asp-for="TopicID" asp-items="ViewBag.Topics" class="form-control">
+            <option value="">-- Không chọn --</option>
+        </select>
     </div>
 
     <div class="form-group">
         <label asp-for="GradeID">Khối lớp</label>
-        <select asp-for="GradeID" asp-items="ViewBag.Grades" class="form-control"></select>
+        <select asp-for="GradeID" asp-items="ViewBag.Grades" class="form-control">
+            <option value="">-- Không chọn --</option>
+        </select>
     </div>
 
     <div class="form-group">
         <label asp-for="SemesterID">Học kỳ</label>
-        <select asp-for="SemesterID" asp-items="ViewBag.Semesters" class="form-control"></select>
+        <select asp-for="SemesterID" asp-items="ViewBag.Semesters" class="form-control">
+            <option value="">-- Không chọn --</option>
+        </select>
     </div>
+
     <div class="form-group">
         <label asp-for="CompetitionID">Cuộc thi</label>
-        <select asp-for="CompetitionID" asp-items="ViewBag.Competitions" class="form-control"></select>
+        <select asp-for="CompetitionID" asp-items="ViewBag.Competitions" class="form-control">
+            <option value="">-- Không chọn --</option>
+        </select>
     </div>
 
     <div class="form-group">
@@ -52,10 +72,24 @@
         {
             <p><a href="@Model.FileURL" target="_blank">Xem file</a></p>
         }
-        <label asp-for="FileURL">Chọn file mới (nếu muốn thay đổi)</label>
+        <label>Chọn file mới (nếu muốn thay đổi)</label>
         <input type="file" name="file" class="form-control" />
     </div>
 
     <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
     <a asp-action="Index" class="btn btn-secondary">Hủy</a>
 </form>
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<script>
+    ClassicEditor
+        .create(document.querySelector('#ContentEditor'))
+        .then(editor => {
+            editor.model.document.on('change:data', () => {
+                document.querySelector('textarea[name="Content"]').value = editor.getData();
+            });
+        })
+        .catch(error => {
+            console.error(error);
+        });
+</script>

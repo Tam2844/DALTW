@@ -241,36 +241,47 @@ namespace DALTW.Areas.Admin.Controllers
                 return BadRequest();
             }
 
+            var oldDocument = await _documentRepository.GetByIdAsync(id);
+            if (oldDocument == null)
+            {
+                return NotFound();
+            }
+
             try
             {
                 if (ModelState.IsValid)
                 {
-                    if (file != null)
+                    oldDocument.Name = document.Name;
+                    oldDocument.Content = document.Content;
+                    oldDocument.Price = document.Price;
+                    oldDocument.CategoryID = document.CategoryID;
+                    oldDocument.TopicID = document.TopicID;
+                    oldDocument.GradeID = document.GradeID;
+                    oldDocument.SemesterID = document.SemesterID;
+                    oldDocument.CompetitionID = document.CompetitionID;
+
+                    if (file != null && file.Length > 0)
                     {
-                        document.FileURL = await SaveFile(file);
+                        oldDocument.FileURL = await SaveFile(file);
+
+                        if (file.FileName.EndsWith(".docx"))
+                        {
+                            string fullPath = Path.Combine(_webHostEnvironment.WebRootPath, oldDocument.FileURL.TrimStart('/'));
+                            oldDocument.ImageFilePath = ConvertWordToImage(fullPath);
+                        }
                     }
 
-                    await _documentRepository.UpdateAsync(document);
+                    await _documentRepository.UpdateAsync(oldDocument);
                     return RedirectToAction(nameof(Index));
                 }
             }
             catch (Exception ex)
             {
+                Console.WriteLine("EXCEPTION: " + ex.Message);
                 ModelState.AddModelError("", "Lỗi khi cập nhật dữ liệu: " + ex.Message);
             }
 
-            var categories = await _categoryRepository.GetAllAsync();
-            var grades = await _gradeRepository.GetAllAsync();
-            var topics = await _topicRepository.GetAllAsync();
-            var semesters = await _semesterRepository.GetAllAsync();
-            var competitions = await _competitionRepository.GetAllAsync();
-
-            ViewBag.Categories = new SelectList(categories, "CategoryID", "Name");
-            ViewBag.Grades = new SelectList(grades, "GradeID", "Name");
-            ViewBag.Topics = new SelectList(topics, "TopicID", "TopicName");
-            ViewBag.Semesters = new SelectList(await _semesterRepository.GetAllAsync(), "SemesterID", "Name");
-            ViewBag.Competitions = new SelectList(await _competitionRepository.GetAllAsync(), "CompetitionID", "Name");
-
+            await LoadSelectLists();
             return View(document);
         }
         [Authorize(Roles = "Admin")]
