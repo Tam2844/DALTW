@@ -14,29 +14,119 @@
 
         <ul class="nav flex-column">
             <li class="nav-item mb-2">
-                <a class="nav-link text-white" href="/Admin/DocumentManager/Index">📄 Quản lý Tài liệu</a>
+                <a class="nav-link text-white dropdown-toggle" data-bs-toggle="collapse" href="#documentSubMenu" role="button" aria-expanded="false" aria-controls="documentSubMenu">
+                    📄 Quản lý Tài liệu
+                </a>
+                <div class="collapse ms-3" id="documentSubMenu">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/Admin/DocumentManager/Index">📄 Danh sách tài liệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/Admin/DocumentManager/Add">➕ Tạo tài liệu mới</a>
+                        </li>
+                    </ul>
+                </div>
             </li>
             <li class="nav-item mb-2">
-                <a class="nav-link text-white" href="/Admin/Category/Index">📁 Quản lý Danh mục</a>
+                <a class="nav-link text-white dropdown-toggle" data-bs-toggle="collapse" href="#categorySubMenu" role="button" aria-expanded="false" aria-controls="categorySubMenu">
+                    📁 Quản lý Danh mục
+                </a>
+                <div class="collapse ms-3" id="categorySubMenu">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/Admin/Category/Index">📁 Danh sách danh mục</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/Admin/Category/Create">➕ Tạo danh mục mới</a>
+                        </li>
+                    </ul>
+                </div>
             </li>
+
             <li class="nav-item mb-2">
-                <a class="nav-link text-white" href="/Admin/Competition/Index">🏆 Quản lý Cuộc thi</a>
+                <a class="nav-link text-white dropdown-toggle" data-bs-toggle="collapse" href="#competitionSubMenu" role="button" aria-expanded="false" aria-controls="competitionSubMenu">
+                    🏆 Quản lý Cuộc thi
+                </a>
+                <div class="collapse ms-3" id="competitionSubMenu">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/Admin/Competition/Index">🏆 Danh sách cuộc thi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/Admin/Competition/Create">➕ Tạo cuộc thi mới</a>
+                        </li>
+                    </ul>
+                </div>
             </li>
+
             <li class="nav-item mb-2">
-                <a class="nav-link text-white" href="/Admin/Grade/Index">🎓 Quản lý Khối lớp</a>
+                <a class="nav-link text-white dropdown-toggle" data-bs-toggle="collapse" href="#gradeSubMenu" role="button" aria-expanded="false" aria-controls="gradeSubMenu">
+                    🎓 Quản lý Khối lớp
+                </a>
+                <div class="collapse ms-3" id="gradeSubMenu">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/Admin/Grade/Index">🎓 Danh sách khối lớp</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/Admin/Grade/Create">➕ Thêm khối lớp</a>
+                        </li>
+                    </ul>
+                </div>
             </li>
+
             <li class="nav-item mb-2">
-                <a class="nav-link text-white" href="/Admin/Semester/Index">📅 Quản lý Học kỳ</a>
+                <a class="nav-link text-white dropdown-toggle" data-bs-toggle="collapse" href="#semesterSubMenu" role="button" aria-expanded="false" aria-controls="semesterSubMenu">
+                    📅 Quản lý Học kỳ
+                </a>
+                <div class="collapse ms-3" id="semesterSubMenu">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/Admin/Semester/Index">📅 Danh sách học kỳ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/Admin/Semester/Create">➕ Thêm học kỳ</a>
+                        </li>
+                    </ul>
+                </div>
             </li>
+
             <li class="nav-item mb-2">
-                <a class="nav-link text-white" href="/Admin/Topic/Index">📚 Quản lý Chủ đề</a>
+                <a class="nav-link text-white dropdown-toggle" data-bs-toggle="collapse" href="#topicSubMenu" role="button" aria-expanded="false" aria-controls="topicSubMenu">
+                    📚 Quản lý Chủ đề
+                </a>
+                <div class="collapse ms-3" id="topicSubMenu">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/Admin/Topic/Index">📚 Danh sách chủ đề</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/Admin/Topic/Create">➕ Thêm chủ đề</a>
+                        </li>
+                    </ul>
+                </div>
             </li>
+
             @if (User.IsInRole("Admin"))
             {
                 <li class="nav-item mb-2">
-                    <a class="nav-link text-white" href="/Admin/User/Index">👤 Quản lý Người dùng</a>
+                    <a class="nav-link text-white dropdown-toggle" data-bs-toggle="collapse" href="#userSubMenu" role="button" aria-expanded="false" aria-controls="userSubMenu">
+                        👤 Quản lý Người dùng
+                    </a>
+                    <div class="collapse ms-3" id="userSubMenu">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="/Admin/User/Index">👥 Danh sách người dùng</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="/Admin/User/CreateUser">➕ Thêm người dùng</a>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
             }
+
             <li class="nav-item mt-4">
                 <a class="nav-link text-warning" asp-area="Identity" asp-page="/Account/Logout">🚪 Đăng xuất</a>
             </li>
@@ -53,4 +143,6 @@
 
     @RenderSection("Scripts", required: false)
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </html>
