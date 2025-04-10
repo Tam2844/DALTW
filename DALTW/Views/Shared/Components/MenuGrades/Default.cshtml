@@ -9,9 +9,13 @@
             {
                 <div style="width: 22%; margin-right: 15px; margin-bottom: 20px;">
                     <div class="fw-bold text-danger">
-                        <a href="/DocumentUser?gradeId=@grade.GradeID" class="text-danger text-decoration-none">
+                        <a asp-controller="DocumentUser"
+                           asp-action="Index"
+                           asp-route-gradeId="@grade.GradeID"
+                           class="text-danger text-decoration-none">
                             @grade.Name
                         </a>
+
                     </div>
 
                     <ul class="list-unstyled ps-3">

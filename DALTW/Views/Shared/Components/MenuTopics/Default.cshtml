@@ -9,9 +9,12 @@
             {
                 <li class="mb-2">
                     <a class="text-dark text-decoration-none fw-medium"
-                       href="/DocumentUser?topicId=@topic.TopicID">
+                       asp-controller="DocumentUser"
+                       asp-action="Index"
+                       asp-route-topicId="@topic.TopicID">
                         @topic.TopicName
                     </a>
+
                 </li>
             }
         </ul>

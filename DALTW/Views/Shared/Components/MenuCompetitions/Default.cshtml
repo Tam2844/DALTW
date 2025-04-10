@@ -8,11 +8,12 @@
             @foreach (var comp in Model as List<DALTW.Models.Competition>)
             {
                 <div style="width: 33%; margin-bottom: 10px;">
-                    <a class="d-block text-dark text-decoration-none fw-semibold"
-                       href="/DocumentUser?competitionId=@comp.CompetitionID">
+                    <a asp-controller="DocumentUser"
+                       asp-action="Index"
+                       asp-route-competitionId="@comp.CompetitionID"
+                       class="d-block text-dark text-decoration-none fw-semibold">
                         @comp.Name
                     </a>
-
                 </div>
             }
         </div>

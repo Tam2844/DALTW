@@ -63,6 +63,19 @@ builder.Services.Configure<FormOptions>(options =>
 });
 
 var app = builder.Build();
+app.Use(async (context, next) =>
+{
+    var path = context.Request.Path.Value;
+    if (!string.IsNullOrEmpty(path) && path.StartsWith("/DocumentUser", StringComparison.OrdinalIgnoreCase))
+    {
+        var newPath = path.Replace("/DocumentUser", "/tai-lieu");
+        var query = context.Request.QueryString.HasValue ? context.Request.QueryString.Value : "";
+        context.Response.Redirect(newPath + query, permanent: true);
+        return;
+    }
+
+    await next();
+});
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -89,6 +102,11 @@ app.UseEndpoints(endpoints =>
     endpoints.MapControllerRoute(
         name: "Admin",
         pattern: "{area:exists}/{controller=DocumentManager}/{action=Index}/{id?}");
+
+    endpoints.MapControllerRoute(
+        name: "documentUser",
+        pattern: "tai-lieu",
+        defaults: new { controller = "DocumentUser", action = "Index" });
 
     endpoints.MapControllerRoute(
         name: "document_slug",

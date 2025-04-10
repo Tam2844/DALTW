@@ -44,10 +44,7 @@ namespace DALTW.Controllers
             _semesterRepository = semesterRepository;
             _competitionRepository = competitionRepository;
         }
-<<<<<<< HEAD
-=======
 
->>>>>>> f7c9db261833552c33682b6acf1ce1ac22a26129
         [AllowAnonymous]
         public async Task<IActionResult> Index(int? topicId, int? gradeId, int? categoryId, int? semesterID, int? competitionID, string keyword)
         {
@@ -63,55 +60,39 @@ namespace DALTW.Controllers
                 ).ToList();
             }
 
-<<<<<<< HEAD
             // Lọc theo topicId, gradeId, categoryId, semesterID, competitionID
-=======
->>>>>>> f7c9db261833552c33682b6acf1ce1ac22a26129
-            if (topicId.HasValue)
+            if (topicId.HasValue) { 
                 documents = documents.Where(d => d.TopicID == topicId.Value).ToList();
-<<<<<<< HEAD
             }
 
-=======
->>>>>>> f7c9db261833552c33682b6acf1ce1ac22a26129
-            if (gradeId.HasValue)
+            if (gradeId.HasValue){
                 documents = documents.Where(d => d.GradeID == gradeId.Value).ToList();
-<<<<<<< HEAD
             }
 
-=======
->>>>>>> f7c9db261833552c33682b6acf1ce1ac22a26129
-            if (categoryId.HasValue)
+            if (categoryId.HasValue) { 
                 documents = documents.Where(d => d.CategoryID == categoryId.Value).ToList();
-<<<<<<< HEAD
             }
 
-=======
->>>>>>> f7c9db261833552c33682b6acf1ce1ac22a26129
-            if (semesterID.HasValue)
+
+            if (semesterID.HasValue) { 
                 documents = documents.Where(d => d.SemesterID == semesterID.Value).ToList();
-<<<<<<< HEAD
 
                 // Thêm tên học kỳ vào ViewBag
                 ViewBag.SemesterName = _context.Semesters.FirstOrDefault(s => s.SemesterID == semesterID)?.Name;
             }
 
-=======
->>>>>>> f7c9db261833552c33682b6acf1ce1ac22a26129
-            if (competitionID.HasValue)
+
+            if (competitionID.HasValue) { 
                 documents = documents.Where(d => d.CompetitionID == competitionID.Value).ToList();
-<<<<<<< HEAD
             }
 
             // Load lại các select lists
             await LoadSelectLists();
 
             // Xử lý ảnh Word
-=======
 
             await LoadSelectLists();
 
->>>>>>> f7c9db261833552c33682b6acf1ce1ac22a26129
             foreach (var document in documents)
             {
                 if (document.FileURL != null && document.FileURL.EndsWith(".docx"))
@@ -124,14 +105,6 @@ namespace DALTW.Controllers
 
             return View(documents);
         }
-<<<<<<< HEAD
-
-
-
-
-        [Authorize]
-=======
->>>>>>> f7c9db261833552c33682b6acf1ce1ac22a26129
 
         [Authorize]
         public async Task<IActionResult> ViewPdf(int id, string? slug)
