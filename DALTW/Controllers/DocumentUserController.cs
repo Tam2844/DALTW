@@ -46,11 +46,11 @@ namespace DALTW.Controllers
             _competitionRepository = competitionRepository;
         }
         [AllowAnonymous]
-
         public async Task<IActionResult> Index(int? topicId, int? gradeId, int? categoryId, int? semesterID, int? competitionID, string keyword)
         {
             var documents = await _documentRepository.GetAllAsync();
 
+            // Lọc theo keyword
             if (!string.IsNullOrEmpty(keyword))
             {
                 keyword = keyword.ToLower();
@@ -59,27 +59,40 @@ namespace DALTW.Controllers
                     d.Content.ToLower().Contains(keyword)
                 ).ToList();
             }
+
+            // Lọc theo topicId, gradeId, categoryId, semesterID, competitionID
             if (topicId.HasValue)
             {
                 documents = documents.Where(d => d.TopicID == topicId.Value).ToList();
             }
+
             if (gradeId.HasValue)
             {
                 documents = documents.Where(d => d.GradeID == gradeId.Value).ToList();
             }
+
             if (categoryId.HasValue)
             {
                 documents = documents.Where(d => d.CategoryID == categoryId.Value).ToList();
             }
+
             if (semesterID.HasValue)
             {
                 documents = documents.Where(d => d.SemesterID == semesterID.Value).ToList();
+
+                // Thêm tên học kỳ vào ViewBag
+                ViewBag.SemesterName = _context.Semesters.FirstOrDefault(s => s.SemesterID == semesterID)?.Name;
             }
+
             if (competitionID.HasValue)
             {
                 documents = documents.Where(d => d.CompetitionID == competitionID.Value).ToList();
             }
+
+            // Load lại các select lists
             await LoadSelectLists();
+
+            // Xử lý ảnh Word
             foreach (var document in documents)
             {
                 if (document.FileURL != null && document.FileURL.EndsWith(".docx"))
@@ -92,6 +105,10 @@ namespace DALTW.Controllers
 
             return View(documents);
         }
+
+
+
+
         [Authorize]
 
         public async Task<IActionResult> ViewPdf(int id)

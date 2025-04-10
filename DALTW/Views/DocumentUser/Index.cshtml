@@ -1,6 +1,6 @@
 ﻿@model IEnumerable<Document>
 <link href="~/css/site.css" rel="stylesheet" />
-<h2>Tài liệu</h2>
+<h2>Tài liệu @ViewBag.SemesterName</h2>
 @using (Html.BeginForm("Index", "DocumentUser", FormMethod.Get))
 {
     <div class="row mb-3">

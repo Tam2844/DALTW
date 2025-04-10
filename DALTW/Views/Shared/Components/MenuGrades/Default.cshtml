@@ -8,18 +8,26 @@
             @foreach (var grade in ViewBag.Grades as List<DALTW.Models.Grade>)
             {
                 <div style="width: 22%; margin-right: 15px; margin-bottom: 20px;">
-                    <div class="fw-bold text-danger">@grade.Name</div>
-                    <ul class="list-unstyled ps-3">
-                        @foreach (var semester in ViewBag.Semesters as List<DALTW.Models.Semester>)
-                        {
-                            <li>
-                                <a href="/DocumentUser/ByGradeSemester?gradeId=@grade.GradeID&semesterId=@semester.SemesterID">
-    @semester.Name
-</a>
+                    <div class="fw-bold text-danger">
+                        <a href="/DocumentUser?gradeId=@grade.GradeID" class="text-danger text-decoration-none">
+                            @grade.Name
+                        </a>
+                    </div>
 
-                            </li>
-                        }
+                    <ul class="list-unstyled ps-3">
+                        <!-- Chỉnh sửa các link học kỳ để giữ gradeId -->
+                        <a href="/DocumentUser?gradeId=@grade.GradeID&semesterId=1" class="text-dark">
+                            Học kỳ 1
+                        </a>
+                        <br />
+                        <a href="/DocumentUser?gradeId=@grade.GradeID&semesterId=2" class="text-dark">
+                            Học kỳ 2
+                        </a>
+
                     </ul>
                 </div>
             }
+
         </div>
+    </div>
+</li>
