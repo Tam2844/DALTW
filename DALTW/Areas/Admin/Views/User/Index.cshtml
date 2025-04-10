@@ -40,19 +40,30 @@
                         : "Hoạt động")
                 </td>
                 <td>
-                    <a class="btn btn-danger" href="@Url.Action("DeleteUser", "User", new { userId = user.Id })"
-                       onclick="return confirm('Bạn có chắc muốn xóa?');">Xóa</a>
+                    @{
+                        var currentUserId = ViewBag.CurrentUserId as string;
+                    }
 
-                    @if (user.LockoutEnd.HasValue && user.LockoutEnd.Value > DateTimeOffset.UtcNow)
+                    @if (user.Id != currentUserId)
                     {
-                        <a class="btn btn-success" href="@Url.Action("UnbanUser", "User", new { userId = user.Id })">Mở khóa</a>
+                        <a class="btn btn-danger" href="@Url.Action("DeleteUser", "User", new { userId = user.Id })"
+                           onclick="return confirm('Bạn có chắc muốn xóa?');">Xóa</a>
+
+                        @if (user.LockoutEnd.HasValue && user.LockoutEnd.Value > DateTimeOffset.UtcNow)
+                        {
+                            <a class="btn btn-success" href="@Url.Action("UnbanUser", "User", new { userId = user.Id })">Mở khóa</a>
+                        }
+                        else
+                        {
+                            <a class="btn btn-warning" href="@Url.Action("BanUser", "User", new { userId = user.Id, days = 7 })">Khóa 7 ngày</a>
+                        }
+
+                        <a class="btn btn-success btn-sm" asp-area="Admin" asp-controller="User" asp-action="EditUserRoles" asp-route-userId="@user.Id">Sửa vai trò</a>
                     }
                     else
                     {
-                        <a class="btn btn-warning" href="@Url.Action("BanUser", "User", new { userId = user.Id, days = 7 })">Khóa 7 ngày</a>
+                        <span class="text-muted">Không thể thao tác với tài khoản hiện tại</span>
                     }
-
-                    <a class="btn btn-success btn-sm" asp-area="Admin" asp-controller="User" asp-action="EditUserRoles" asp-route-userId="@user.Id">Sửa vai trò</a>
                 </td>
                 
             </tr>

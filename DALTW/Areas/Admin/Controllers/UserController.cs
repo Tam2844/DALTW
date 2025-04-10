@@ -30,7 +30,7 @@ namespace DALTW.Areas.Admin.Controllers
                 var roles = await _userManager.GetRolesAsync(user);
                 userRoles[user.Id] = roles.ToList();
             }
-
+            ViewBag.CurrentUserId = _userManager.GetUserId(User);
             ViewBag.UserRoles = userRoles;
             return View(users);
         }

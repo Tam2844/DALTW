@@ -143,17 +143,21 @@ namespace DALTW.Areas.Admin.Controllers
         [Authorize(Roles = "Admin, Employee")]
         // 🔄 Chuyển đổi Word sang PDF
 
-        public async Task<IActionResult> ViewPdf(int id)
+        [Authorize]
+        public async Task<IActionResult> ViewPdf(int id, string? slug)
         {
             var document = await _documentRepository.GetByIdAsync(id);
 
             if (document == null || string.IsNullOrEmpty(document.FileURL))
+                return NotFound("Tài liệu không tồn tại hoặc không có file Word.");
+
+            var correctSlug = SlugHelper.GenerateSlug(document.Name);
+            if (string.IsNullOrEmpty(slug) || slug != correctSlug)
             {
-                return Content("Tài liệu không tồn tại hoặc không có file Word.");
+                return RedirectToRoute("document_slug", new { id = id, slug = correctSlug });
             }
 
             string viewedKey = $"viewed_doc_{id}";
-
             if (HttpContext.Session.GetString(viewedKey) == null)
             {
                 document.ViewCount += 1;
@@ -162,14 +166,10 @@ namespace DALTW.Areas.Admin.Controllers
             }
 
             string wordPath = Path.Combine(_webHostEnvironment.WebRootPath, document.FileURL.TrimStart('/'));
-
             if (!System.IO.File.Exists(wordPath))
-            {
-                return Content("File Word không tồn tại.");
-            }
+                return NotFound("File Word không tồn tại.");
 
             string pdfPath = Path.ChangeExtension(wordPath, ".pdf");
-
             if (!System.IO.File.Exists(pdfPath))
             {
                 try
@@ -179,15 +179,12 @@ namespace DALTW.Areas.Admin.Controllers
                 }
                 catch (Exception ex)
                 {
-                    return Content("Lỗi chuyển đổi file: " + ex.Message);
+                    return BadRequest("Lỗi chuyển đổi file: " + ex.Message);
                 }
             }
 
-            // ✅ Truyền đường dẫn PDF cho view
-            string pdfRelativePath = "/" + Path.GetRelativePath(_webHostEnvironment.WebRootPath, pdfPath).Replace("\\", "/");
-            ViewBag.Document = document;
-
-            return View("ViewPdf", pdfRelativePath);
+            document.FileURL = "/" + Path.GetRelativePath(_webHostEnvironment.WebRootPath, pdfPath).Replace("\\", "/");
+            return View("ViewPdf", document);
         }
 
 

@@ -14,7 +14,6 @@ using DALTW.Helper;
 
 namespace DALTW.Controllers
 {
-    [Route("tai-lieu")]
     public class DocumentUserController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -45,7 +44,7 @@ namespace DALTW.Controllers
             _semesterRepository = semesterRepository;
             _competitionRepository = competitionRepository;
         }
-        [Route("")]
+
         [AllowAnonymous]
         public async Task<IActionResult> Index(int? topicId, int? gradeId, int? categoryId, int? semesterID, int? competitionID, string keyword)
         {
@@ -62,20 +61,24 @@ namespace DALTW.Controllers
             }
 
             // Lọc theo topicId, gradeId, categoryId, semesterID, competitionID
-            if (topicId.HasValue) { 
+            if (topicId.HasValue)
+            {
                 documents = documents.Where(d => d.TopicID == topicId.Value).ToList();
             }
 
-            if (gradeId.HasValue){
+            if (gradeId.HasValue)
+            {
                 documents = documents.Where(d => d.GradeID == gradeId.Value).ToList();
             }
 
-            if (categoryId.HasValue) { 
+            if (categoryId.HasValue)
+            {
                 documents = documents.Where(d => d.CategoryID == categoryId.Value).ToList();
             }
 
 
-            if (semesterID.HasValue) { 
+            if (semesterID.HasValue)
+            {
                 documents = documents.Where(d => d.SemesterID == semesterID.Value).ToList();
 
                 // Thêm tên học kỳ vào ViewBag
@@ -83,7 +86,8 @@ namespace DALTW.Controllers
             }
 
 
-            if (competitionID.HasValue) { 
+            if (competitionID.HasValue)
+            {
                 documents = documents.Where(d => d.CompetitionID == competitionID.Value).ToList();
             }
 
@@ -107,7 +111,6 @@ namespace DALTW.Controllers
             return View(documents);
         }
 
-        [Route("ViewPdf/{id:int}")]
         [Authorize]
         public async Task<IActionResult> ViewPdf(int id, string? slug)
         {
@@ -151,7 +154,7 @@ namespace DALTW.Controllers
             document.FileURL = "/" + Path.GetRelativePath(_webHostEnvironment.WebRootPath, pdfPath).Replace("\\", "/");
             return View("ViewPdf", document);
         }
-        [Route("by-grade-semester/{gradeId:int}/{semesterId:int}")]
+
         public IActionResult ByGradeSemester(int gradeId, int semesterId)
         {
             var documents = _context.Documents
@@ -164,11 +167,7 @@ namespace DALTW.Controllers
             return View(documents);
         }
 
-
-
-        // Các action khác
-
-        [HttpGet("GetSuggestions")]
+        [HttpGet]
         public async Task<IActionResult> GetSuggestions(string keyword)
         {
             if (string.IsNullOrWhiteSpace(keyword))
@@ -183,12 +182,11 @@ namespace DALTW.Controllers
                     id = d.DocumentID,
                     name = d.Name
                 })
-                .Take(10)  // Giới hạn 10 kết quả
+                .Take(10)
                 .ToList();
 
             return Json(results);
         }
-
 
         private async Task LoadSelectLists()
         {
