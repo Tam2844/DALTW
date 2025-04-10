@@ -61,7 +61,10 @@ namespace DALTW.Repositories
                 .ToListAsync();
         }
 
-
+        public async Task<Document> GetBySlugAsync(string slug)
+        {
+            return await _context.Documents.FirstOrDefaultAsync(p => p.Slug == slug);
+        }
 
     }
 }

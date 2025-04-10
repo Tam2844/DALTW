@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Authorization;
 using System.Linq;
+using DALTW.Helper;
 
 namespace DALTW.Areas.Admin.Controllers
 {
@@ -128,9 +129,9 @@ namespace DALTW.Areas.Admin.Controllers
                 {
                     document.FileURL = await SaveFile(file);
                 }
-
+                document.Slug = SlugHelper.GenerateSlug(document.Name);//slug 
                 await _documentRepository.AddAsync(document);
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Index", "DocumentManager", new { area = "Admin" });
             }
             catch (Exception ex)
             {
@@ -264,6 +265,7 @@ namespace DALTW.Areas.Admin.Controllers
                     oldDocument.GradeID = document.GradeID;
                     oldDocument.SemesterID = document.SemesterID;
                     oldDocument.CompetitionID = document.CompetitionID;
+                    oldDocument.Slug = SlugHelper.GenerateSlug(document.Name);//slug
 
                     if (file != null && file.Length > 0)
                     {
@@ -277,7 +279,7 @@ namespace DALTW.Areas.Admin.Controllers
                     }
 
                     await _documentRepository.UpdateAsync(oldDocument);
-                    return RedirectToAction(nameof(Index));
+                    return RedirectToAction("Index", "DocumentManager", new { area = "Admin" });
                 }
             }
             catch (Exception ex)
