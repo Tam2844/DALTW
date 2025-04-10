@@ -101,24 +101,24 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function () {
+            // Sự kiện nhập từ khóa trong ô tìm kiếm
             $('#search-box').on('keyup', function () {
                 let keyword = $(this).val();
                 if (keyword.length >= 2) {
                     $.ajax({
-                        url: '@Url.Action("GetSuggestions", "DocumentUser")',  // Dùng Url.Action để tạo đúng URL
+                        url: '@Url.Action("GetSuggestions", "DocumentUser")',  // Đảm bảo URL này đúng
                         type: 'GET',
                         data: { keyword: keyword },
                         success: function (data) {
                             let suggestionHtml = '';
                             data.forEach(function (item) {
-                                // Điều chỉnh URL để hướng đến trang chi tiết tài liệu
-                                suggestionHtml += `<a href="/tai-lieu/ViewPdf/${item.id}" class="list-group-item list-group-item-action">${item.name}</a>`;
+                                suggestionHtml += `<a href="#" data-keyword="${item.name}" class="list-group-item list-group-item-action">${item.name}</a>`;
                             });
                             $('#suggestion-box').html(suggestionHtml).show();
                         }
                     });
                 } else {
-                    $('#suggestion-box').hide();
+                    $('#suggestion-box').hide();  // Ẩn suggestion box nếu không có từ khóa
                 }
             });
 
@@ -128,6 +128,22 @@
                     $('#suggestion-box').hide();
                 }
             });
+
+            // Khi click vào gợi ý, điều hướng đến trang tìm kiếm với từ khóa
+            $(document).on('click', '.list-group-item', function () {
+                let keyword = $(this).data('keyword');  // Lấy từ khóa từ thuộc tính data-keyword của item
+                window.location.href = '/tai-lieu?keyword=' + encodeURIComponent(keyword);  // Điều hướng đến trang tìm kiếm với từ khóa
+                return false;  // Ngừng sự kiện click mặc định
+            });
+
+            // Khi click nút Tìm kiếm, thực hiện tìm kiếm
+            $('#search-button').on('click', function () {
+                let keyword = $('#search-box').val();  // Lấy từ khóa từ ô tìm kiếm
+                if (keyword.length >= 2) {
+                    window.location.href = '/tai-lieu?keyword=' + encodeURIComponent(keyword);  // Điều hướng tới trang kết quả tìm kiếm
+                }
+            });
         });
     </script>
 }
+

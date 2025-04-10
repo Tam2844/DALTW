@@ -150,7 +150,10 @@ namespace DALTW.Controllers
                     return BadRequest("Lỗi chuyển đổi file: " + ex.Message);
                 }
             }
-
+            if (document == null)
+            {
+                return NotFound("Document not found for id " + id); // Log document ID
+            }
             document.FileURL = "/" + Path.GetRelativePath(_webHostEnvironment.WebRootPath, pdfPath).Replace("\\", "/");
             return View("ViewPdf", document);
         }
@@ -167,7 +170,7 @@ namespace DALTW.Controllers
             return View(documents);
         }
 
-        [HttpGet]
+        [HttpGet("GetSuggestions")]
         public async Task<IActionResult> GetSuggestions(string keyword)
         {
             if (string.IsNullOrWhiteSpace(keyword))
@@ -176,17 +179,20 @@ namespace DALTW.Controllers
             var documents = await _documentRepository.GetAllAsync();
 
             var results = documents
-                .Where(d => d.Name.ToLower().Contains(keyword.ToLower()))
+                .Where(d => d.Name.ToLower().Contains(keyword.ToLower()))  // Tìm kiếm tài liệu theo tên
                 .Select(d => new
                 {
-                    id = d.DocumentID,
-                    name = d.Name
+                    id = d.DocumentID,  // Trả về DocumentID
+                    name = d.Name       // Trả về tên tài liệu
                 })
-                .Take(10)
+                .Take(10)  // Giới hạn 10 kết quả
                 .ToList();
 
             return Json(results);
         }
+
+
+
 
         private async Task LoadSelectLists()
         {
