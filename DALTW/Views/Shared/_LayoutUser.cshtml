@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container-fluid">
@@ -46,11 +46,13 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted mt-5">
-        <div class="container">
-            &copy; 2025 - EngShelf - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer class="border-top footer text-muted mt-auto pt-2 pb-2">
+        <div class="container text-center small">
+            &copy; 2025 - EngShelf - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a><br />
+            Lượt truy cập: <strong>@ViewBag.TotalVisits</strong>
         </div>
     </footer>
+
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

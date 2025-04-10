@@ -9,18 +9,19 @@
     <h2 class="hero-text">📚 What do you want to learn today?</h2>
 
     <div class="search-box position-relative">
+        <!-- Input tìm kiếm -->
         <input type="text" id="search-box" placeholder="Search for English lessons, topics, and resources..." autocomplete="off" />
-        <button><i class="bi bi-search"></i> 🔍</button>
 
-        <!-- Suggestion box -->
-        <div id="suggestion-box"
-             class="list-group position-absolute w-100"
-             style="top: 100%; z-index: 1000; display: none;">
-        </div>
+        <!-- Nút Tìm kiếm -->
+        <button id="search-button" class="btn btn-primary" type="button">
+            <i class="bi bi-search"></i> 🔍
+        </button>
+
+        <!-- Gợi ý tìm kiếm -->
+        <div id="suggestion-box" class="list-group position-absolute w-100" style="top: 100%; z-index: 1000; display: none;"></div>
     </div>
-
-
 </div>
+
 
 <!-- Danh sách tài liệu mới -->
 <div class="row mt-4">
@@ -89,7 +90,6 @@
     }
 </div>
 
-<!-- Thống kê -->
 <div class="text-center mt-5">
     <h5>Lượt truy cập: <strong>@ViewBag.TotalVisits</strong></h5>
 </div>
@@ -101,13 +101,14 @@
                 let keyword = $(this).val();
                 if (keyword.length >= 2) {
                     $.ajax({
-                        url: '/DocumentUser/GetSuggestions',
+                        url: '@Url.Action("GetSuggestions", "DocumentUser")',  // Dùng Url.Action để tạo đúng URL
                         type: 'GET',
                         data: { keyword: keyword },
                         success: function (data) {
                             let suggestionHtml = '';
                             data.forEach(function (item) {
-                                suggestionHtml += `<a href="/DocumentUser/ViewPdf/${item.id}" class="list-group-item list-group-item-action">${item.name}</a>`;
+                                // Điều chỉnh URL để hướng đến trang chi tiết tài liệu
+                                suggestionHtml += `<a href="/tai-lieu/ViewPdf/${item.id}" class="list-group-item list-group-item-action">${item.name}</a>`;
                             });
                             $('#suggestion-box').html(suggestionHtml).show();
                         }
@@ -117,13 +118,20 @@
                 }
             });
 
-            // Click ra ngoài thì ẩn gợi ý
+            // Ẩn gợi ý khi click bên ngoài ô tìm kiếm
             $(document).on('click', function (e) {
                 if (!$(e.target).closest('#search-box').length) {
                     $('#suggestion-box').hide();
                 }
             });
+            $('#search-button').on('click', function () {
+                let keyword = $('#search-box').val();  // Lấy từ khóa từ ô tìm kiếm
+                if (keyword.length >= 2) {
+                    window.location.href = '/tai-lieu?keyword=' + encodeURIComponent(keyword);  // Điều hướng tới trang kết quả tìm kiếm
+                }
+            });
         });
     </script>
 }
+
 

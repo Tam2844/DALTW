@@ -1,76 +1,76 @@
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\jquery-validation\dist\jquery.validate.js
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\jquery\LICENSE.txt
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
-D:\Lap trinh web\DALTW\DALTW\wwwroot\css\site.css
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\jquery-validation\LICENSE.md
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\js\bootstrap.js
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\jquery\dist\jquery.min.js
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
-D:\Lap trinh web\DALTW\DALTW\wwwroot\css\IndexManager.css
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\jquery\dist\jquery.slim.min.js
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\jquery\dist\jquery.js
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\jquery\dist\jquery.min.map
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\jquery\dist\jquery.slim.min.map
-D:\Lap trinh web\DALTW\DALTW\wwwroot\favicon.ico
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\jquery\dist\jquery.slim.js
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\jquery-validation\dist\additional-methods.js
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
-D:\Lap trinh web\DALTW\DALTW\wwwroot\js\site.js
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
-D:\Lap trinh web\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\css\site.css
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\jquery-validation\LICENSE.md
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\jquery\dist\jquery.min.js
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\css\IndexManager.css
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\jquery\dist\jquery.slim.min.js
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\jquery\dist\jquery.js
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\jquery\dist\jquery.min.map
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\jquery\dist\jquery.slim.min.map
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\favicon.ico
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\jquery\dist\jquery.slim.js
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\jquery-validation\dist\additional-methods.js
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\js\site.js
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+C:\Users\PC-MP\Desktop\phuc\DALTW\DALTW\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
 wwwroot\css\IndexManager.css
 wwwroot\css\site.css
 wwwroot\DocFile\DapAnVSTEP.pdf
-wwwroot\DocFile\The_Research_Study_on_DynamoDB_NoSQL_Dat.pdf
 wwwroot\DocFile\tieng-anh-chuyen-de-2.docx
 wwwroot\DocFile\tieng-anh-chuyen-de-3.docx
 wwwroot\DocFile\tieng-anh-chuyen-de-3.pdf
-wwwroot\DocFile\tieng-anh-tham-khao-thptqg-2020.docx
 wwwroot\DocFile\tieng-anh-tham-khao-tnthpt-2020.docx
 wwwroot\DocFile\tieng-anh-tham-khao-tnthpt-2020.pdf
+wwwroot\DocFile\tieng-anh-tham-khao-thptqg-2020.docx
+wwwroot\DocFile\The_Research_Study_on_DynamoDB_NoSQL_Dat.pdf
 wwwroot\favicon.ico
 wwwroot\images\0027e8d4-6d86-407e-bc49-c59443557718.png
 wwwroot\images\00e297c9-087f-4031-ad6d-9ca450b30560.png
@@ -240,6 +240,7 @@ wwwroot\images\7aa416a0-e6fd-4d19-9415-5510c2b20b7b.png
 wwwroot\images\7bc6d755-e0b5-48d0-9689-f162ea595213.png
 wwwroot\images\7ddf5835-2050-43ad-8992-1e918b2bc6b2.png
 wwwroot\images\7ee39fef-1936-469d-b6c5-7a8141571c8c.png
+wwwroot\images\7f35b943-7ab9-4bf4-84c6-2b69c321894f.png
 wwwroot\images\7f64e477-af39-4f44-a4c0-5fd45a728334.png
 wwwroot\images\7fd761d1-2eec-4afb-98a0-ff78a22a2d67.png
 wwwroot\images\80f4e4c8-479c-4843-81c5-e9241ee15f49.png
@@ -278,6 +279,7 @@ wwwroot\images\9717e4b7-75ab-4150-b34f-2c620a4fee50.png
 wwwroot\images\98b0c7f2-d660-452b-9352-249577d1ce51.png
 wwwroot\images\99dac6d4-414a-4774-a35c-351be7804349.png
 wwwroot\images\9b938e35-88f2-4536-ab93-7395dd20232a.png
+wwwroot\images\9bc1d647-0073-480c-ade2-3e37469753c9.png
 wwwroot\images\9be690bb-d71e-4cfa-a04b-7ee7b1b82bf4.png
 wwwroot\images\9cc10195-9af9-4cbf-90ca-a41e70c4b6ee.png
 wwwroot\images\9ce93280-01e4-456c-9eae-563a7e02fd0a.png

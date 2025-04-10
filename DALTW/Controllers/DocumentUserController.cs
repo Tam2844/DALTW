@@ -14,6 +14,7 @@ using DALTW.Helper;
 
 namespace DALTW.Controllers
 {
+    [Route("tai-lieu")]
     public class DocumentUserController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -44,7 +45,7 @@ namespace DALTW.Controllers
             _semesterRepository = semesterRepository;
             _competitionRepository = competitionRepository;
         }
-
+        [Route("")]
         [AllowAnonymous]
         public async Task<IActionResult> Index(int? topicId, int? gradeId, int? categoryId, int? semesterID, int? competitionID, string keyword)
         {
@@ -106,6 +107,7 @@ namespace DALTW.Controllers
             return View(documents);
         }
 
+        [Route("ViewPdf/{id:int}")]
         [Authorize]
         public async Task<IActionResult> ViewPdf(int id, string? slug)
         {
@@ -149,7 +151,7 @@ namespace DALTW.Controllers
             document.FileURL = "/" + Path.GetRelativePath(_webHostEnvironment.WebRootPath, pdfPath).Replace("\\", "/");
             return View("ViewPdf", document);
         }
-
+        [Route("by-grade-semester/{gradeId:int}/{semesterId:int}")]
         public IActionResult ByGradeSemester(int gradeId, int semesterId)
         {
             var documents = _context.Documents
@@ -162,7 +164,11 @@ namespace DALTW.Controllers
             return View(documents);
         }
 
-        [HttpGet]
+
+
+        // Các action khác
+
+        [HttpGet("GetSuggestions")]
         public async Task<IActionResult> GetSuggestions(string keyword)
         {
             if (string.IsNullOrWhiteSpace(keyword))
@@ -177,11 +183,12 @@ namespace DALTW.Controllers
                     id = d.DocumentID,
                     name = d.Name
                 })
-                .Take(10)
+                .Take(10)  // Giới hạn 10 kết quả
                 .ToList();
 
             return Json(results);
         }
+
 
         private async Task LoadSelectLists()
         {

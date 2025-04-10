@@ -105,13 +105,14 @@
                 let keyword = $(this).val();
                 if (keyword.length >= 2) {
                     $.ajax({
-                        url: '/DocumentUser/GetSuggestions',
+                        url: '@Url.Action("GetSuggestions", "DocumentUser")',  // Dùng Url.Action để tạo đúng URL
                         type: 'GET',
                         data: { keyword: keyword },
                         success: function (data) {
                             let suggestionHtml = '';
                             data.forEach(function (item) {
-                                suggestionHtml += `<a href="/DocumentUser/ViewPdf/${item.id}" class="list-group-item list-group-item-action">${item.name}</a>`;
+                                // Điều chỉnh URL để hướng đến trang chi tiết tài liệu
+                                suggestionHtml += `<a href="/tai-lieu/ViewPdf/${item.id}" class="list-group-item list-group-item-action">${item.name}</a>`;
                             });
                             $('#suggestion-box').html(suggestionHtml).show();
                         }
@@ -121,6 +122,7 @@
                 }
             });
 
+            // Ẩn gợi ý khi click bên ngoài ô tìm kiếm
             $(document).on('click', function (e) {
                 if (!$(e.target).closest('#search-box').length) {
                     $('#suggestion-box').hide();
