@@ -41,5 +41,7 @@ namespace DALTW.Models
         public string ImageFilePath { get; set; } = "default_image_path.jpg";
 
         public int ViewCount { get; set; }
+        public string? Slug { get; set; }
+
     }
 }

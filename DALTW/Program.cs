@@ -91,6 +91,11 @@ app.UseEndpoints(endpoints =>
         pattern: "{area:exists}/{controller=DocumentManager}/{action=Index}/{id?}");
 
     endpoints.MapControllerRoute(
+        name: "document_slug",
+        pattern: "tai-lieu/{id:int}/{slug?}",
+        defaults: new { controller = "DocumentUser", action = "ViewPdf" });
+
+    endpoints.MapControllerRoute(
         name: "User",
         pattern: "{area:exists}/{controller=DocumentUser}/{action=Index}/{id?}");
 

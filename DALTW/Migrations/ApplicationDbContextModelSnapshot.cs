@@ -100,6 +100,9 @@ namespace DALTW.Migrations
                     b.Property<int?>("SemesterID")
                         .HasColumnType("int");
 
+                    b.Property<string>("Slug")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int?>("TopicID")
                         .HasColumnType("int");
 
