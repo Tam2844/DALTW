@@ -6,7 +6,8 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace DALTW.Areas.Admin.Controllers
 {
-   
+    [Area("Admin")]
+    [Authorize(Roles = "Admin, Employee")]
     public class CategoryController : Controller
     {
         private readonly ICategoryRepository _repository;
